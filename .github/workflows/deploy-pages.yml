@@ -37,6 +37,8 @@ jobs:
         run: |
           cd site
           npm run build
+          # Add .nojekyll file to disable Jekyll processing
+          touch build/.nojekyll
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
