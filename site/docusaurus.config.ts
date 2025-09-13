@@ -49,8 +49,8 @@ const config: Config = {
     navbar: {
       title: 'Gippsland Open Strategy',
       logo: {
-        alt: 'Gippsland Open Strategy Logo',
-        src: 'img/logo.svg',
+        alt: 'VAIO Logo',
+        src: 'img/VAIOLogo.png',
       },
       items: [
         {
