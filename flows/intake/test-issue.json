@@ -1,0 +1,24 @@
+{
+  "number": 123,
+  "title": "Improve public transport connectivity between towns",
+  "body": "**Category**: Infrastructure\n\n**Proposal**: We need better public transport links between Traralgon, Morwell, and Moe. Currently, the bus services are limited and don't align with train schedules. This proposal suggests implementing a coordinated shuttle service that connects with V/Line trains and provides regular services throughout the day.\n\n**Impact**: This would significantly improve mobility for residents without cars, reduce traffic congestion, lower carbon emissions, and boost economic activity by making it easier for people to access jobs, education, and services across the region.",
+  "state": "open",
+  "created_at": "2025-01-13T10:30:00Z",
+  "updated_at": "2025-01-13T14:45:00Z",
+  "user": {
+    "login": "jsmith",
+    "name": "John Smith",
+    "email": "jsmith@example.com"
+  },
+  "labels": [
+    {
+      "name": "high-priority"
+    },
+    {
+      "name": "infrastructure"
+    },
+    {
+      "name": "transport"
+    }
+  ]
+}

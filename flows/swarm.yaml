@@ -1,0 +1,92 @@
+# Main Swarm Configuration
+# Central configuration for swarm operations
+
+version: "1.0"
+name: "gippsland-open-swarm"
+description: "Swarm configuration for Gippsland Open Roadmap project"
+
+# Swarm settings
+settings:
+  enabled: true
+  auto_scale: true
+  max_concurrent_tasks: 5
+  default_topology: "mesh"
+  memory_namespace: "gippsland-open"
+  
+# Contract definitions
+contracts:
+  request: "./contracts/swarm-request.schema.json"
+  output: "./contracts/swarm-output.schema.json"
+  
+# Policy references
+policies:
+  routing: "./policies/routing.yaml"
+  
+# Adapter configurations
+adapters:
+  github:
+    enabled: true
+    script: "./adapters/github.ts"
+    settings:
+      auto_commit: false
+      auto_pr: true
+      branch_prefix: "swarm/"
+      commit_prefix: "🤖 [Swarm]"
+      
+# Memory configuration
+memory:
+  provider: "claude-flow"
+  settings:
+    ttl: 86400  # 24 hours
+    namespace: "gippsland-open"
+    persistence: true
+    
+# Hooks configuration
+hooks:
+  pre_task:
+    enabled: true
+    actions:
+      - "validate-contract"
+      - "setup-memory"
+      - "prepare-agents"
+      
+  post_task:
+    enabled: true
+    actions:
+      - "collect-metrics"
+      - "update-memory"
+      - "generate-report"
+      
+  on_error:
+    enabled: true
+    actions:
+      - "capture-state"
+      - "notify-error"
+      - "cleanup-resources"
+      
+# Performance settings
+performance:
+  token_optimization: true
+  parallel_execution: true
+  cache_enabled: true
+  metric_collection: true
+  
+# Security settings
+security:
+  validate_inputs: true
+  sanitize_outputs: true
+  audit_logging: true
+  
+# Integration points
+integrations:
+  - name: "claude-flow"
+    type: "mcp"
+    enabled: true
+    
+  - name: "github"
+    type: "adapter"
+    enabled: true
+    
+  - name: "metrics"
+    type: "collector"
+    enabled: true

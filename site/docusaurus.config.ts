@@ -1,0 +1,108 @@
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+
+const config: Config = {
+  title: 'Gippsland Open Strategy',
+  tagline: 'Community-driven roadmap and documentation',
+  favicon: 'img/favicon.ico',
+
+  // Production URL configuration for GitHub Pages
+  url: 'https://simeonwillbanks.github.io',
+  baseUrl: '/Gippsland-Open-Strategy/',
+
+  // GitHub Pages deployment configuration
+  organizationName: 'simeonwillbanks',
+  projectName: 'Gippsland-Open-Strategy',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  presets: [
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          editUrl: 'https://github.com/simeonwillbanks/Gippsland-Open-Strategy/tree/main/site/',
+          routeBasePath: 'docs',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+        },
+        blog: false,
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  themeConfig: {
+    image: 'img/social-card.png',
+    navbar: {
+      title: 'Gippsland Open Strategy',
+      logo: {
+        alt: 'Gippsland Open Strategy Logo',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'mainSidebar',
+          position: 'left',
+          label: 'Documentation',
+        },
+        {
+          href: 'https://github.com/simeonwillbanks/Gippsland-Open-Strategy',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Documentation',
+          items: [
+            {
+              label: 'Getting Started',
+              to: '/docs/intro',
+            },
+            {
+              label: 'Roadmap',
+              to: '/docs/roadmap',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/simeonwillbanks/Gippsland-Open-Strategy',
+            },
+            {
+              label: 'Discussions',
+              href: 'https://github.com/simeonwillbanks/Gippsland-Open-Strategy/discussions',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Gippsland Open Strategy. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  } satisfies Preset.ThemeConfig,
+};
+
+export default config;

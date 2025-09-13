@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SwarmOutput",
+  "description": "Output contract for swarm operations",
+  "type": "object",
+  "required": ["taskId", "status", "results", "metadata"],
+  "properties": {
+    "taskId": {
+      "type": "string",
+      "description": "Task identifier matching the request"
+    },
+    "status": {
+      "type": "string",
+      "description": "Overall task completion status",
+      "enum": ["completed", "partial", "failed", "cancelled"]
+    },
+    "results": {
+      "type": "object",
+      "description": "Task execution results",
+      "required": ["changes", "summary"],
+      "properties": {
+        "changes": {
+          "type": "array",
+          "description": "List of changes made",
+          "items": {
+            "type": "object",
+            "required": ["type", "path", "description"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["create", "modify", "delete", "rename"]
+              },
+              "path": {
+                "type": "string",
+                "description": "File path affected"
+              },
+              "description": {
+                "type": "string",
+                "description": "Description of the change"
+              },
+              "diff": {
+                "type": "string",
+                "description": "Unified diff of changes (for modify operations)"
+              },
+              "content": {
+                "type": "string",
+                "description": "New file content (for create operations)"
+              }
+            }
+          }
+        },
+        "summary": {
+          "type": "string",
+          "description": "Executive summary of work completed"
+        },
+        "tests": {
+          "type": "object",
+          "description": "Test execution results",
+          "properties": {
+            "passed": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "failed": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "coverage": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "details": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {"type": "string"},
+                  "status": {"type": "string", "enum": ["pass", "fail", "skip"]},
+                  "message": {"type": "string"}
+                }
+              }
+            }
+          }
+        },
+        "artifacts": {
+          "type": "array",
+          "description": "Generated artifacts",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["documentation", "diagram", "report", "build", "log"]
+              },
+              "path": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Execution metadata",
+      "required": ["startTime", "endTime", "agents"],
+      "properties": {
+        "startTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "endTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "duration": {
+          "type": "integer",
+          "description": "Duration in seconds"
+        },
+        "agents": {
+          "type": "array",
+          "description": "Agents involved in execution",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string"},
+              "name": {"type": "string"},
+              "tasksCompleted": {"type": "integer"},
+              "tokensUsed": {"type": "integer"}
+            }
+          }
+        },
+        "performance": {
+          "type": "object",
+          "properties": {
+            "totalTokens": {"type": "integer"},
+            "totalCost": {"type": "number"},
+            "efficiency": {"type": "number", "minimum": 0, "maximum": 1}
+          }
+        },
+        "errors": {
+          "type": "array",
+          "description": "Errors encountered during execution",
+          "items": {
+            "type": "object",
+            "properties": {
+              "agent": {"type": "string"},
+              "message": {"type": "string"},
+              "timestamp": {"type": "string", "format": "date-time"},
+              "severity": {"type": "string", "enum": ["warning", "error", "critical"]}
+            }
+          }
+        }
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "description": "Follow-up recommendations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["improvement", "fix", "refactor", "test", "review"]
+          },
+          "description": {"type": "string"},
+          "priority": {
+            "type": "string",
+            "enum": ["low", "medium", "high"]
+          }
+        }
+      }
+    }
+  }
+}

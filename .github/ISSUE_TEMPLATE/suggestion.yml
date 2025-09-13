@@ -1,0 +1,20 @@
+name: Suggest an improvement
+description: Propose a change without using Git
+labels: [suggestion]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [Spelling, Clarity, Additional Info, Strategic]
+    validations: { required: true }
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should change?
+      description: Paste proposed wording or describe the change
+    validations: { required: true }
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why it matters (business impact)
