@@ -30,4 +30,6 @@ yarn-error.log*
 *.temp
 
 # Synced docs (from parent directory)
-/docs
+# But keep intro.md which is specific to Docusaurus
+/docs/*
+!/docs/intro.md
