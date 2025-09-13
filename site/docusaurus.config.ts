@@ -31,7 +31,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/simwilso/Gippsland-Open-Strategy/tree/main/site/',
+          editUrl: 'https://github.com/simwilso/Gippsland-Open-Strategy/edit/main/site/',
           routeBasePath: 'docs',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
