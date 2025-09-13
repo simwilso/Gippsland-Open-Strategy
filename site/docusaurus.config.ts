@@ -8,11 +8,11 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Production URL configuration for GitHub Pages
-  url: 'https://simeonwillbanks.github.io',
+  url: 'https://simwilso.github.io',
   baseUrl: '/Gippsland-Open-Strategy/',
 
   // GitHub Pages deployment configuration
-  organizationName: 'simeonwillbanks',
+  organizationName: 'simwilso',
   projectName: 'Gippsland-Open-Strategy',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -31,7 +31,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/simeonwillbanks/Gippsland-Open-Strategy/tree/main/site/',
+          editUrl: 'https://github.com/simwilso/Gippsland-Open-Strategy/tree/main/site/',
           routeBasePath: 'docs',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -60,7 +60,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/simeonwillbanks/Gippsland-Open-Strategy',
+          href: 'https://github.com/simwilso/Gippsland-Open-Strategy',
           label: 'GitHub',
           position: 'right',
         },
@@ -76,10 +76,6 @@ const config: Config = {
               label: 'Getting Started',
               to: '/docs/intro',
             },
-            {
-              label: 'Roadmap',
-              to: '/docs/roadmap',
-            },
           ],
         },
         {
@@ -87,11 +83,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/simeonwillbanks/Gippsland-Open-Strategy',
+              href: 'https://github.com/simwilso/Gippsland-Open-Strategy',
             },
             {
               label: 'Discussions',
-              href: 'https://github.com/simeonwillbanks/Gippsland-Open-Strategy/discussions',
+              href: 'https://github.com/simwilso/Gippsland-Open-Strategy/discussions',
             },
           ],
         },

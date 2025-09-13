@@ -8,7 +8,7 @@ type FeatureItem = {
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = {[
+const FeatureList: FeatureItem[] = [
   {
     title: 'Community Driven',
     Svg: require('@site/static/img/undraw_community.svg').default,
@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = {[
       </>
     ),
   },
-]};
+];
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
