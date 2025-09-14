@@ -1,0 +1,62 @@
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.strategyCard {
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-card-background-color);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.strategyCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.strategyCard h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-primary-dark);
+}
+
+.strategyCard p {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.feedbackSection {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+}
+
+.feedbackForm {
+  margin-top: 1rem;
+}
+
+.feedbackForm textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+  font-family: var(--ifm-font-family-base);
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.feedbackForm button {
+  margin-top: 1rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 2rem;
+}

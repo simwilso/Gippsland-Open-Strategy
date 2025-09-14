@@ -60,18 +60,13 @@ const config: Config = {
           label: 'Documentation',
         },
         {
+          to: '/strategy',
+          label: 'Strategy Documents',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/README.md',
           label: 'Project Overview',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/TASK.md',
-          label: 'Research Mission',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/TASK2.md',
-          label: 'Implementation Plan',
           position: 'left',
         },
         {
@@ -80,20 +75,36 @@ const config: Config = {
           position: 'left',
           items: [
             {
-              href: 'https://github.com/simwilso/Gippsland-Open-Strategy/tree/main/docs',
-              label: '📚 Full Documentation',
+              to: '/strategy/master-strategy',
+              label: '📋 Master Strategy',
             },
             {
-              href: 'https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/executive-summaries.md',
-              label: '👔 Executive Summaries',
-            },
-            {
-              href: 'https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/master-blueprint.md',
+              to: '/strategy/master-blueprint',
               label: '🏗️ Master Blueprint',
             },
             {
-              href: 'https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/implementation/90-day-launch-plan.md',
-              label: '🚀 90-Day Launch',
+              to: '/strategy/90-day-launch',
+              label: '🚀 90-Day Launch Plan',
+            },
+            {
+              type: 'html',
+              value: '<hr style="margin: 0.3rem 0;">',
+            },
+            {
+              to: '/strategy/economic-development',
+              label: '💼 Economic Development',
+            },
+            {
+              to: '/strategy/just-transition',
+              label: '⚖️ Just Transition',
+            },
+            {
+              to: '/strategy/innovation-hub',
+              label: '💡 Innovation Hub',
+            },
+            {
+              to: '/strategy/environmental-impact',
+              label: '🌱 Environmental Impact',
             },
           ],
         },
@@ -130,19 +141,23 @@ const config: Config = {
           ],
         },
         {
-          title: 'Main Content',
+          title: 'Strategy Documents',
           items: [
             {
-              label: 'Research Mission (TASK)',
-              to: '/docs/research-mission',
+              label: 'Strategy Overview',
+              to: '/strategy',
             },
             {
-              label: 'Implementation (TASK2)',
-              to: '/docs/implementation-acceleration',
+              label: 'Master Strategy',
+              to: '/strategy/master-strategy',
             },
             {
-              label: 'Full Documentation',
-              href: 'https://github.com/simwilso/Gippsland-Open-Strategy/tree/main/docs',
+              label: '90-Day Launch Plan',
+              to: '/strategy/90-day-launch',
+            },
+            {
+              label: 'All Strategies',
+              to: '/strategy',
             },
           ],
         },
