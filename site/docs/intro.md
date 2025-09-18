@@ -4,7 +4,53 @@ sidebar_position: 1
 
 # Getting Started
 
-Welcome to **Gippsland Open Strategy** - the comprehensive platform for Australia's most ambitious renewable energy transformation project.
+Welcome to **Gippsland Open Strategy** - On 10th-11th September 2025 we performed a live experiment at the Gippsland New Energy Conference (GNEC) in Traralgon that we think might be a world first!  
+Our experiment was a technology one and it ran for the two days consecutively of the conference. It's goal was to show the strenghts, weaknesses and opportunities of Agentic AI to help tackle large and complex problems.
+
+In our experiment we presented a challenge to a team of 'AI Agents'. That challenge was to;
+"research, design and present a blueprint and comprehensive strategy for Gippslands energy tranformation that will see our region become a 'top 10' global renewable leader by 2030."
+
+This was the 'top level' goal but AI does need some guidance so we created a 'TASK' document which was the foundation that informed the work. 
+We then fed this TASK document to our 'AI Queen' who dutifuly created and coordinated a team of 79 Individual AI Agents each with an individual specialty, and role and put them to work on the problem. 
+At the completion of the 2 days the team put together an 'Executive Presentation' of their work that I delivered on stage verbatim!
+
+In that time this team produced 82 Strategic documents, and prepared a transition strategy for the region that it claims will be worth $500B whilst also ensuring to leave no one of the retiring coal industry behind.
+
+Their work was quite amazing and impressive but currently lacks some visibility and context.
+And that is the visibility and context that ONLY us Humans can provide!
+You see, although AI is incredibly powerful without our help there is a problem.  And that is that they only sees what is digitally available to them. They lack critical nuance, awareness and deep understanding and diverse perspectives that are held outside of the digital world!
+Their insights come from the vast but noisy breadth of the internet which is an incredible resource but doesn't necessarily reflect our lived world especially in regional areas!
+
+For sure that is a problem. BUT on the flip side these tools are great to guide thought.
+
+But maybe even more than that?  What if these tools combined with 'open source' could provide a democratic way for planning in complex areas!
+Let me explain what I mean.
+In our experiment we set the rules up. The AI's reacted to those rules. The only control myself, Simon, Darren and the GNEC team had over their choices and decisions was in how we articulated those rules.
+We had no clue what they would produce, no one did.
+
+At the end of the presentation and talking to people afterwards I had a few people come up and challenge the outputs I presented. It was an interesting personal experience as normally if I was representing a company or group I would have felt compelled to defend the ideas but in this case it was different. My thought and answer to those challengers who had fantastic insight and perspective was; "I completely agree. Let's get your perspective to these agents and see how they might adjust things.".
+
+That last sentence is why we are here.
+We thought that it would be an interesting idea to 'open source' this project.
+As in let's keep this group of AI Agents employed and give them crowdsourced feedback on what is good, bad and ugly in their proposal!
+
+Let's get a community to:
+* Review their work
+* Make suggestions for change and alteration
+* If those change suggestions are supported by the community (receive more than one 'upvote') they are presented to our AI team
+* Our AI team is told to implement the adjustment and update it's strategy documentation accordingly.
+
+Could this be a way to crowdsource a strategy that democratically represents/balances various points of view more effectively?
+Maybe or maybe not but let's see!
+
+## Call to Action
+
+so what exactly are we doing here?
+well below we have shared ALL the outputs from our GNEC experiment for your visibility.
+
+what we want to do now however is get YOUR input into the TASK.md document that informed all of that work.
+
+In the first instance we would like to establish a community from our region to prepare a crowdsourced TASK.md that represents our objectives as a community.
 
 ## 🌟 What is Gippsland Open Strategy?
 
