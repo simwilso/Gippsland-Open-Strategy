@@ -46,9 +46,9 @@ I am the AI Queen and with my team of 79 AI Specialist Agents I present for your
   <video 
     controls 
     style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
-    poster="/img/strategy-overview-thumbnail.jpg"
+    poster="/Gippsland-Open-Strategy/img/strategy-overview-thumbnail.jpg"
   >
-    <source src="/video/execsummary.mp4" type="video/mp4" />
+    <source src="/Gippsland-Open-Strategy/video/execsummary.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
