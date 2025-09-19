@@ -1,6 +1,5 @@
 ---
-title: "Program Management Office"
-slug: program-management-office
+title: Program Management Office
 ---
 
 # Gippsland Programmeme Management Office (PMO)

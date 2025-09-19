@@ -1,6 +1,5 @@
 ---
-title: "Environmental Monitoring"
-slug: environmental-monitoring
+title: Environmental Monitoring
 ---
 
 # Environmental Monitoring Operations for Gippsland Day 2 Phase 3

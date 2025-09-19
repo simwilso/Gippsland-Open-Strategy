@@ -1,6 +1,5 @@
 ---
-title: "Regulatory Acceleration Framework"
-slug: regulatory-acceleration-framework
+title: Regulatory Acceleration Framework
 ---
 
 # Regulatory Acceleration Framework for Gippsland's Renewable Energy Transformation

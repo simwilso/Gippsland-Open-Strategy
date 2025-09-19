@@ -1,6 +1,5 @@
 ---
-title: "Innovation Hub Operations"
-slug: innovation-hub-operations
+title: Innovation Hub Operations
 ---
 
 # Innovation Hub Operations - Gippsland Day 2 Phase 3

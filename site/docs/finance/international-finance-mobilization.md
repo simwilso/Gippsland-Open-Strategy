@@ -1,6 +1,5 @@
 ---
-title: "International Finance Mobilization"
-slug: international-finance-mobilization
+title: International Finance Mobilization
 ---
 
 # International Finance Mobilization Strategy for Gippsland

@@ -1,6 +1,5 @@
 ---
-title: "08 Global Benchmarking"
-slug: 08-global-benchmarking
+title: 08 Global Benchmarking
 ---
 
 # Global Renewable Energy Hubs: Benchmarking Study for Gippsland

@@ -1,6 +1,5 @@
 ---
-title: "Quality Assurance Framework"
-slug: quality-assurance-framework
+title: Quality Assurance Framework
 ---
 
 # Quality Assurance Framework Operations

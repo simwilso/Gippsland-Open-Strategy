@@ -1,6 +1,5 @@
 ---
-title: "Investment Fund Architecture"
-slug: investment-fund-architecture
+title: Investment Fund Architecture
 ---
 
 # GIPPSLAND RENEWABLE ENERGY INVESTMENT FUND ARCHITECTURE

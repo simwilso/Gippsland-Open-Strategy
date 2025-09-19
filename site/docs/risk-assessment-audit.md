@@ -1,6 +1,5 @@
 ---
-title: "Risk Assessment Audit"
-slug: risk-assessment-audit
+title: Risk Assessment Audit
 ---
 
 # Gippsland Renewable Energy Transformation: Comprehensive Risk Assessment Audit

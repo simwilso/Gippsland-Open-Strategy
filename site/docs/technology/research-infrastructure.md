@@ -1,6 +1,5 @@
 ---
-title: "Research Infrastructure"
-slug: research-infrastructure
+title: Research Infrastructure
 ---
 
 # Gippsland Energy Research Infrastructure Architecture

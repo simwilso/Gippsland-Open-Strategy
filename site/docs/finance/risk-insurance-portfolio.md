@@ -1,6 +1,5 @@
 ---
-title: "Risk Insurance Portfolio"
-slug: risk-insurance-portfolio
+title: Risk Insurance Portfolio
 ---
 
 # GIPPSLAND RENEWABLE ENERGY RISK INSURANCE PORTFOLIO

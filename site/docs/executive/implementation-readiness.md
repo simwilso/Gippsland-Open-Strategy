@@ -1,6 +1,5 @@
 ---
-title: "Implementation Readiness"
-slug: implementation-readiness
+title: Implementation Readiness
 ---
 
 # 🎯 Implementation Readiness Certification

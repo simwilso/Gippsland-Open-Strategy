@@ -1,6 +1,5 @@
 ---
-title: "Ip Strategy Patent Portfolio"
-slug: ip-strategy-patent-portfolio
+title: Ip Strategy Patent Portfolio
 ---
 
 # Intellectual Property Strategy and Patent Portfolio Management

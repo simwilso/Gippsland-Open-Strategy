@@ -1,6 +1,5 @@
 ---
-title: "Skills Activation Program"
-slug: skills-activation-program
+title: Skills Activation Program
 ---
 
 # Gippsland Skills Pipeline Activation Program

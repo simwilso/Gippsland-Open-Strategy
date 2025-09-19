@@ -1,6 +1,5 @@
 ---
-title: "Executive Summaries"
-slug: executive-summaries
+title: Executive Summaries
 ---
 
 # GIPPSLAND RENEWABLE ENERGY TRANSFORMATION

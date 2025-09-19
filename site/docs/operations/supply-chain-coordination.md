@@ -1,6 +1,5 @@
 ---
-title: "Supply Chain Coordination"
-slug: supply-chain-coordination
+title: Supply Chain Coordination
 ---
 
 # Supply Chain Coordination Operations

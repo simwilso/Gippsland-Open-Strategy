@@ -1,6 +1,5 @@
 ---
-title: "Conference Series Strategy"
-slug: conference-series-strategy
+title: Conference Series Strategy
 ---
 
 # 🌍 Gippsland Global Renewable Energy Conference Series Strategy

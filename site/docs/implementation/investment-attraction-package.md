@@ -1,6 +1,5 @@
 ---
-title: "Investment Attraction Package"
-slug: investment-attraction-package
+title: Investment Attraction Package
 ---
 
 # GIPPSLAND RENEWABLE ENERGY INVESTMENT ATTRACTION PACKAGE

@@ -1,6 +1,5 @@
 ---
-title: "17 Economic Development"
-slug: 17-economic-development
+title: 17 Economic Development
 ---
 
 # Gippsland Economic Development Strategy: Maximising Wealth from $50B+ Renewable Investment

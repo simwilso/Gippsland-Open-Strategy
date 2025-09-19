@@ -1,6 +1,5 @@
 ---
-title: "16 Master Strategy"
-slug: 16-master-strategy
+title: 16 Master Strategy
 ---
 
 # Gippsland 2030: Master Strategy for Global Renewable Energy Leadership

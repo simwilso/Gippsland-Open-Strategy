@@ -1,6 +1,5 @@
 ---
-title: "Community Codesign Launch"
-slug: community-codesign-launch
+title: Community Codesign Launch
 ---
 
 # Community Co-Design Launch Strategy

@@ -1,6 +1,5 @@
 ---
-title: "Master Blueprint"
-slug: master-blueprint
+title: Master Blueprint
 ---
 
 # GIPPSLAND RENEWABLE ENERGY TRANSFORMATION MASTER BLUEPRINT

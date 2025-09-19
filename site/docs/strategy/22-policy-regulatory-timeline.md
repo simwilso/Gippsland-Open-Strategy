@@ -1,6 +1,5 @@
 ---
-title: "22 Policy Regulatory Timeline"
-slug: 22-policy-regulatory-timeline
+title: 22 Policy Regulatory Timeline
 ---
 
 # Policy and Regulatory Implementation Timeline

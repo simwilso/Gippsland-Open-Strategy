@@ -1,6 +1,5 @@
 ---
-title: "90 Day Launch Plan"
-slug: 90-day-launch-plan
+title: 90 Day Launch Plan
 ---
 
 # 90-Day Launch Plan: Gippsland Renewable Energy Transformation

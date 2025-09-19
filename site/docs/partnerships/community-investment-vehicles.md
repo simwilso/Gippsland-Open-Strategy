@@ -1,6 +1,5 @@
 ---
-title: "Community Investment Vehicles"
-slug: community-investment-vehicles
+title: Community Investment Vehicles
 ---
 
 # Community Investment Vehicles for Gippsland's Energy Transformation

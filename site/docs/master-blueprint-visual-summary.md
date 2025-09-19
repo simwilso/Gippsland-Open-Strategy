@@ -1,6 +1,5 @@
 ---
-title: "Master Blueprint Visual Summary"
-slug: master-blueprint-visual-summary
+title: Master Blueprint Visual Summary
 ---
 
 # GIPPSLAND RENEWABLE ENERGY TRANSFORMATION

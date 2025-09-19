@@ -1,6 +1,5 @@
 ---
-title: "Supply Chain Agreements"
-slug: supply-chain-agreements
+title: Supply Chain Agreements
 ---
 
 # Gippsland Renewable Energy Supply Chain Agreements

@@ -1,6 +1,5 @@
 ---
-title: "Diplomatic Energy Engagement"
-slug: diplomatic-energy-engagement
+title: Diplomatic Energy Engagement
 ---
 
 # 🌏 Diplomatic Energy Engagement Strategy for Gippsland's Renewable Transformation

@@ -1,6 +1,5 @@
 ---
-title: "23 Brand Toolkit"
-slug: 23-brand-toolkit
+title: 23 Brand Toolkit
 ---
 
 # Gippsland Brand Toolkit: Practical Resources and Templates

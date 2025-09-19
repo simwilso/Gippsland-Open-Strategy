@@ -1,6 +1,5 @@
 ---
-title: "Community Engagement Operations"
-slug: community-engagement-operations
+title: Community Engagement Operations
 ---
 
 # Community Engagement Operations for Gippsland Day 2 Phase 3

@@ -1,6 +1,5 @@
 ---
-title: "Grid Innovation Solutions"
-slug: grid-innovation-solutions
+title: Grid Innovation Solutions
 ---
 
 # Grid Innovation Solutions Architecture - Gippsland Day 2 Phase 5

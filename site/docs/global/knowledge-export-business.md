@@ -1,6 +1,5 @@
 ---
-title: "Knowledge Export Business"
-slug: knowledge-export-business
+title: Knowledge Export Business
 ---
 
 # 🌏 Gippsland Knowledge Export Business Portfolio

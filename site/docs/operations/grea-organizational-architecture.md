@@ -1,6 +1,5 @@
 ---
-title: "Grea Organizational Architecture"
-slug: grea-organizational-architecture
+title: Grea Organizational Architecture
 ---
 
 # GREA Organisational Architecture: World-Class Governance for Gippsland's Energy Transformation

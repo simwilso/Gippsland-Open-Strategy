@@ -1,6 +1,5 @@
 ---
-title: "Grid Emergency Response Plan"
-slug: grid-emergency-response-plan
+title: Grid Emergency Response Plan
 ---
 
 # Grid Infrastructure Emergency Response Plan

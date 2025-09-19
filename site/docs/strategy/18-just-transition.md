@@ -1,6 +1,5 @@
 ---
-title: "18 Just Transition"
-slug: 18-just-transition
+title: 18 Just Transition
 ---
 
 # Gippsland Just Transition Strategy: Ensuring No Worker or Community is Left Behind

@@ -1,6 +1,5 @@
 ---
-title: "International Recognition Campaign"
-slug: international-recognition-campaign
+title: International Recognition Campaign
 ---
 
 # 🌏 International Recognition Campaign for Gippsland Energy Transformation

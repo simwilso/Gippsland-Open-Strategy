@@ -1,6 +1,5 @@
 ---
-title: "Hydrogen Economy Activation"
-slug: hydrogen-economy-activation
+title: Hydrogen Economy Activation
 ---
 
 # Hydrogen Economy Activation Roadmap

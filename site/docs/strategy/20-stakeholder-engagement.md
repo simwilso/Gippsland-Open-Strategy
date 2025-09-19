@@ -1,6 +1,5 @@
 ---
-title: "20 Stakeholder Engagement"
-slug: 20-stakeholder-engagement
+title: 20 Stakeholder Engagement
 ---
 
 # Gippsland Renewable Energy Hub - Stakeholder Engagement Strategy

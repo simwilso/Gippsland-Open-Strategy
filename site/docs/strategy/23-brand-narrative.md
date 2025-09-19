@@ -1,6 +1,5 @@
 ---
-title: "23 Brand Narrative"
-slug: 23-brand-narrative
+title: 23 Brand Narrative
 ---
 
 # The Gippsland Story: Brand Narrative and Positioning Strategy

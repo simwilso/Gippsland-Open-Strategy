@@ -1,6 +1,5 @@
 ---
-title: "Just Transition Delivery"
-slug: just-transition-delivery
+title: Just Transition Delivery
 ---
 
 # Just Transition Service Delivery Framework for Gippsland Day 2 Phase 3

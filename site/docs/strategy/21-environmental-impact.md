@@ -1,6 +1,5 @@
 ---
-title: "21 Environmental Impact"
-slug: 21-environmental-impact
+title: 21 Environmental Impact
 ---
 
 # Environmental Impact Strategy for Gippsland's Renewable Transformation

@@ -1,6 +1,5 @@
 ---
-title: "19 Innovation Hub"
-slug: 19-innovation-hub
+title: 19 Innovation Hub
 ---
 
 # Gippsland Renewable Energy Innovation Hub Strategy

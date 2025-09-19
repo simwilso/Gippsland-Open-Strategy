@@ -1,6 +1,5 @@
 ---
-title: "Revenue Diversification Strategy"
-slug: revenue-diversification-strategy
+title: Revenue Diversification Strategy
 ---
 
 # REVENUE DIVERSIFICATION STRATEGY FOR GIPPSLAND'S RENEWABLE ENERGY TRANSFORMATION

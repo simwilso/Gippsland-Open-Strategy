@@ -1,6 +1,5 @@
 ---
-title: "Global Technology Agreements"
-slug: global-technology-agreements
+title: Global Technology Agreements
 ---
 
 # Global Technology Partnership Agreements - Gippsland Energy Transformation

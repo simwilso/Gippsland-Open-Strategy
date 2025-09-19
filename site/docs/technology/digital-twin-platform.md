@@ -1,6 +1,5 @@
 ---
-title: "Digital Twin Platform"
-slug: digital-twin-platform
+title: Digital Twin Platform
 ---
 
 # Digital Twin Platform Architecture - Gippsland Day 2 Phase 5

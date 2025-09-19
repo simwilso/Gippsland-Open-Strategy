@@ -1,6 +1,5 @@
 ---
-title: "Political Alignment Strategy"
-slug: political-alignment-strategy
+title: Political Alignment Strategy
 ---
 
 # Political Alignment Strategy for Gippsland's Renewable Energy Transformation
