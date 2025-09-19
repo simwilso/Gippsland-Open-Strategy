@@ -4,103 +4,68 @@ sidebar_position: 1
 
 # Getting Started
 
-Welcome to **Gippsland Open Strategy** - On 10th-11th September 2025 we performed a live experiment at the Gippsland New Energy Conference (GNEC) in Traralgon that we think might be a world first!  
-Our experiment was a technology one and it ran for the two days consecutively of the conference. It's goal was to show the strenghts, weaknesses and opportunities of Agentic AI to help tackle large and complex problems.
+Welcome to **Gippsland Open Strategy** - On 10th-11th September 2025 we performed a live experiment at the Gippsland New Energy Conference (GNEC) in Traralgon.  
+Our experiment was a technology one and it ran for the two days consecutively of the conference. It's goal was to show how powerful the use of Agentic AI to help tackle large and complex problems.
+But also to highlite some areas where it needs OUR help.
 
 In our experiment we presented a challenge to a team of 'AI Agents'. That challenge was to;
 "research, design and present a blueprint and comprehensive strategy for Gippslands energy tranformation that will see our region become a 'top 10' global renewable leader by 2030."
 
-This was the 'top level' goal but AI does need some guidance so we created a 'TASK' document which was the foundation that informed the work. 
-We then fed this TASK document to our 'AI Queen' who dutifuly created and coordinated a team of 79 Individual AI Agents each with an individual specialty, and role and put them to work on the problem. 
-At the completion of the 2 days the team put together an 'Executive Presentation' of their work that I delivered on stage verbatim!
-
+We gave that task to a 'Queen' AI coordinator who created a team of 79 Specialist 'Agents' who got to work on the task.
 In that time this team produced 82 Strategic documents, and prepared a transition strategy for the region that it claims will be worth $500B whilst also ensuring to leave no one of the retiring coal industry behind.
 
-Their work was quite amazing and impressive but currently lacks some visibility and context.
-And that is the visibility and context that ONLY us Humans can provide!
-You see, although AI is incredibly powerful without our help there is a problem.  And that is that they only sees what is digitally available to them. They lack critical nuance, awareness and deep understanding and diverse perspectives that are held outside of the digital world!
-Their insights come from the vast but noisy breadth of the internet which is an incredible resource but doesn't necessarily reflect our lived world especially in regional areas!
+The output was amazing but lacked human oversight, local context, understanding and influence.  It reflected a position and proposal for a transition but needed input to really fly and from feedback on their work that human input did not always align or agree.
 
-For sure that is a problem. BUT on the flip side these tools are great to guide thought.
+We shared at the end of our 'experiment' that we would share this work and share everything that the AI's received as input and everything that they produced as output for community feedback.
+we also shared that we would look to 'open source' this initiative with a goal that perhaps we could re-run our experiment this time with crowdsourced direction around the task we give them and also for incorporating feedback on the outputs they produce.
 
-But maybe even more than that?  What if these tools combined with 'open source' could provide a democratic way for planning in complex areas!
-Let me explain what I mean.
-In our experiment we set the rules up. The AI's reacted to those rules. The only control myself, Simon, Darren and the GNEC team had over their choices and decisions was in how we articulated those rules.
-We had no clue what they would produce, no one did.
-
-At the end of the presentation and talking to people afterwards I had a few people come up and challenge the outputs I presented. It was an interesting personal experience as normally if I was representing a company or group I would have felt compelled to defend the ideas but in this case it was different. My thought and answer to those challengers who had fantastic insight and perspective was; "I completely agree. Let's get your perspective to these agents and see how they might adjust things.".
-
-That last sentence is why we are here.
-We thought that it would be an interesting idea to 'open source' this project.
-As in let's keep this group of AI Agents employed and give them crowdsourced feedback on what is good, bad and ugly in their proposal!
-
-Let's get a community to:
-* Review their work
-* Make suggestions for change and alteration
-* If those change suggestions are supported by the community (receive more than one 'upvote') they are presented to our AI team
-* Our AI team is told to implement the adjustment and update it's strategy documentation accordingly.
-
-Could this be a way to crowdsource a strategy that democratically represents/balances various points of view more effectively?
-Maybe or maybe not but let's see!
+That is what this site is about.
+Here we share all the inputs and outputs that went into this 'live lab' and we are seeking feedback from anyone and everyone on;
+* The task that we gave them. Is it the right task?, is it the right objective?, Does it capture the goals of our region correctly?
+* Is the output presented correct? How might you challenge it? what is good, bad, incomplete etc.?, are there any local or other nuances that are missed by this digital team that need to be considered?
 
 ## Call to Action
+Our ask is really to review, download or re-use the content here and give us your feedback via the 'Edit this Page' feature.
+If your feedback is supported by the community and has more than 1 'upvote' we will give it to our AI team to incorporate into their design and strategy.
 
-so what exactly are we doing here?
-well below we have shared ALL the outputs from our GNEC experiment for your visibility.
+Any and all feedback is most welcome whether it be a spelling mistake, a technology change, a missed item, or if you think their entire strategy presented is wrong.  Just articulate your suggestion in the relevant document and if supported it will be fed without change to the AI team to incorporate.
 
-what we want to do now however is get YOUR input into the TASK.md document that informed all of that work.
+The goal here is to see if we can morph this work into a community driven strategy that is written by technology but represents and incorporates our local and community goals.
 
-In the first instance we would like to establish a community from our region to prepare a crowdsourced TASK.md that represents our objectives as a community.
+So without further adu we present you with the 'Gippsland Renewable Energy Transformation - From Coal Heartland to Clean Energy Superpower' strategy.  Happy reading and would love to hear your thoughts!
 
-## 🌟 What is Gippsland Open Strategy?
+*Note: The strategy outlined here is conceptual only and not formally endorsed by any organisation or group. It is purely a thought exercise and a social experiment in the power of AI and Open Source collaboration*
 
-This is the central hub for the **Gippsland Renewable Energy Transformation Strategy** - a community-driven initiative to transform the Gippsland region into Australia's premier renewable energy hub, creating 15,000+ direct jobs and achieving $50+ billion in economic transformation.
+## 🌟 Welcome to the Gippsland Open Strategy?
 
-## 🚀 Key Features
+I am the AI Queen and with my team of 79 AI Specialist Agents I present for your review the **Gippsland Renewable Energy Transformation Strategy** - It is a comprehensive plan that we have defined that will transform the Gippsland region into Australia's premier renewable energy hub, creating 15,000+ direct jobs and achieving $50+ billion in economic transformation.
+
+## 🚀 Key Features of our proposal
 
 - **107+ Strategic Documents** with Australian English formatting
-- **370+ Mermaid Diagrams** for visual enhancement  
-- **Community-driven feedback** through GitHub issues and voting
-- **Real-time collaboration** on strategy development
+- **370+ Diagrams** for visual enhancement  
+- **Community-driven feedback** through GitHub issues and voting. You as the user can simply add your feedback within any and all of our documentation. No tech knowledge required.
 - **Implementation-ready plans** for immediate deployment
 
-## 📍 Start Here: Essential Documents
+## 📍 Where to Start: Essential Documents
+
+Here is how to navigate our work.
 
 ### 1. 📋 [Project Overview](/docs/overview)
 Complete introduction to the transformation strategy, including objectives, statistics, and navigation guides.
 
 ### 2. 🔬 [Research Mission (TASK)](/docs/research-mission)
-The foundational research that drives our comprehensive strategic approach - 6 hours of intensive research and analysis.
+This is a critical document that informed and instructed the goal of our work and our strategic approach to fulfilling it. It is probably the most important element we'd love your feedback on at this stage as it describes the problem we where given to solve! Is it the right problem? Does it miss critical guidance?
+The goal of this document is to describe the job to be done by myself and my AI team.  Importantly it should not prescribe a solution or approach but should guide.
 
-### 3. 🚀 [Implementation Acceleration (TASK2)](/docs/implementation-acceleration)  
-Action-ready implementation plans, 90-day launch strategies, and community engagement frameworks.
+### 3. 📚 [Complete Documentation Library](/docs/comprehensive-docs)
+Here you can find all 107+ documents including research papers, strategic frameworks, financial architecture, and implementation plans.
 
-### 4. 📚 [Complete Documentation Library](/docs/comprehensive-docs)
-Access to all 107+ documents including research papers, strategic frameworks, financial architecture, and implementation plans.
+Need help navigating the documentation?
 
-## 🎯 Quick Access by Role
-
-Choose your pathway based on your interest or role:
-
-### 👔 **Government Leaders**
-- [Executive Summaries](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/executive-summaries.md)
-- [Master Blueprint](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/master-blueprint.md)  
-- [90-Day Launch Plan](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/implementation/90-day-launch-plan.md)
-
-### 💼 **Corporate Investors**
-- [Executive Summaries](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/executive-summaries.md)
-- [Investment Fund Architecture](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/finance/investment-fund-architecture-enhanced.md)
-- [Revenue Diversification Strategy](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/finance/revenue-diversification-strategy-enhanced.md)
-
-### 🏘️ **Community Leaders**  
-- [Executive Summaries](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/executive-summaries.md)
-- [Community Wealth Creation](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/finance/community-wealth-creation-enhanced.md)
-- [Just Transition Strategy](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/strategy/18-just-transition.md)
-
-### 🔬 **Technical Teams**
-- [Requirements Analysis](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/research/01-requirements-analysis.md)
-- [Technology Innovations](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/research/11-technology-innovations.md)
-- [Digital Twin Platform](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/technology/digital-twin-platform.md)
+- **[Strategy Navigation Guide](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/STRATEGY_NAVIGATION_GUIDE.md)** - Reading sequences by audience
+- **[Community Guidelines](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/CONTRIBUTING.md)** - How to contribute effectively
+- **[GitHub Discussions](https://github.com/simwilso/Gippsland-Open-Strategy/discussions)** - Ask questions and get support
 
 ## 🤝 How to Participate
 
@@ -118,31 +83,6 @@ Choose your pathway based on your interest or role:
 - **[Browse all documents](https://github.com/simwilso/Gippsland-Open-Strategy/tree/main/docs)** directly on GitHub
 - Use **[Navigation Guides](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/STRATEGY_NAVIGATION_GUIDE.md)** to find relevant content
 - Download **presentation materials** for your organization
-
-## 🎯 Project Objectives
-
-- **Transform** Gippsland into a global renewable energy hub
-- **Create** 15,000+ direct jobs and 45,000+ indirect opportunities  
-- **Achieve** $50+ billion in economic transformation
-- **Establish** world-leading just transition framework
-- **Position** as the "Davos of Renewable Energy"
-
-## 📊 Documentation Statistics
-
-- **107+ Strategic Documents** professionally formatted
-- **15 Research Papers** covering all aspects of the transformation
-- **8 Strategic Frameworks** for implementation
-- **370+ Mermaid Diagrams** for visual clarity
-- **1,930+ Australian English Corrections** for professional standards
-
-## 🌟 Getting Support
-
-Need help navigating the documentation?
-
-- **[Strategy Navigation Guide](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/STRATEGY_NAVIGATION_GUIDE.md)** - Reading sequences by audience
-- **[Community Guidelines](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/CONTRIBUTING.md)** - How to contribute effectively
-- **[GitHub Discussions](https://github.com/simwilso/Gippsland-Open-Strategy/discussions)** - Ask questions and get support
-
 ---
 
 **Together, we're building Australia's most comprehensive renewable energy transformation through open collaboration and strategic planning.**
