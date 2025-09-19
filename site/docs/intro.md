@@ -81,6 +81,7 @@ Start here:
 
 - **[Strategy Navigation Guide](/docs/strategy-navigation-guide)** - Reading sequences by audience
 - **[Community Guidelines](/docs/contributing)** - How to contribute effectively
+- **[Provide Feedback](/docs/feedback)** - Multiple ways to share your input (no account required)
 
 ## 🤝 How to Participate
 
