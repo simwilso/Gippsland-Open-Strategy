@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Suggestion",
+  "type": "object",
+  "required": ["id", "category", "proposal", "impact", "status", "createdAt"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the suggestion"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["infrastructure", "education", "healthcare", "environment", "business", "other"],
+      "description": "Category of the suggestion"
+    },
+    "proposal": {
+      "type": "string",
+      "description": "Detailed description of the proposed suggestion"
+    },
+    "impact": {
+      "type": "string",
+      "description": "Expected impact and benefits of the suggestion"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "review", "approved", "rejected", "implemented"],
+      "default": "pending",
+      "description": "Current status of the suggestion"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the suggestion was created"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the suggestion was last updated"
+    },
+    "author": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "github": {
+          "type": "string"
+        }
+      },
+      "description": "Information about the suggestion author"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags associated with the suggestion"
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "critical"],
+      "default": "medium",
+      "description": "Priority level of the suggestion"
+    },
+    "githubIssueNumber": {
+      "type": "integer",
+      "description": "Associated GitHub issue number if applicable"
+    }
+  }
+}

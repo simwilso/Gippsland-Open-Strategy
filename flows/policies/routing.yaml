@@ -1,0 +1,230 @@
+# Swarm Routing Policies
+# Defines how tasks are routed to appropriate swarm configurations
+
+version: "1.0"
+name: "swarm-routing-policies"
+description: "Task routing and swarm configuration policies"
+
+# Task type to swarm topology mapping
+routing:
+  feature-development:
+    topology: "mesh"
+    agents:
+      - type: "researcher"
+        priority: 1
+      - type: "coder"
+        priority: 2
+      - type: "tester"
+        priority: 3
+      - type: "reviewer"
+        priority: 4
+    coordination: "parallel"
+    
+  bug-fix:
+    topology: "hierarchical"
+    agents:
+      - type: "code-analyzer"
+        priority: 1
+      - type: "coder"
+        priority: 2
+      - type: "tester"
+        priority: 3
+    coordination: "sequential"
+    
+  refactoring:
+    topology: "star"
+    agents:
+      - type: "system-architect"
+        priority: 1
+      - type: "coder"
+        priority: 2
+      - type: "performance-benchmarker"
+        priority: 3
+    coordination: "adaptive"
+    
+  documentation:
+    topology: "ring"
+    agents:
+      - type: "api-docs"
+        priority: 1
+      - type: "reviewer"
+        priority: 2
+    coordination: "sequential"
+    
+  testing:
+    topology: "mesh"
+    agents:
+      - type: "tester"
+        priority: 1
+      - type: "performance-benchmarker"
+        priority: 2
+      - type: "reviewer"
+        priority: 3
+    coordination: "parallel"
+    
+  optimization:
+    topology: "hierarchical"
+    agents:
+      - type: "perf-analyzer"
+        priority: 1
+      - type: "optimizer"
+        priority: 2
+      - type: "performance-benchmarker"
+        priority: 3
+    coordination: "adaptive"
+    
+  architecture:
+    topology: "star"
+    agents:
+      - type: "system-architect"
+        priority: 1
+      - type: "planner"
+        priority: 2
+      - type: "reviewer"
+        priority: 3
+    coordination: "sequential"
+    
+  integration:
+    topology: "mesh"
+    agents:
+      - type: "task-orchestrator"
+        priority: 1
+      - type: "coder"
+        priority: 2
+      - type: "tester"
+        priority: 3
+      - type: "cicd-engineer"
+        priority: 4
+    coordination: "parallel"
+
+# Agent capability definitions
+agents:
+  researcher:
+    capabilities:
+      - "requirements-analysis"
+      - "pattern-recognition"
+      - "best-practices"
+    memory_usage: "high"
+    
+  coder:
+    capabilities:
+      - "implementation"
+      - "refactoring"
+      - "optimization"
+    memory_usage: "medium"
+    
+  tester:
+    capabilities:
+      - "unit-testing"
+      - "integration-testing"
+      - "test-coverage"
+    memory_usage: "low"
+    
+  reviewer:
+    capabilities:
+      - "code-review"
+      - "security-audit"
+      - "quality-assurance"
+    memory_usage: "medium"
+    
+  code-analyzer:
+    capabilities:
+      - "static-analysis"
+      - "pattern-detection"
+      - "dependency-analysis"
+    memory_usage: "high"
+    
+  system-architect:
+    capabilities:
+      - "system-design"
+      - "architecture-patterns"
+      - "scalability-planning"
+    memory_usage: "high"
+    
+  performance-benchmarker:
+    capabilities:
+      - "performance-testing"
+      - "bottleneck-detection"
+      - "optimization-recommendations"
+    memory_usage: "medium"
+    
+  api-docs:
+    capabilities:
+      - "api-documentation"
+      - "example-generation"
+      - "schema-validation"
+    memory_usage: "low"
+    
+  task-orchestrator:
+    capabilities:
+      - "task-coordination"
+      - "dependency-management"
+      - "workflow-optimization"
+    memory_usage: "high"
+    
+  perf-analyzer:
+    capabilities:
+      - "performance-analysis"
+      - "metric-collection"
+      - "trend-detection"
+    memory_usage: "medium"
+    
+  optimizer:
+    capabilities:
+      - "code-optimization"
+      - "algorithm-improvement"
+      - "resource-optimization"
+    memory_usage: "medium"
+    
+  planner:
+    capabilities:
+      - "project-planning"
+      - "task-breakdown"
+      - "milestone-tracking"
+    memory_usage: "medium"
+    
+  cicd-engineer:
+    capabilities:
+      - "pipeline-creation"
+      - "deployment-automation"
+      - "environment-management"
+    memory_usage: "low"
+
+# Coordination strategies
+strategies:
+  parallel:
+    description: "Agents work independently on different aspects"
+    communication: "async"
+    synchronization: "eventual"
+    
+  sequential:
+    description: "Agents work in defined order, passing results"
+    communication: "sync"
+    synchronization: "strict"
+    
+  adaptive:
+    description: "Dynamic coordination based on task progress"
+    communication: "hybrid"
+    synchronization: "dynamic"
+
+# Resource limits per priority
+limits:
+  critical:
+    max_agents: 10
+    max_tokens: 100000
+    time_limit: 7200  # 2 hours
+    
+  high:
+    max_agents: 8
+    max_tokens: 75000
+    time_limit: 5400  # 1.5 hours
+    
+  medium:
+    max_agents: 5
+    max_tokens: 50000
+    time_limit: 3600  # 1 hour
+    
+  low:
+    max_agents: 3
+    max_tokens: 25000
+    time_limit: 1800  # 30 minutes

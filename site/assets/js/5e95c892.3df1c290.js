@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgippsland_open_roadmap_docs=self.webpackChunkgippsland_open_roadmap_docs||[]).push([[647],{7121:(e,s,a)=>{a.r(s),a.d(s,{default:()=>u});a(6540);var p=a(4164),r=a(7559),d=a(1003),n=a(2831),c=a(781),o=a(4848);function u(e){return(0,o.jsx)(d.e3,{className:(0,p.A)(r.G.wrapper.docsPages),children:(0,o.jsx)(c.A,{children:(0,n.v)(e.route.routes)})})}}}]);

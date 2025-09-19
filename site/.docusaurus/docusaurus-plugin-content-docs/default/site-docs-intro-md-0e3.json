@@ -1,0 +1,22 @@
+{
+  "id": "intro",
+  "title": "Getting Started",
+  "description": "Welcome to Gippsland Open Strategy - On 10th-11th September 2025 we performed a live experiment at the Gippsland New Energy Conference (GNEC) in Traralgon.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/Gippsland-Open-Strategy/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/simwilso/Gippsland-Open-Strategy/edit/main/site/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "VirtualAIOfficer",
+  "lastUpdatedAt": 1758241159,
+  "formattedLastUpdatedAt": "Sep 19, 2025",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "mainSidebar"
+}

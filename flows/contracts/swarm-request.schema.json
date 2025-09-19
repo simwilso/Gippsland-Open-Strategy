@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SwarmRequest",
+  "description": "Input contract for swarm operations",
+  "type": "object",
+  "required": ["taskId", "taskType", "description", "context"],
+  "properties": {
+    "taskId": {
+      "type": "string",
+      "description": "Unique identifier for the task",
+      "pattern": "^[a-zA-Z0-9-_]+$"
+    },
+    "taskType": {
+      "type": "string",
+      "description": "Type of task to execute",
+      "enum": [
+        "feature-development",
+        "bug-fix",
+        "refactoring",
+        "documentation",
+        "testing",
+        "optimization",
+        "architecture",
+        "integration"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the task",
+      "minLength": 10,
+      "maxLength": 1000
+    },
+    "context": {
+      "type": "object",
+      "description": "Task execution context",
+      "properties": {
+        "repository": {
+          "type": "string",
+          "description": "GitHub repository (owner/repo format)",
+          "pattern": "^[a-zA-Z0-9-_]+/[a-zA-Z0-9-_]+$"
+        },
+        "branch": {
+          "type": "string",
+          "description": "Target branch for changes",
+          "default": "main"
+        },
+        "files": {
+          "type": "array",
+          "description": "Specific files to work on",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dependencies": {
+          "type": "array",
+          "description": "Task dependencies",
+          "items": {
+            "type": "string"
+          }
+        },
+        "constraints": {
+          "type": "object",
+          "description": "Execution constraints",
+          "properties": {
+            "maxTokens": {
+              "type": "integer",
+              "description": "Maximum tokens to use",
+              "minimum": 1000,
+              "default": 50000
+            },
+            "timeLimit": {
+              "type": "integer",
+              "description": "Time limit in seconds",
+              "minimum": 60,
+              "default": 3600
+            },
+            "agentLimit": {
+              "type": "integer",
+              "description": "Maximum number of agents",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 5
+            }
+          }
+        }
+      },
+      "required": ["repository"]
+    },
+    "priority": {
+      "type": "string",
+      "description": "Task priority level",
+      "enum": ["low", "medium", "high", "critical"],
+      "default": "medium"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional metadata",
+      "additionalProperties": true
+    }
+  }
+}
