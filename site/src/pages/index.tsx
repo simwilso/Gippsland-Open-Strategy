@@ -16,6 +16,22 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        
+        {/* Welcome Video Section */}
+        <div className={styles.videoContainer}>
+          <video 
+            controls 
+            className={styles.heroVideo}
+            poster="/img/welcome-video-thumbnail.jpg"
+          >
+            <source src="/video/welcome-intro.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p className={styles.videoCaption}>
+            Watch a personal welcome message from the AI Queen and learn about our vision for Gippsland's renewable energy transformation.
+          </p>
+        </div>
+        
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
