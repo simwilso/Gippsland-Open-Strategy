@@ -150,6 +150,19 @@
   padding: 20px;
 }
 
+.privacyNote {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  color: #6c757d;
+}
+
+[data-theme='dark'] .privacyNote {
+  background-color: #2a2a2a;
+  color: #adb5bd;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

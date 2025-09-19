@@ -6,24 +6,39 @@ export default function FeedbackWidget({ pageTitle }) {
   const [feedback, setFeedback] = useState('');
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     
-    // Create mailto link with feedback
-    const subject = `Feedback for: ${pageTitle}`;
-    const body = `Page: ${pageTitle}
-URL: ${window.location.href}
+    // Create issue body with metadata
+    const issueBody = `
+**Page**: ${pageTitle}
+**URL**: ${window.location.href}
+**Submitted by**: ${email || 'Anonymous'}
+**Date**: ${new Date().toLocaleDateString()}
 
-Feedback:
+---
+
 ${feedback}
 
-From: ${email || 'Anonymous'}`;
+---
+
+*This feedback was submitted via the website feedback form.*
+`;
+
+    // Create the GitHub issue via a proxy service or GitHub API
+    // For now, we'll use a URL that creates a pre-filled issue
+    const issueTitle = `Feedback: ${pageTitle}`;
+    const githubNewIssueUrl = `https://github.com/simwilso/Gippsland-Open-Strategy/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=feedback,community`;
     
-    const mailtoLink = `mailto:gnec@virtualaiofficer.com.au?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
+    // Open in new window
+    window.open(githubNewIssueUrl, '_blank');
     
     setSubmitted(true);
+    setIsSubmitting(false);
+    
     setTimeout(() => {
       setIsOpen(false);
       setSubmitted(false);
@@ -54,7 +69,7 @@ From: ${email || 'Anonymous'}`;
             </button>
             
             <h3>Share Your Feedback</h3>
-            <p>Help us improve this documentation</p>
+            <p>Your feedback will be posted publicly for community discussion</p>
             
             {!submitted ? (
               <form onSubmit={handleSubmit}>
@@ -69,15 +84,26 @@ From: ${email || 'Anonymous'}`;
                 
                 <input
                   className={styles.emailInput}
-                  type="email"
-                  placeholder="Email (optional)"
+                  type="text"
+                  placeholder="Name/Email (optional)"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 
+                <div className={styles.privacyNote}>
+                  <small>
+                    Note: Your feedback will be posted publicly on GitHub. 
+                    You'll be redirected to GitHub to submit (no account required).
+                  </small>
+                </div>
+                
                 <div className={styles.buttonGroup}>
-                  <button type="submit" className={styles.submitButton}>
-                    Send Feedback
+                  <button 
+                    type="submit" 
+                    className={styles.submitButton}
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? 'Preparing...' : 'Submit Feedback'}
                   </button>
                   <button 
                     type="button" 
@@ -90,7 +116,7 @@ From: ${email || 'Anonymous'}`;
               </form>
             ) : (
               <div className={styles.successMessage}>
-                ✅ Thank you for your feedback!
+                ✅ Redirecting to submit your feedback...
               </div>
             )}
           </div>

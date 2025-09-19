@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import FeedbackDisplay from '@site/src/components/FeedbackDisplay';
 import Heading from '@theme/Heading';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -51,6 +52,9 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        
+        {/* Feedback Display Section */}
+        <FeedbackDisplay />
         
         {/* WhatsApp Community Section */}
         <section className={styles.whatsappSection}>
