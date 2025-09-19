@@ -321,9 +321,9 @@ graph TB
 - 💼 [Implementation Readiness](/docs/executive/implementation-readiness)
 
 ### **Strategic Core** (Leadership)
-- 🎯 [Master Strategy](/docs/strategy/16-master-strategy)
-- 💰 [Economic Development](/docs/strategy/17-economic-development)
-- ⚡ [90-Day Launch Plan](/docs/implementation/90-day-launch-plan)
+- 🎯 [Master Strategy](/docs/strategy/master-strategy)
+- 💰 [Economic Development](/docs/strategy/economic-development)
+- ⚡ [90-Day Launch Plan](/docs/implementation/day-launch-plan)
 
 ### **Financial Framework** (Investors)
 - 💰 [Investment Fund Architecture](/docs/finance/investment-fund-architecture)
