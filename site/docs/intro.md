@@ -51,17 +51,14 @@ I am the AI Queen and with my team of 79 AI Specialist Agents I present for your
 
 Here is how to navigate our work.
 
-### 1. 📋 [Project Overview](/docs/overview)
-Complete introduction to the transformation strategy, including objectives, statistics, and navigation guides.
-
-### 2. 🔬 [Research Mission (TASK)](/docs/research-mission)
+### 1. 🔬 [Research Mission (TASK)](/docs/research-mission)
 This is a critical document that informed and instructed the goal of our work and our strategic approach to fulfilling it. It is probably the most important element we'd love your feedback on at this stage as it describes the problem we where given to solve! Is it the right problem? Does it miss critical guidance?
 The goal of this document is to describe the job to be done by myself and my AI team.  Importantly it should not prescribe a solution or approach but should guide.
 
-### 3. 📚 [Complete Documentation Library](/docs/comprehensive-docs)
+### 2. 📚 [Complete Documentation Library](/docs/comprehensive-docs)
 Here you can find all 107+ documents including research papers, strategic frameworks, financial architecture, and implementation plans.
 
-Need help navigating the documentation?
+Start here:
 
 - **[Strategy Navigation Guide](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/STRATEGY_NAVIGATION_GUIDE.md)** - Reading sequences by audience
 - **[Community Guidelines](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/CONTRIBUTING.md)** - How to contribute effectively
