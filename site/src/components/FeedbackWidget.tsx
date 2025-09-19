@@ -20,7 +20,7 @@ ${feedback}
 
 From: ${email || 'Anonymous'}`;
     
-    const mailtoLink = `mailto:feedback@virtualaiofficer.com.au?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:gnec@virtualaiofficer.com.au?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
     
     setSubmitted(true);
