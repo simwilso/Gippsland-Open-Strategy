@@ -47,7 +47,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Community-driven roadmap and documentation for Gippsland's open data initiatives">
+      description="A Community Driven blueprint for Gippslands Energy Transition">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -14,8 +14,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_community.svg').default,
     description: (
       <>
-        Built by the community, for the community. Contribute to the roadmap
-        and help shape Gippsland's digital future.
+        Built by the community, for the community. We are using an open source 
+        approach combined with the power of AI Agents to imagine and document a 
+        vision for Gippslands Energy Transition.
       </>
     ),
   },
@@ -24,8 +25,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_data.svg').default,
     description: (
       <>
-        Promoting transparency and accessibility through open data initiatives
-        that benefit all stakeholders in the region.
+        Anyone can access, download, review or provide feedback. In fact we 
+        encourage you to.
       </>
     ),
   },
@@ -34,8 +35,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_collaboration.svg').default,
     description: (
       <>
-        Working together across councils, organizations, and communities to
-        build better digital infrastructure.
+        No tech knowledge required. Click the feedback button on any page and 
+        give us your thoughts whatever they may be. Each week our AI Team will 
+        be given your inputs to integrate.
       </>
     ),
   },

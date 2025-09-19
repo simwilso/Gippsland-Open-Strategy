@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Gippsland Open Strategy',
-  tagline: 'Community-driven roadmap and documentation',
+  tagline: 'A Community Driven blueprint for Gippslands Energy Transition',
   favicon: 'img/favicon.ico',
 
   // Production URL configuration for GitHub Pages
