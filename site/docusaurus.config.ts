@@ -52,73 +52,7 @@ const config: Config = {
         alt: 'VAIO Logo',
         src: 'img/VAIOLogo.png',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'mainSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
-        {
-          to: '/strategy',
-          label: 'Strategy Documents',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/README.md',
-          label: 'Project Overview',
-          position: 'left',
-        },
-        {
-          type: 'dropdown',
-          label: 'Quick Links',
-          position: 'left',
-          items: [
-            {
-              to: '/strategy/master-strategy',
-              label: '📋 Master Strategy',
-            },
-            {
-              to: '/strategy/master-blueprint',
-              label: '🏗️ Master Blueprint',
-            },
-            {
-              to: '/strategy/90-day-launch',
-              label: '🚀 90-Day Launch Plan',
-            },
-            {
-              type: 'html',
-              value: '<hr style="margin: 0.3rem 0;">',
-            },
-            {
-              to: '/strategy/economic-development',
-              label: '💼 Economic Development',
-            },
-            {
-              to: '/strategy/just-transition',
-              label: '⚖️ Just Transition',
-            },
-            {
-              to: '/strategy/innovation-hub',
-              label: '💡 Innovation Hub',
-            },
-            {
-              to: '/strategy/environmental-impact',
-              label: '🌱 Environmental Impact',
-            },
-          ],
-        },
-        {
-          href: 'https://github.com/simwilso/Gippsland-Open-Strategy/issues/new',
-          label: 'Provide Feedback',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/simwilso/Gippsland-Open-Strategy',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
