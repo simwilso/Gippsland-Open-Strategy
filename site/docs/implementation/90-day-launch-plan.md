@@ -255,7 +255,7 @@ This 90-day launch plan provides a detailed week-by-week implementation schedule
 - ☑ 6-month approval pathway confirmed
 - ☑ $3B+ investment commitments
 - ☑ 3+ Tier 1 partners engaged
-- ☑ Community support >80%
+- ☑ Community support &gt;80%
 
 **Go/No-Go Decision:** Proceed to partnership activation
 
@@ -859,12 +859,12 @@ timeline
 
 ```mermaid
 graph TD
-    A[Week 1: Foundation] -->|50+ staff| B[Week 2: Operations]
-    B -->|$50M secured| C[Week 3: Regulatory]
-    C -->|Fast-track active| D[Week 4: Investment]
-    D -->|$3B committed| E[Week 5: Partnerships]
-    E -->|5 MOUs signed| F[Week 8: Mobilisation]
-    F -->|1000 workers| G[Week 12: Launch]
+    A[Week 1: Foundation] --&gt;|50+ staff| B[Week 2: Operations]
+    B --&gt;|$50M secured| C[Week 3: Regulatory]
+    C --&gt;|Fast-track active| D[Week 4: Investment]
+    D --&gt;|$3B committed| E[Week 5: Partnerships]
+    E --&gt;|5 MOUs signed| F[Week 8: Mobilisation]
+    F --&gt;|1000 workers| G[Week 12: Launch]
     
     style A fill:#f9f,stroke:#333,stroke-width:4px
     style G fill:#9f9,stroke:#333,stroke-width:4px

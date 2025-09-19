@@ -50,12 +50,12 @@ graph TD
         A5[Community Reps: 4]
         A6[Youth Rep: 1]
         
-        A1 --> A
-        A2 --> A
-        A3 --> A
-        A4 --> A
-        A5 --> A
-        A6 --> A
+        A1 --&gt; A
+        A2 --&gt; A
+        A3 --&gt; A
+        A4 --&gt; A
+        A5 --&gt; A
+        A6 --&gt; A
     end
     
     subgraph "COMMUNITY ADVISORY PANELS"
@@ -67,12 +67,12 @@ graph TD
         B5[Bass Coast]
         B6[Baw Baw]
         
-        B --> B1
-        B --> B2
-        B --> B3
-        B --> B4
-        B --> B5
-        B --> B6
+        B --&gt; B1
+        B --&gt; B2
+        B --&gt; B3
+        B --&gt; B4
+        B --&gt; B5
+        B --&gt; B6
     end
     
     subgraph "INDUSTRY WORKING GROUPS"
@@ -82,14 +82,14 @@ graph TD
         C3[Skills & Training]
         C4[Innovation & Tech]
         
-        C --> C1
-        C --> C2
-        C --> C3
-        C --> C4
+        C --&gt; C1
+        C --&gt; C2
+        C --&gt; C3
+        C --&gt; C4
     end
     
-    A --> B
-    A --> C
+    A --&gt; B
+    A --&gt; C
 ```
 
 ### 1.1 Gippsland Energy Transformation Board
@@ -153,26 +153,26 @@ graph TD
 
 ```mermaid
 flowchart TD
-    A[Traditional Country Recognition] --> B[GLaWAC Partnership Agreement]
-    B --> C[Co-Management Protocols]
-    C --> D[Cultural Heritage Protection]
-    C --> E[Economic Participation 5%+]
-    C --> F[Employment Guarantees]
-    C --> G[Knowledge Sharing]
+    A[Traditional Country Recognition] --&gt; B[GLaWAC Partnership Agreement]
+    B --&gt; C[Co-Management Protocols]
+    C --&gt; D[Cultural Heritage Protection]
+    C --&gt; E[Economic Participation 5%+]
+    C --&gt; F[Employment Guarantees]
+    C --&gt; G[Knowledge Sharing]
     
-    D --> H[Country Assessments]
-    E --> I[Indigenous Business Development]
-    F --> J[Training & Mentorship]
-    G --> K[Cultural Integration]
+    D --&gt; H[Country Assessments]
+    E --&gt; I[Indigenous Business Development]
+    F --&gt; J[Training & Mentorship]
+    G --&gt; K[Cultural Integration]
     
-    H --> L[Respectful Development]
-    I --> L
-    J --> L
-    K --> L
+    H --&gt; L[Respectful Development]
+    I --&gt; L
+    J --&gt; L
+    K --&gt; L
     
-    L --> M[Strengthened Communities]
-    L --> N[Cultural Preservation]
-    L --> O[Economic Prosperity]
+    L --&gt; M[Strengthened Communities]
+    L --&gt; N[Cultural Preservation]
+    L --&gt; O[Economic Prosperity]
 ```
 
 #### Gunaikurnai Land and Waters Aboriginal Corporation (GLaWAC) Partnership
@@ -549,11 +549,11 @@ flowchart TD
 ### 5.1 Social License Metrics
 
 #### Quantitative Indicators
-- Community support levels (target: >70%)
-- Stakeholder satisfaction (target: >75%)
-- Complaint resolution rate (target: >90% within 30 days)
-- Local employment percentage (target: >80%)
-- Indigenous participation (target: >10%)
+- Community support levels (target: &gt;70%)
+- Stakeholder satisfaction (target: &gt;75%)
+- Complaint resolution rate (target: &gt;90% within 30 days)
+- Local employment percentage (target: &gt;80%)
+- Indigenous participation (target: &gt;10%)
 
 #### Qualitative Indicators
 - Media sentiment analysis

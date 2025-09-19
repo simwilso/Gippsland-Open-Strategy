@@ -137,10 +137,10 @@ Specialist Advisory Committees
 
 | Investment Size | Approval Required | Timeline |
 |----------------|-------------------|----------|
-| < $50M | Investment Manager | 5 days |
+| &lt; $50M | Investment Manager | 5 days |
 | $50M - $200M | Investment Committee | 10 days |
 | $200M - $500M | IC + Risk Committee | 15 days |
-| > $500M | Full Board | 20 days |
+| &gt; $500M | Full Board | 20 days |
 
 **Governance Principles**
 1. **Independence**: Majority independent directors
@@ -539,7 +539,7 @@ Master Fund KPIs
 |--------|-----------|---------|---------|
 | Net IRR | Infrastructure Index +2% | +3% | +4% |
 | Cash Yield | CPI + 4% | CPI + 5% | CPI + 6% |
-| Volatility | < Index | -10% | -20% |
+| Volatility | &lt; Index | -10% | -20% |
 | ESG Score | Top Quartile | Top Decile | Leader |
 
 **Peer Group Comparison**

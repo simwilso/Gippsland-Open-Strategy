@@ -1261,8 +1261,8 @@ Blended Portfolio Metrics:
 - P50 IRR: 13.7%
 - P90 IRR: 17.9%
 - Standard Deviation: 2.4%
-- Probability IRR >12%: 72%
-- Probability IRR >15%: 31%
+- Probability IRR &gt;12%: 72%
+- Probability IRR &gt;15%: 31%
 
 **Key Risk Factors (Correlation)**
 1. Energy prices: 45% of variance

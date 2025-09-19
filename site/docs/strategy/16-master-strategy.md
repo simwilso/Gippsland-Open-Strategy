@@ -8,19 +8,19 @@ slug: 16-master-strategy
 ```mermaid
 graph TB
     subgraph "GIPPSLAND ENERGY HUB VISION 2030"
-        A[Coal Heritage] --> B[Just Transition]
-        B --> C[Renewable Leadership]
-        C --> D[Global Recognition]
+        A[Coal Heritage] --&gt; B[Just Transition]
+        B --&gt; C[Renewable Leadership]
+        C --&gt; D[Global Recognition]
         
         E[10+ GW Capacity] 
         F[15,000+ Jobs]
         G[$70B Investment]
         H[45Mt CO₂ Reduction]
         
-        C --> E
-        C --> F  
-        C --> G
-        C --> H
+        C --&gt; E
+        C --&gt; F  
+        C --&gt; G
+        C --&gt; H
     end
 end
 ```
@@ -55,9 +55,9 @@ graph LR
         C3[Global Hub Status]
     end
     
-    A1 --> B1 --> C1
-    A2 --> B2 --> C2
-    A3 --> B3 --> C3
+    A1 --&gt; B1 --&gt; C1
+    A2 --&gt; B2 --&gt; C2
+    A3 --&gt; B3 --&gt; C3
 ```
 
 ### Key Strategic Outcomes
@@ -464,25 +464,25 @@ gantt
 
 ```mermaid
 flowchart TD
-    A[2027 Launch] --> B[Infrastructure Ready]
-    A --> C[Workforce Trained]
-    A --> D[Supply Chains Active]
+    A[2027 Launch] --&gt; B[Infrastructure Ready]
+    A --&gt; C[Workforce Trained]
+    A --&gt; D[Supply Chains Active]
     
-    B --> E[Offshore Wind Construction]
-    C --> F[Skilled Teams Available]
-    D --> G[Local Content 45%]
+    B --&gt; E[Offshore Wind Construction]
+    C --&gt; F[Skilled Teams Available]
+    D --&gt; G[Local Content 45%]
     
-    E --> H[First Turbines 2028]
-    F --> I[5,000 Jobs Created]
-    G --> J[Export Markets Open]
+    E --&gt; H[First Turbines 2028]
+    F --&gt; I[5,000 Jobs Created]
+    G --&gt; J[Export Markets Open]
     
-    H --> K[3 GW Total Capacity]
-    I --> L[Community Prosperity]
-    J --> M[Global Recognition]
+    H --&gt; K[3 GW Total Capacity]
+    I --&gt; L[Community Prosperity]
+    J --&gt; M[Global Recognition]
     
-    K --> N[2028: Acceleration Success]
-    L --> N
-    M --> N
+    K --&gt; N[2028: Acceleration Success]
+    L --&gt; N
+    M --&gt; N
 ```
 
 #### Strategic Acceleration Metrics 2027-2028
@@ -534,7 +534,7 @@ pie title 2030 Gippsland Energy Mix (10+ GW)
 2. **Grid infrastructure** (must start by Q3 2025)
 3. **Port development** (must complete by 2027)
 4. **Workforce training** (continuous from Q1 2025)
-5. **Community support** (maintain >80% throughout)
+5. **Community support** (maintain &gt;80% throughout)
 
 ---
 
@@ -552,12 +552,12 @@ graph TB
         F[Technical Advisory]
         G[Indigenous Advisory]
         
-        A --> B
-        B --> C
-        C --> D
-        C --> E
-        C --> F
-        C --> G
+        A --&gt; B
+        B --&gt; C
+        C --&gt; D
+        C --&gt; E
+        C --&gt; F
+        C --&gt; G
     end
     
     subgraph "DELIVERY ARCHITECTURE"
@@ -567,11 +567,11 @@ graph TB
         K[Community Stream]
         L[Environment Stream]
         
-        C --> H
-        H --> I
-        H --> J
-        H --> K
-        H --> L
+        C --&gt; H
+        H --&gt; I
+        H --&gt; J
+        H --&gt; K
+        H --&gt; L
     end
 ```
 
@@ -706,11 +706,11 @@ flowchart LR
         C5[Risk Mitigation]
     end
     
-    A1 --> B1 --> C1
-    A2 --> B2 --> C2
-    A3 --> B3 --> C3
-    A4 --> B4 --> C4
-    A5 --> B5 --> C5
+    A1 --&gt; B1 --&gt; C1
+    A2 --&gt; B2 --&gt; C2
+    A3 --&gt; B3 --&gt; C3
+    A4 --&gt; B4 --&gt; C4
+    A5 --&gt; B5 --&gt; C5
 ```
 
 #### Performance Dashboard Architecture
@@ -732,22 +732,22 @@ flowchart LR
 
 ```mermaid
 graph TD
-    A[Real-Time Data Collection] --> B[Analytics Engine]
-    B --> C[Executive Dashboard]
-    B --> D[Public Dashboard]
-    B --> E[Investor Portal]
+    A[Real-Time Data Collection] --&gt; B[Analytics Engine]
+    B --&gt; C[Executive Dashboard]
+    B --&gt; D[Public Dashboard]
+    B --&gt; E[Investor Portal]
     
-    C --> F[Monthly Reports]
-    D --> G[Community Updates]
-    E --> H[Investment Updates]
+    C --&gt; F[Monthly Reports]
+    D --&gt; G[Community Updates]
+    E --&gt; H[Investment Updates]
     
-    F --> I[Quarterly Board Reviews]
-    G --> J[Stakeholder Forums]
-    H --> K[Annual Public Reports]
+    F --&gt; I[Quarterly Board Reviews]
+    G --&gt; J[Stakeholder Forums]
+    H --&gt; K[Annual Public Reports]
     
-    I --> L[Strategic Adjustments]
-    J --> L
-    K --> L
+    I --&gt; L[Strategic Adjustments]
+    J --&gt; L
+    K --&gt; L
 ```
 
 **Transparent Reporting Regime**

@@ -39,15 +39,15 @@ graph TB
         L[AU$8.5B Annual<br/>Exports by 2035]
     end
     
-    A --> J
-    B --> J
-    C --> J
-    D --> K
+    A --&gt; J
+    B --&gt; J
+    C --&gt; J
+    D --&gt; K
     
-    E --> F --> G --> H --> I
+    E --&gt; F --&gt; G --&gt; H --&gt; I
     
-    J --> L
-    K --> L
+    J --&gt; L
+    K --&gt; L
     
     style A fill:#10b981,stroke:#059669,color:#fff
     style B fill:#10b981,stroke:#059669,color:#fff
@@ -253,7 +253,7 @@ graph TB
 
 2. **Quality Specifications:**
    - NdPr oxide purity: 99.5% minimum
-   - Thorium content: <0.5 ppm
+   - Thorium content: &lt;0.5 ppm
    - Full traceability documentation
 
 3. **Local Processing Commitment:**
@@ -468,9 +468,9 @@ graph TB
 
 #### A. Quality Metrics
 **Manufacturing KPIs:**
-- First-pass yield: >98%
-- Customer complaints: <0.1%
-- On-time delivery: >95%
+- First-pass yield: &gt;98%
+- Customer complaints: &lt;0.1%
+- On-time delivery: &gt;95%
 - Safety: Zero harm target
 
 #### B. Technology Advancement
@@ -572,7 +572,7 @@ graph TB
 - 35-45%: Standard rates
 - 45-55%: 5% price premium
 - 55-65%: 8% price premium
-- >65%: 10% price premium + preference
+- &gt;65%: 10% price premium + preference
 
 #### B. Performance Bonuses
 - Employment targets exceeded: AU$5,000/job

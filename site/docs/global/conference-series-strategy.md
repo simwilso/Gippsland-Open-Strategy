@@ -17,7 +17,7 @@ slug: conference-series-strategy
     │  🌏 50+ Countries    👥 10,000 Delegates    💰 AU$50B Deals   │
     │  🏭 15 Conferences   🎤 100 Programs        🎆 Global Hub    │
     │                                                             │
-    │  2025 ──────> 2027 ──────> 2030 ──────> LEGACY            │
+    │  2025 ──────&gt; 2027 ──────&gt; 2030 ──────&gt; LEGACY            │
     │  Launch      Scale       Dominance      Institution         │
     └─────────────────────────────────────────────────────────────┘
 ```
@@ -31,16 +31,16 @@ slug: conference-series-strategy
 
 ```mermaid
 graph LR
-    A[Local Conference] --> B[Regional Platform]
-    B --> C[Global Summit]
-    C --> D[World Authority]
-    D --> E[Permanent Institution]
+    A[Local Conference] --&gt; B[Regional Platform]
+    B --&gt; C[Global Summit]
+    C --&gt; D[World Authority]
+    D --&gt; E[Permanent Institution]
     
-    A --> F[2025: Launch]
-    B --> G[2026: Growth]
-    C --> H[2028: Leadership]
-    D --> I[2030: Dominance]
-    E --> J[Beyond: Legacy]
+    A --&gt; F[2025: Launch]
+    B --&gt; G[2026: Growth]
+    C --&gt; H[2028: Leadership]
+    D --&gt; I[2030: Dominance]
+    E --&gt; J[Beyond: Legacy]
     
     style C fill:#FFD700
     style E fill:#2E7D32
@@ -307,11 +307,11 @@ graph TD
         E[Future Lab<br/>VR/AR Experiences]
     end
     
-    A --> F[Winners Announced]
-    B --> G[Tech Partnerships]
-    C --> H[R&D Collaboration]
-    D --> I[Investment Deals]
-    E --> J[Innovation Adoption]
+    A --&gt; F[Winners Announced]
+    B --&gt; G[Tech Partnerships]
+    C --&gt; H[R&D Collaboration]
+    D --&gt; I[Investment Deals]
+    E --&gt; J[Innovation Adoption]
 ```
 
 **Investment Day (Day 4)**
@@ -497,12 +497,12 @@ graph TD
         F[GunaiKurnai Culture]
     end
     
-    A --> G[Solar + Wind + Battery]
-    B --> H[Regenerative Materials]
-    C --> I[Energy Optimisation]
-    D --> J[Circular Economy]
-    E --> K[Nature Integration]
-    F --> L[Indigenous Design]
+    A --&gt; G[Solar + Wind + Battery]
+    B --&gt; H[Regenerative Materials]
+    C --&gt; I[Energy Optimisation]
+    D --&gt; J[Circular Economy]
+    E --&gt; K[Nature Integration]
+    F --&gt; L[Indigenous Design]
 ```
 
 - **Net Zero Operations:** 100% renewable powered
@@ -643,11 +643,11 @@ graph LR
         J[Middle East 5%]
     end
     
-    A --> F
-    B --> G
-    C --> H
-    D --> I
-    E --> J
+    A --&gt; F
+    B --&gt; G
+    C --&gt; H
+    D --&gt; I
+    E --&gt; J
 ```
 
 **Strategic Partnerships**
@@ -856,8 +856,8 @@ graph TD
         J[Policy Platform<br/>Recommendations]
     end
     
-    A --> K[Permanent Global Leadership]
-    F --> K
+    A --&gt; K[Permanent Global Leadership]
+    F --&gt; K
 ```
 
 **Gippsland Energy Transition Institute**
@@ -1161,13 +1161,13 @@ gantt
     ═══════════════════════════════════════════════════════════════
     
     ENERGY                      TRANSPORT              WASTE
-    100% Renewable  ───────>  Electric Fleet  ────> Zero Landfill
+    100% Renewable  ───────&gt;  Electric Fleet  ────&gt; Zero Landfill
     Solar + Wind              E-Shuttles            Composting
     Battery Storage           Public Transit        Recycling
                              Carbon Offset         Circular Design
     
     WATER                       FOOD                  BIODIVERSITY
-    Closed Loop    ───────>  Local Sourcing  ────> Native Species
+    Closed Loop    ───────&gt;  Local Sourcing  ────&gt; Native Species
     Rainwater                 Organic               Wildlife Corridors
     Recycling                 Plant-Forward         Habitat Creation
     Conservation              Zero Waste            Carbon Sequestration

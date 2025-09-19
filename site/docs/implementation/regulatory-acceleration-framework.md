@@ -27,9 +27,9 @@ This Regulatory Acceleration Framework provides the operational blueprint to rev
 - **24/7 Processing**: Round-the-clock approval teams across time zones
 
 ### Critical Success Metrics
-- **Major Projects (>100MW)**: 12 months maximum
+- **Major Projects (&gt;100MW)**: 12 months maximum
 - **Medium Projects (10-100MW)**: 6 months maximum  
-- **Small Projects (<10MW)**: 3 months maximum
+- **Small Projects (&lt;10MW)**: 3 months maximum
 - **Grid Connections**: Parallel processing with generation approvals
 - **Environmental Permits**: Integrated into single assessment
 
@@ -49,9 +49,9 @@ This Regulatory Acceleration Framework provides the operational blueprint to rev
 - Chief Risk Officer
 
 **Integrated Approval Teams (24/7 Operation)**
-- **Alpha Team** (Day Shift): Major projects >100MW
+- **Alpha Team** (Day Shift): Major projects &gt;100MW
 - **Beta Team** (Evening Shift): Medium projects 10-100MW
-- **Gamma Team** (Night Shift): Small projects <10MW
+- **Gamma Team** (Night Shift): Small projects &lt;10MW
 - **Delta Team** (Floating): Emergency response and escalations
 - **International Team**: Cross-timezone coordination
 
@@ -470,9 +470,9 @@ All Assessments Conducted Simultaneously:
 
 #### Administrative Instruments
 **Delegation Instruments**
-- CEO approval powers (<100MW)
-- Director approvals (<50MW)
-- Manager approvals (<10MW)
+- CEO approval powers (&lt;100MW)
+- Director approvals (&lt;50MW)
+- Manager approvals (&lt;10MW)
 - Emergency powers
 - Variation authorities
 
@@ -525,7 +525,7 @@ All Assessments Conducted Simultaneously:
 **Characteristics**
 - Proven technology
 - Pre-cleared zones
-- <50MW capacity
+- &lt;50MW capacity
 - No threatened species
 - Community support
 
@@ -553,7 +553,7 @@ All Assessments Conducted Simultaneously:
 **Characteristics**
 - New technology
 - Complex sites
-- >200MW capacity
+- &gt;200MW capacity
 - Significant impacts
 - Opposition concerns
 

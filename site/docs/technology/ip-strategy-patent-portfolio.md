@@ -9,18 +9,18 @@ slug: ip-strategy-patent-portfolio
 ```mermaid
 graph TB
     subgraph "IP Strategy Framework"
-        A[Innovation Capture] --> B[Patent Filing]
-        B --> C[Portfolio Management]
-        C --> D[Licensing & Revenue]
-        D --> E[Market Protection]
+        A[Innovation Capture] --&gt; B[Patent Filing]
+        B --&gt; C[Portfolio Management]
+        C --&gt; D[Licensing & Revenue]
+        D --&gt; E[Market Protection]
         
-        F[500+ Patents Target] --> G[45+ Jurisdictions]
-        G --> H[AU$250M Annual Revenue]
+        F[500+ Patents Target] --&gt; G[45+ Jurisdictions]
+        G --&gt; H[AU$250M Annual Revenue]
         
-        I[Technology Areas] --> J[Offshore Wind]
-        I --> K[Energy Storage]
-        I --> L[Green Hydrogen]
-        I --> M[Smart Grid]
+        I[Technology Areas] --&gt; J[Offshore Wind]
+        I --&gt; K[Energy Storage]
+        I --&gt; L[Green Hydrogen]
+        I --&gt; M[Smart Grid]
     end
     
     style A fill:#00695C,color:#fff
@@ -201,25 +201,25 @@ This document establishes a comprehensive intellectual property strategy and pat
 ```mermaid
 graph TB
     subgraph "Global Patent Filing Strategy"
-        A[Australian Provisional] --> B[PCT Application]
-        B --> C[Priority 1 Markets<br/>12 months]
-        B --> D[Priority 2 Markets<br/>18 months]
-        B --> E[Priority 3 Markets<br/>Case-by-case]
+        A[Australian Provisional] --&gt; B[PCT Application]
+        B --&gt; C[Priority 1 Markets<br/>12 months]
+        B --&gt; D[Priority 2 Markets<br/>18 months]
+        B --&gt; E[Priority 3 Markets<br/>Case-by-case]
         
-        C --> C1[USA]
-        C --> C2[EU/EPO]
-        C --> C3[China]
-        C --> C4[Japan]
-        C --> C5[South Korea]
+        C --&gt; C1[USA]
+        C --&gt; C2[EU/EPO]
+        C --&gt; C3[China]
+        C --&gt; C4[Japan]
+        C --&gt; C5[South Korea]
         
-        D --> D1[UK]
-        D --> D2[Canada]
-        D --> D3[India]
-        D --> D4[Singapore]
+        D --&gt; D1[UK]
+        D --&gt; D2[Canada]
+        D --&gt; D3[India]
+        D --&gt; D4[Singapore]
         
-        E --> E1[Brazil]
-        E --> E2[UAE]
-        E --> E3[Norway]
+        E --&gt; E1[Brazil]
+        E --&gt; E2[UAE]
+        E --&gt; E3[Norway]
     end
     
     style A fill:#2E7D32,color:#fff
@@ -382,13 +382,13 @@ graph TB
 ```mermaid
 graph TD
     subgraph "IP Performance Dashboard"
-        A[Patent Applications<br/>100+/year] --> B[Patent Grants<br/>75+/year]
-        B --> C[Active Licenses<br/>200+ by 2030]
-        C --> D[Revenue Generation<br/>AU$250M by 2035]
+        A[Patent Applications<br/>100+/year] --&gt; B[Patent Grants<br/>75+/year]
+        B --&gt; C[Active Licenses<br/>200+ by 2030]
+        C --&gt; D[Revenue Generation<br/>AU$250M by 2035]
         
-        E[Quality Metrics] --> F[Citation Impact]
-        E --> G[Technology Transfer]
-        E --> H[Market Coverage]
+        E[Quality Metrics] --&gt; F[Citation Impact]
+        E --&gt; G[Technology Transfer]
+        E --&gt; H[Market Coverage]
     end
     
     style A fill:#1565C0,color:#fff
@@ -397,11 +397,11 @@ graph TD
 ```
 
 #### Success Metrics
-- Time to first revenue: <24 months
-- License compliance rate: >95%
-- Technology adoption rate: >60%
-- Customer satisfaction: >4.5/5
-- ROI on patent spend: >5:1
+- Time to first revenue: &lt;24 months
+- License compliance rate: &gt;95%
+- Technology adoption rate: &gt;60%
+- Customer satisfaction: &gt;4.5/5
+- ROI on patent spend: &gt;5:1
 
 ---
 
@@ -566,12 +566,12 @@ graph TD
 ```mermaid
 graph LR
     subgraph "IP Revenue Growth Trajectory"
-        A[Year 1-2<br/>AU$10M] --> B[Year 3-5<br/>AU$50M]
-        B --> C[Year 6-10<br/>AU$250M]
+        A[Year 1-2<br/>AU$10M] --&gt; B[Year 3-5<br/>AU$50M]
+        B --&gt; C[Year 6-10<br/>AU$250M]
         
-        A --> D[Foundation<br/>Building]
-        B --> E[Market<br/>Penetration]
-        C --> F[Global<br/>Leadership]
+        A --&gt; D[Foundation<br/>Building]
+        B --&gt; E[Market<br/>Penetration]
+        C --&gt; F[Global<br/>Leadership]
     end
     
     style A fill:#4CAF50,color:#fff
@@ -754,15 +754,15 @@ graph LR
 - Applications filed annually: 100+
 - Patents granted annually: 75+
 - International filings: 60%+
-- Grant rate: >80%
-- Prosecution time: <24 months
+- Grant rate: &gt;80%
+- Prosecution time: &lt;24 months
 
 #### Financial Metrics
 - Licensing revenue growth: 20%+ YoY
-- Cost per patent: <AU$50k lifecycle
-- Revenue per patent: >AU$250k
-- Enforcement success rate: >70%
-- Settlement value: >AU$5M average
+- Cost per patent: &lt;AU$50k lifecycle
+- Revenue per patent: &gt;AU$250k
+- Enforcement success rate: &gt;70%
+- Settlement value: &gt;AU$5M average
 
 ### 9.2 Qualitative Metrics
 

@@ -8,17 +8,17 @@ slug: 19-innovation-hub
 ```mermaid
 graph TB
     subgraph "INNOVATION ECOSYSTEM"
-        A[Research Excellence] --> D[Commercialisation Success]
-        B[Talent Attraction] --> D
-        C[Infrastructure Investment] --> D
+        A[Research Excellence] --&gt; D[Commercialisation Success]
+        B[Talent Attraction] --&gt; D
+        C[Infrastructure Investment] --&gt; D
         
-        D --> E[Global Recognition]
-        D --> F[Economic Impact]
-        D --> G[Knowledge Export]
+        D --&gt; E[Global Recognition]
+        D --&gt; F[Economic Impact]
+        D --&gt; G[Knowledge Export]
         
-        E --> H[Top 10 Global Hub]
-        F --> I[$1B+ Revenue]
-        G --> J[International Partnerships]
+        E --&gt; H[Top 10 Global Hub]
+        F --&gt; I[$1B+ Revenue]
+        G --&gt; J[International Partnerships]
     end
     
     subgraph "KEY METRICS 2030"
@@ -28,10 +28,10 @@ graph TB
         N[5,000+ Jobs Created]
     end
     
-    H --> K
-    I --> L
-    J --> M
-    E --> N
+    H --&gt; K
+    I --&gt; L
+    J --&gt; M
+    E --&gt; N
 ```
 
 ## Executive Summary for Government and Investor Audiences

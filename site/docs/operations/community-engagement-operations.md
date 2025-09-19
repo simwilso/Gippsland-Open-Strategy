@@ -37,11 +37,11 @@ This operations manual establishes the on-ground systems required to maintain an
 graph TD
     SCLO[Senior Community<br/>Liaison Officer<br/>Team Lead]
     
-    SCLO --> IES[Indigenous<br/>Engagement<br/>Specialist]
-    SCLO --> YCC[Youth<br/>Community<br/>Coordinator]
-    SCLO --> BLO[Business<br/>Liaison<br/>Officer]
-    SCLO --> CRS[Conflict<br/>Resolution<br/>Specialist]
-    SCLO --> CBA[Community<br/>Benefits<br/>Administrator]
+    SCLO --&gt; IES[Indigenous<br/>Engagement<br/>Specialist]
+    SCLO --&gt; YCC[Youth<br/>Community<br/>Coordinator]
+    SCLO --&gt; BLO[Business<br/>Liaison<br/>Officer]
+    SCLO --&gt; CRS[Conflict<br/>Resolution<br/>Specialist]
+    SCLO --&gt; CBA[Community<br/>Benefits<br/>Administrator]
     
     style SCLO fill:#2E7D32,stroke:#2E7D32,color:#fff
     style IES fill:#66BB6A,stroke:#66BB6A,color:#fff
@@ -381,22 +381,22 @@ Advisory Panel Composition:
 
 ```mermaid
 flowchart LR
-    F[Community<br/>Feedback] --> T{Triage<br/>System}
+    F[Community<br/>Feedback] --&gt; T{Triage<br/>System}
     
-    T --> T1[Tier 1<br/>Information<br/>70%]
-    T --> T2[Tier 2<br/>Concerns<br/>20%]
-    T --> T3[Tier 3<br/>Complaints<br/>8%]
-    T --> T4[Tier 4<br/>Crisis<br/>2%]
+    T --&gt; T1[Tier 1<br/>Information<br/>70%]
+    T --&gt; T2[Tier 2<br/>Concerns<br/>20%]
+    T --&gt; T3[Tier 3<br/>Complaints<br/>8%]
+    T --&gt; T4[Tier 4<br/>Crisis<br/>2%]
     
-    T1 --> R1[4hr Response<br/>Same Day Resolution<br/>Community Liaison Officer]
-    T2 --> R2[24hr Response<br/>72hr Investigation<br/>Senior Liaison Officer]
-    T3 --> R3[4hr Acknowledgement<br/>5 Day Investigation<br/>Management Team]
-    T4 --> R4[1hr Response<br/>Immediate Escalation<br/>Crisis Team]
+    T1 --&gt; R1[4hr Response<br/>Same Day Resolution<br/>Community Liaison Officer]
+    T2 --&gt; R2[24hr Response<br/>72hr Investigation<br/>Senior Liaison Officer]
+    T3 --&gt; R3[4hr Acknowledgement<br/>5 Day Investigation<br/>Management Team]
+    T4 --&gt; R4[1hr Response<br/>Immediate Escalation<br/>Crisis Team]
     
-    R1 --> FU[Follow-up &<br/>Closure]
-    R2 --> FU
-    R3 --> FU
-    R4 --> FU
+    R1 --&gt; FU[Follow-up &<br/>Closure]
+    R2 --&gt; FU
+    R3 --&gt; FU
+    R4 --&gt; FU
     
     style F fill:#1976D2,color:#fff
     style T1 fill:#4CAF50,color:#fff
@@ -581,8 +581,8 @@ Indigenous Procurement Process:
 - Public meeting attendance and feedback (ongoing)
 
 **Issue Escalation Indicators**:
-- Multiple complaints on same topic (>5 in 48 hours)
-- Social media negativity spike (>50% increase)
+- Multiple complaints on same topic (&gt;5 in 48 hours)
+- Social media negativity spike (&gt;50% increase)
 - Key stakeholder relationship deterioration
 - Media interest in contentious issues
 - Community meeting disruption or boycotts
@@ -774,7 +774,7 @@ Benefit Allocation Model:
 
 #### Annual Benefit Assessment
 **Community Satisfaction Survey**:
-- Benefit distribution fairness (target: >85% satisfaction)
+- Benefit distribution fairness (target: &gt;85% satisfaction)
 - Community project quality and impact
 - Overall economic improvement perception
 - Recommendation for program improvements
@@ -860,16 +860,16 @@ Digital-Physical Integration:
 
 #### Key Performance Indicators
 **Community Support Metrics**:
-- Overall community support level (target: >80%)
+- Overall community support level (target: &gt;80%)
 - Engagement participation rates (target: 15% active participants)
-- Issue resolution satisfaction (target: >90%)
+- Issue resolution satisfaction (target: &gt;90%)
 - Cultural protocol compliance (target: 100%)
-- Benefit distribution satisfaction (target: >85%)
+- Benefit distribution satisfaction (target: &gt;85%)
 
 **Operational Excellence Metrics**:
-- Response time compliance (target: >95%)
-- Resolution time performance (target: >90%)
-- Staff community satisfaction (target: >85%)
+- Response time compliance (target: &gt;95%)
+- Resolution time performance (target: &gt;90%)
+- Staff community satisfaction (target: &gt;85%)
 - Cost per engagement efficiency
 - Innovation implementation rate
 

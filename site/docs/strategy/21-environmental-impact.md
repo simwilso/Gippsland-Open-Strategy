@@ -7,21 +7,21 @@ slug: 21-environmental-impact
 
 ```mermaid
 flowchart TD
-    A[Environmental Strategy] --> B[Net Positive Outcomes]
-    B --> C[Biodiversity Enhancement]
-    B --> D[Habitat Restoration]
-    B --> E[Carbon Sequestration]
-    B --> F[Water Quality Improvement]
+    A[Environmental Strategy] --&gt; B[Net Positive Outcomes]
+    B --&gt; C[Biodiversity Enhancement]
+    B --&gt; D[Habitat Restoration]
+    B --&gt; E[Carbon Sequestration]
+    B --&gt; F[Water Quality Improvement]
     
-    C --> G[+30% Species Abundance]
-    D --> H[15,000 ha Restored]
-    E --> I[4.15 Mt CO₂/year]
-    F --> J[50% Quality Improvement]
+    C --&gt; G[+30% Species Abundance]
+    D --&gt; H[15,000 ha Restored]
+    E --&gt; I[4.15 Mt CO₂/year]
+    F --&gt; J[50% Quality Improvement]
     
-    G --> K[Global Environmental Leadership]
-    H --> K
-    I --> K
-    J --> K
+    G --&gt; K[Global Environmental Leadership]
+    H --&gt; K
+    I --&gt; K
+    J --&gt; K
 ```
 
 ## Executive Summary for Government and Investor Audiences
@@ -222,7 +222,7 @@ sankey-beta
 #### Wind Farm Design Standards
 - **Micro-siting Optimization**:
   - Avoid critical habitat
-  - Maximize spacing (>500m)
+  - Maximize spacing (&gt;500m)
   - Consider flight paths
   - Minimize footprint
 
@@ -346,7 +346,7 @@ Year 21+: Self-sustaining systems
 
 #### Revegetation Targets
 - **Annual Planting**: 1 million trees
-- **Survival Rate**: >85%
+- **Survival Rate**: &gt;85%
 - **Genetic Diversity**: Local provenance
 - **Community Involvement**: 10,000 volunteers
 

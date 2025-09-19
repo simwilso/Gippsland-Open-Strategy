@@ -29,11 +29,11 @@ This document presents the complete organisational architecture for the Gippslan
 
 ### Critical Success Metrics
 
-- Operational excellence: >95% project delivery on time and budget
-- Stakeholder satisfaction: >85% across all groups
+- Operational excellence: &gt;95% project delivery on time and budget
+- Stakeholder satisfaction: &gt;85% across all groups
 - Transparency rating: Top 5% of government agencies globally
-- Decision-making efficiency: <30 days for major approvals
-- Community trust: >80% confidence maintained
+- Decision-making efficiency: &lt;30 days for major approvals
+- Community trust: &gt;80% confidence maintained
 
 ---
 
@@ -54,7 +54,7 @@ The GREA CEO is the transformational leader responsible for orchestrating Gippsl
 
 **Essential Qualifications:**
 - 15+ years senior executive experience in energy/infrastructure
-- Proven track record managing >$10B projects/programs
+- Proven track record managing &gt;$10B projects/programs
 - International energy transformation experience
 - Strong government and community relations
 - PhD or equivalent in engineering, economics, or public policy preferred
@@ -116,7 +116,7 @@ The GREA CEO is the transformational leader responsible for orchestrating Gippsl
 - CEO: Up to $50M project approvals
 - Deputy CEOs: Up to $20M within portfolio
 - CFO: Financial delegations aligned with board policy
-- Committee decisions: Required for >$50M commitments
+- Committee decisions: Required for &gt;$50M commitments
 
 **Performance Management:**
 - Monthly KPI reviews with board chair
@@ -167,7 +167,7 @@ The GREA CEO is the transformational leader responsible for orchestrating Gippsl
 **Chair Requirements:**
 - 20+ years senior leadership in energy, infrastructure, or government
 - Proven track record managing complex stakeholder environments
-- Experience with transformation programs >$5B value
+- Experience with transformation programs &gt;$5B value
 - Strong ethical standards and public service orientation
 - Excellent communication and relationship-building skills
 
@@ -265,27 +265,27 @@ GREA operates through 5 core divisions aligned with strategic transformation pil
 graph TB
     CEO[Chief Executive Officer]
     
-    CEO --> DCO[Deputy CEO<br/>Operations]
-    CEO --> DCSEA[Deputy CEO<br/>Strategy & External Affairs]
-    CEO --> CFO[Chief Financial Officer]
-    CEO --> CPCO[Chief People &<br/>Community Officer]
-    CEO --> CTO[Chief Technology Officer]
+    CEO --&gt; DCO[Deputy CEO<br/>Operations]
+    CEO --&gt; DCSEA[Deputy CEO<br/>Strategy & External Affairs]
+    CEO --&gt; CFO[Chief Financial Officer]
+    CEO --&gt; CPCO[Chief People &<br/>Community Officer]
+    CEO --&gt; CTO[Chief Technology Officer]
     
-    DCO --> IDD[Infrastructure<br/>Development Division]
-    DCO --> PDD[Project Delivery<br/>Division]
-    DCO --> OMD[Operations &<br/>Maintenance Division]
+    DCO --&gt; IDD[Infrastructure<br/>Development Division]
+    DCO --&gt; PDD[Project Delivery<br/>Division]
+    DCO --&gt; OMD[Operations &<br/>Maintenance Division]
     
-    DCSEA --> SID[Strategy &<br/>Innovation Division]
-    DCSEA --> EAD[External Affairs<br/>Division]
+    DCSEA --&gt; SID[Strategy &<br/>Innovation Division]
+    DCSEA --&gt; EAD[External Affairs<br/>Division]
     
-    CFO --> FID[Finance &<br/>Investment Division]
-    CFO --> PRD[Performance &<br/>Risk Division]
+    CFO --&gt; FID[Finance &<br/>Investment Division]
+    CFO --&gt; PRD[Performance &<br/>Risk Division]
     
-    CPCO --> PCD[People &<br/>Culture Division]
-    CPCO --> CED[Community<br/>Engagement Division]
+    CPCO --&gt; PCD[People &<br/>Culture Division]
+    CPCO --&gt; CED[Community<br/>Engagement Division]
     
-    CTO --> TID[Technology &<br/>Innovation Division]
-    CTO --> DSD[Digital Systems<br/>Division]
+    CTO --&gt; TID[Technology &<br/>Innovation Division]
+    CTO --&gt; DSD[Digital Systems<br/>Division]
     
     style CEO fill:#2E86AB,stroke:#2E86AB,color:#fff
     style DCO fill:#87CEEB,stroke:#87CEEB,color:#000
@@ -316,10 +316,10 @@ graph TB
 - Support Staff (7): Administration, coordination, compliance
 
 **Key Performance Indicators:**
-- Infrastructure delivery on time (>95%)
-- Approval timeframes (<12 months major projects)
-- Stakeholder satisfaction with consultation (>80%)
-- Local content achievement (>60%)
+- Infrastructure delivery on time (&gt;95%)
+- Approval timeframes (&lt;12 months major projects)
+- Stakeholder satisfaction with consultation (&gt;80%)
+- Local content achievement (&gt;60%)
 - Environmental compliance (100%)
 
 #### Project Delivery Division
@@ -327,7 +327,7 @@ graph TB
 **Mission:** Manage and oversee delivery of major renewable energy and infrastructure projects
 
 **Key Functions:**
-- Project management of major developments (>$100M)
+- Project management of major developments (&gt;$100M)
 - Contract management and vendor coordination
 - Quality assurance and technical oversight
 - Construction safety and compliance
@@ -342,11 +342,11 @@ graph TB
 - Support Staff (10): Contract administration, reporting, compliance
 
 **Key Performance Indicators:**
-- Projects delivered on budget (>90% within 5%)
+- Projects delivered on budget (&gt;90% within 5%)
 - Safety performance (zero serious injuries)
-- Schedule adherence (>95% milestones)
+- Schedule adherence (&gt;95% milestones)
 - Quality standards achievement (100% compliance)
-- Contractor satisfaction (>80%)
+- Contractor satisfaction (&gt;80%)
 
 #### Technology & Innovation Division
 
@@ -368,10 +368,10 @@ graph TB
 - Support Staff (7): Administration, IP management, reporting
 
 **Key Performance Indicators:**
-- R&D investment targets achieved (>$100M annually by 2027)
-- Technology partnerships established (>50 by 2030)
-- Patents filed (>200 by 2030)
-- Demonstration projects delivered (>20 by 2030)
+- R&D investment targets achieved (&gt;$100M annually by 2027)
+- Technology partnerships established (&gt;50 by 2030)
+- Patents filed (&gt;200 by 2030)
+- Demonstration projects delivered (&gt;20 by 2030)
 - Innovation ecosystem ranking (top 10 globally)
 
 #### Community Engagement Division
@@ -394,11 +394,11 @@ graph TB
 - Support Staff (8): Administration, data management, events
 
 **Key Performance Indicators:**
-- Community support levels (>80% across region)
-- Engagement participation rates (>5% active participation)
+- Community support levels (&gt;80% across region)
+- Engagement participation rates (&gt;5% active participation)
 - Benefit sharing delivery (100% on schedule)
-- Grievance resolution timeframes (<30 days average)
-- Indigenous partnership satisfaction (>80%)
+- Grievance resolution timeframes (&lt;30 days average)
+- Indigenous partnership satisfaction (&gt;80%)
 
 #### Finance & Investment Division
 
@@ -420,11 +420,11 @@ graph TB
 - Support Staff (6): Financial administration, systems, compliance
 
 **Key Performance Indicators:**
-- Investment targets achieved (>$7B annually by 2027)
-- Cost of capital optimization (<8% blended)
-- Financial performance against budget (>95% accuracy)
-- Investment pipeline health (>$50B qualified opportunities)
-- Return on investment achievement (>target IRR)
+- Investment targets achieved (&gt;$7B annually by 2027)
+- Cost of capital optimization (&lt;8% blended)
+- Financial performance against budget (&gt;95% accuracy)
+- Investment pipeline health (&gt;$50B qualified opportunities)
+- Return on investment achievement (&gt;target IRR)
 
 ### 3.3 Enabling Functions
 
@@ -504,7 +504,7 @@ graph TB
 |---------------|-------|-----|-------------|--------------|-----------------|
 | **Strategic Planning** | A | R | C | C | I |
 | **Annual Budget** | A | R | C | C | I |
-| **Major Projects (>$100M)** | A | R | R | C | I |
+| **Major Projects (&gt;$100M)** | A | R | R | C | I |
 | **Operational Projects** | I | A | R | R | C |
 | **Policy Development** | A | R | R | C | C |
 | **Staff Appointments (Senior)** | I | A | R | C | I |
@@ -564,7 +564,7 @@ Key governance provisions:
 
 **Board Reserved Powers:**
 - Approve strategy and annual business plans
-- Approve budgets >$500M and major investments >$100M
+- Approve budgets &gt;$500M and major investments &gt;$100M
 - Appoint and evaluate CEO and direct reports
 - Set risk appetite and risk management framework
 - Approve major policies and procedures
@@ -974,8 +974,8 @@ Key governance provisions:
 
 **Strategic Decisions (Board Approval Required):**
 - Annual strategic plan and major plan changes
-- Budgets >$500M and budget variations >$100M
-- Major investments >$100M
+- Budgets &gt;$500M and budget variations &gt;$100M
+- Major investments &gt;$100M
 - CEO and senior executive appointments
 - Major policy framework approvals
 - Significant risk appetite changes
@@ -1059,7 +1059,7 @@ Key governance provisions:
 
 #### Investment Decision Process
 
-**Major Investment Approval Process (>$50M):**
+**Major Investment Approval Process (&gt;$50M):**
 
 **Stage 1: Concept Development**
 - Strategic alignment assessment
@@ -1228,7 +1228,7 @@ Level 1: Transformation Outcomes (Board Level)
    - Reporting: Quarterly employment survey and analysis
 
 4. **Community Support Level**
-   - Target: >80% community support maintained
+   - Target: &gt;80% community support maintained
    - Measurement: Annual community satisfaction survey
    - Reporting: Quarterly pulse surveys and monthly sentiment tracking
 
@@ -1239,9 +1239,9 @@ Level 1: Transformation Outcomes (Board Level)
 
 **Secondary KPIs (reported quarterly to board):**
 - Hydrogen production capacity (target: 500 ktpa by 2030)
-- Local content achievement (target: >60% by value)
-- Worker transition success rate (target: >90%)
-- Indigenous participation rate (target: >5%)
+- Local content achievement (target: &gt;60% by value)
+- Worker transition success rate (target: &gt;90%)
+- Indigenous participation rate (target: &gt;5%)
 - Safety performance (target: zero serious injuries)
 
 #### Level 2: Strategic Objectives (Executive Performance)
@@ -1281,16 +1281,16 @@ Level 1: Transformation Outcomes (Board Level)
 
 **Infrastructure Development Division:**
 - MW capacity enabled through infrastructure (monthly target)
-- Infrastructure project delivery on time/budget (>95%)
-- Approval timeline achievements (<12 months for major projects)
-- Stakeholder satisfaction with consultation (>80%)
-- Local content facilitation (contribution to >60% target)
+- Infrastructure project delivery on time/budget (&gt;95%)
+- Approval timeline achievements (&lt;12 months for major projects)
+- Stakeholder satisfaction with consultation (&gt;80%)
+- Local content facilitation (contribution to &gt;60% target)
 
 **Project Delivery Division:**
-- Project delivery performance (>95% on time, >90% on budget)
+- Project delivery performance (&gt;95% on time, &gt;90% on budget)
 - Safety performance (zero serious injuries)
 - Quality compliance (100% technical standards)
-- Contractor and supplier satisfaction (>80%)
+- Contractor and supplier satisfaction (&gt;80%)
 - Innovation and improvement implementation
 
 **Technology & Innovation Division:**
@@ -1301,17 +1301,17 @@ Level 1: Transformation Outcomes (Board Level)
 - Technology transfer and commercialization success
 
 **Community Engagement Division:**
-- Community satisfaction scores (>80% across region)
-- Engagement participation rates (>5% active participation)
+- Community satisfaction scores (&gt;80% across region)
+- Engagement participation rates (&gt;5% active participation)
 - Benefit sharing program delivery (100% on schedule)
-- Grievance resolution efficiency (<30 days average)
-- Indigenous partnership effectiveness (>80% satisfaction)
+- Grievance resolution efficiency (&lt;30 days average)
+- Indigenous partnership effectiveness (&gt;80% satisfaction)
 
 **Finance & Investment Division:**
 - Investment attraction targets (annual and cumulative)
-- Cost of capital optimization (target <8% blended)
-- Financial performance accuracy (>95% budget variance)
-- Investment pipeline development (>$50B qualified opportunities)
+- Cost of capital optimization (target &lt;8% blended)
+- Financial performance accuracy (&gt;95% budget variance)
+- Investment pipeline development (&gt;$50B qualified opportunities)
 - Performance reporting quality and timeliness
 
 ### 7.3 Performance Monitoring and Reporting Systems
@@ -1573,16 +1573,16 @@ Level 1: Transformation Outcomes (Board Level)
 #### Organizational Effectiveness Criteria
 
 **Year 1 Success Metrics:**
-- Organizational structure fully operational with >95% staff satisfaction
-- Performance management system achieving >85% stakeholder satisfaction
-- Board governance effectiveness rated >90% by independent assessment
-- Community trust and confidence levels maintained >80%
-- Financial management achieving >95% budget accuracy
+- Organizational structure fully operational with &gt;95% staff satisfaction
+- Performance management system achieving &gt;85% stakeholder satisfaction
+- Board governance effectiveness rated &gt;90% by independent assessment
+- Community trust and confidence levels maintained &gt;80%
+- Financial management achieving &gt;95% budget accuracy
 
 **Year 2 Success Metrics:**
 - Organizational performance in top 10% of comparable organizations
-- Staff engagement and satisfaction >85% across all divisions
-- Stakeholder satisfaction >85% across all key stakeholder groups
+- Staff engagement and satisfaction &gt;85% across all divisions
+- Stakeholder satisfaction &gt;85% across all key stakeholder groups
 - Innovation and continuous improvement culture fully embedded
 - Global recognition as best practice organizational model
 
@@ -1785,8 +1785,8 @@ Level 1: Transformation Outcomes (Board Level)
 - Data backup and information system recovery
 
 **Recovery and Resilience:**
-- Recovery time objectives for critical functions (<24 hours)
-- Recovery point objectives for data and systems (<4 hours)
+- Recovery time objectives for critical functions (&lt;24 hours)
+- Recovery point objectives for data and systems (&lt;4 hours)
 - Alternative service delivery arrangements
 - Staff support and wellbeing programs during crisis
 - Financial reserves and emergency funding arrangements

@@ -9,14 +9,14 @@ slug: digital-twin-platform
 ```mermaid
 graph TB
     subgraph "Digital Twin Ecosystem"
-        A[Physical Assets] --> B[IoT Sensors]
-        B --> C[Edge Processing]
-        C --> D[Cloud Platform]
-        D --> E[Digital Twin Models]
-        E --> F[AI/ML Analytics]
-        F --> G[Decision Support]
-        G --> H[Control Actions]
-        H --> A
+        A[Physical Assets] --&gt; B[IoT Sensors]
+        B --&gt; C[Edge Processing]
+        C --&gt; D[Cloud Platform]
+        D --&gt; E[Digital Twin Models]
+        E --&gt; F[AI/ML Analytics]
+        F --&gt; G[Decision Support]
+        G --&gt; H[Control Actions]
+        H --&gt; A
     end
     
     subgraph "Value Creation"
@@ -174,7 +174,7 @@ Metric                  Target          Current        Status
 Prediction Accuracy     95%             94.8%          ✓
 Degradation Model      ±2%             ±2.1%          ⚠
 Thermal Optimization   85% efficient    87%            ✓
-Safety Detection       <1 min          45 sec         ✓
+Safety Detection       &lt;1 min          45 sec         ✓
 Cycle Life Extension   20%             18.5%          ⚠
 ```
 
@@ -201,7 +201,7 @@ Physical Assets → IoT Sensors → Edge Processing → Cloud Platform
 
 **Performance Requirements:**
 - **Data Ingestion:** 10 million messages/second
-- **Query Response:** <100ms for real-time data
+- **Query Response:** &lt;100ms for real-time data
 - **Simulation Speed:** 1000x faster than real-time
 - **Storage Capacity:** 50PB with 5-year retention
 - **Concurrent Users:** 10,000+ simultaneous
@@ -517,7 +517,7 @@ class PerformanceAlertSystem:
     def check_performance(self, current, baseline):
         deviation = (baseline - current) / baseline
         for level, config in self.thresholds.items():
-            if deviation > config['performance_drop']:
+            if deviation &gt; config['performance_drop']:
                 self.trigger_alert(level, config['response'])
 ```
 
@@ -660,9 +660,9 @@ class AlarmProcessor:
 ```
 Decision Type        Automation Level    Human Override    Response Time
 -----------------------------------------------------------------------
-Emergency Actions    Fully Autonomous    Post-event        <100ms
-Switching Ops        Semi-Autonomous     Pre-approval      <5 sec
-Market Bidding       Supervised Auto     Strategy set      <1 min
+Emergency Actions    Fully Autonomous    Post-event        &lt;100ms
+Switching Ops        Semi-Autonomous     Pre-approval      &lt;5 sec
+Market Bidding       Supervised Auto     Strategy set      &lt;1 min
 Maintenance          Assisted            Approval req      Variable
 Planning             Advisory Only       Human decides     N/A
 ```
@@ -1071,7 +1071,7 @@ ISO 50001          Energy Management    Certified
 Metric                    Target      Current    Trend
 ------------------------------------------------------
 System Availability       99.99%      99.95%     ↗
-Data Processing Latency   <100ms      85ms       ↗
+Data Processing Latency   &lt;100ms      85ms       ↗
 Model Accuracy           95%         94.2%      ↗
 User Satisfaction        4.5/5       4.6/5      →
 Cost per Asset           $1,000      $950       ↘

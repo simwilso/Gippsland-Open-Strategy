@@ -40,18 +40,18 @@ graph TB
         L[Wealth Creation]
     end
     
-    A --> F
-    A --> G
-    B --> G
-    B --> H
-    C --> F
-    D --> F
-    E --> F
+    A --&gt; F
+    A --&gt; G
+    B --&gt; G
+    B --&gt; H
+    C --&gt; F
+    D --&gt; F
+    E --&gt; F
     
-    F --> I
-    G --> J
-    H --> K
-    I --> L
+    F --&gt; I
+    G --&gt; J
+    H --&gt; K
+    I --&gt; L
     
     style A fill:#10b981,stroke:#059669,color:#fff
     style B fill:#10b981,stroke:#059669,color:#fff
@@ -102,13 +102,13 @@ Cooperative Structure:
 
 ```mermaid
 flowchart LR
-    A[Member Investment<br/>$500-$20,000] --> B[Solar Shares<br/>Purchase]
-    B --> C[Panel Installation<br/>Community Buildings]
-    C --> D[Electricity Generation]
-    D --> E[Revenue Streams]
-    E --> F[Quarterly Returns]
-    F --> G[Energy Credits<br/>15-20% discount]
-    F --> H[Cash Distribution<br/>7-8% return]
+    A[Member Investment<br/>$500-$20,000] --&gt; B[Solar Shares<br/>Purchase]
+    B --&gt; C[Panel Installation<br/>Community Buildings]
+    C --&gt; D[Electricity Generation]
+    D --&gt; E[Revenue Streams]
+    E --&gt; F[Quarterly Returns]
+    F --&gt; G[Energy Credits<br/>15-20% discount]
+    F --&gt; H[Cash Distribution<br/>7-8% return]
     
     style A fill:#fbbf24,stroke:#f59e0b,color:#000
     style G fill:#10b981,stroke:#059669,color:#fff

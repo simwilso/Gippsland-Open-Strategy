@@ -401,7 +401,7 @@ This comprehensive benchmarking study analyzes the world's top 10 renewable ener
 ### Development Timeline
 - **2024**: 22.3% electricity from solar
 - **2024**: H2Atacama refinery operational
-- **2030**: <$1.5/kg hydrogen target
+- **2030**: &lt;$1.5/kg hydrogen target
 - **2050**: 13% global hydrogen production goal
 
 ### Policy Framework

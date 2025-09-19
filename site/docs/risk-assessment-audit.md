@@ -539,7 +539,7 @@ Low       │      E2     │ F4  S3
 
 #### Technical Performance Metrics
 - **Capacity factors:** Target vs actual (monthly)
-- **Availability rates:** >95% threshold
+- **Availability rates:** &gt;95% threshold
 - **Technology learning rates:** Cost reduction curves
 - **Integration success:** Grid stability metrics
 - **Safety performance:** Zero harm trajectory
@@ -570,16 +570,16 @@ Low       │      E2     │ F4  S3
 #### Red Alert Triggers (Immediate Action)
 1. Grid stability violation
 2. Major safety incident
-3. Community protest >1000 people
-4. Cost overrun >30%
-5. Technology failure rate >10%
+3. Community protest &gt;1000 people
+4. Cost overrun &gt;30%
+5. Technology failure rate &gt;10%
 
 #### Amber Alert Triggers (Enhanced Monitoring)
-1. Schedule delay >6 months
-2. Cost increase >15%
-3. Stakeholder satisfaction <60%
-4. Technical performance <85% target
-5. Investment pipeline reduction >20%
+1. Schedule delay &gt;6 months
+2. Cost increase &gt;15%
+3. Stakeholder satisfaction &lt;60%
+4. Technical performance &lt;85% target
+5. Investment pipeline reduction &gt;20%
 
 #### Escalation Procedures
 1. **Level 1:** Project manager response (24 hours)
@@ -664,18 +664,18 @@ Low       │      E2     │ F4  S3
 ### 10.2 Decision Rights
 
 #### Risk Acceptance Authorities
-- **<$10M impact:** Project Manager
+- **&lt;$10M impact:** Project Manager
 - **$10-50M impact:** Executive Team
 - **$50-200M impact:** CEO
 - **$200M-1B impact:** Board Committee
-- **>$1B impact:** Full Board + Government
+- **&gt;$1B impact:** Full Board + Government
 
 #### Mitigation Investment Approval
-- **<$1M:** Risk Manager
+- **&lt;$1M:** Risk Manager
 - **$1-5M:** Executive sponsor
 - **$5-20M:** CEO
 - **$20-100M:** Board Committee
-- **>$100M:** Board + Treasury
+- **&gt;$100M:** Board + Treasury
 
 ### 10.3 Risk Culture Development
 
@@ -759,33 +759,33 @@ Low       │      E2     │ F4  S3
 ### 12.1 Risk Management Performance
 
 #### Effectiveness Measures
-- **Risk Identification Rate:** >95% of material risks identified early
-- **Mitigation Success:** >80% of strategies achieve objectives
-- **Response Time:** <24 hours for critical risks
-- **Cost Efficiency:** Risk costs <2% of program value
-- **Stakeholder Confidence:** >75% satisfaction rating
+- **Risk Identification Rate:** &gt;95% of material risks identified early
+- **Mitigation Success:** &gt;80% of strategies achieve objectives
+- **Response Time:** &lt;24 hours for critical risks
+- **Cost Efficiency:** Risk costs &lt;2% of program value
+- **Stakeholder Confidence:** &gt;75% satisfaction rating
 
 #### Leading Indicators
 - **Risk Training Completion:** 100% of staff
-- **Risk Assessment Quality:** >90% score
-- **Early Warning Accuracy:** >85% predictive value
-- **Mitigation Implementation:** >95% on schedule
-- **Stakeholder Engagement:** >80% participation
+- **Risk Assessment Quality:** &gt;90% score
+- **Early Warning Accuracy:** &gt;85% predictive value
+- **Mitigation Implementation:** &gt;95% on schedule
+- **Stakeholder Engagement:** &gt;80% participation
 
 ### 12.2 Program Resilience Metrics
 
 #### System Robustness
 - **Single Point Failures:** Zero critical dependencies
-- **Recovery Time:** <48 hours for major disruption
-- **Redundancy Level:** >30% backup capacity
-- **Alternative Pathways:** >2 options for critical activities
+- **Recovery Time:** &lt;48 hours for major disruption
+- **Redundancy Level:** &gt;30% backup capacity
+- **Alternative Pathways:** &gt;2 options for critical activities
 - **Stress Test Results:** Survive 95th percentile scenarios
 
 #### Adaptive Capacity
-- **Change Response Time:** <1 week for strategy pivot
-- **Innovation Rate:** >10 improvements/month
-- **Learning Velocity:** <30 days lesson to action
-- **Flexibility Index:** >70% activities modifiable
+- **Change Response Time:** &lt;1 week for strategy pivot
+- **Innovation Rate:** &gt;10 improvements/month
+- **Learning Velocity:** &lt;30 days lesson to action
+- **Flexibility Index:** &gt;70% activities modifiable
 - **Agility Score:** Top quartile benchmark
 
 ---

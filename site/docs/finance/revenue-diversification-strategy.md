@@ -8,7 +8,7 @@ slug: revenue-diversification-strategy
 
 > **Document Status**: Revenue Diversification Architecture  
 > **Target**: 6+ diversified revenue streams generating $2B+ annually  
-> **Risk Reduction**: From 100% energy revenue to <40% by 2030  
+> **Risk Reduction**: From 100% energy revenue to &lt;40% by 2030  
 > **Version**: 1.0 | Date: January 2025  
 > **Classification**: Strategic Revenue Engineering
 
@@ -54,7 +54,7 @@ Traditional energy-only revenue models expose renewable projects to significant 
 FCAS Revenue Streams:
 ├── Regulation FCAS (40% - $40M)
 │   ├── Raise/Lower Regulation
-│   ├── Battery response <1 second
+│   ├── Battery response &lt;1 second
 │   ├── Premium pricing for fast response
 │   └── 24/7 availability payments
 ├── Contingency FCAS (35% - $35M)

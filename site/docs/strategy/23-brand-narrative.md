@@ -74,8 +74,8 @@ At the heart of Gippsland's brand is the belief that true transformation happens
 ```mermaid
 quadrantChart
     title Gippsland Brand Values Positioning
-    x-axis Local --> Global
-    y-axis Individual --> Collective
+    x-axis Local --&gt; Global
+    y-axis Individual --&gt; Collective
     
     quadrant-1 Global Leadership
     quadrant-2 Community Solidarity

@@ -12,10 +12,10 @@ slug: international-recognition-campaign
     ┌─────────────────────────────────────────────────────────────┐
     │                  GIPPSLAND: FROM COAL TO CROWN              │
     │                                                             │
-    │  🇦🇺 ═══════════════════════════════════════════════════> 🌍  │
+    │  🇦🇺 ═══════════════════════════════════════════════════&gt; 🌍  │
     │     Local Success            Global Leadership              │
     │                                                             │
-    │  2025 ──────> 2027 ──────> 2030 ──────> BEYOND            │
+    │  2025 ──────&gt; 2027 ──────&gt; 2030 ──────&gt; BEYOND            │
     │   │            │            │             │                 │
     │   └─ Launch    └─ 50+ Awards └─ #1 Global └─ Legacy        │
     │                                  Brand                      │
@@ -31,11 +31,11 @@ slug: international-recognition-campaign
 
 ```mermaid
 graph LR
-    A[Local Success] -->|Awards| B[Regional Recognition]
-    B -->|Media| C[Global Visibility]
-    C -->|Leadership| D[International Authority]
-    D -->|Influence| E[Policy Standards]
-    E -->|Legacy| F[Permanent Leadership]
+    A[Local Success] --&gt;|Awards| B[Regional Recognition]
+    B --&gt;|Media| C[Global Visibility]
+    C --&gt;|Leadership| D[International Authority]
+    D --&gt;|Influence| E[Policy Standards]
+    E --&gt;|Legacy| F[Permanent Leadership]
     
     style A fill:#2E7D32
     style F fill:#FFD700
@@ -244,12 +244,12 @@ graph TB
         G[Global Standard]
     end
     
-    A --> B
-    A --> C
-    A --> D
-    B --> E
-    C --> F
-    D --> G
+    A --&gt; B
+    A --&gt; C
+    A --&gt; D
+    B --&gt; E
+    C --&gt; F
+    D --&gt; G
     
     style G fill:#FFD700
 ```
@@ -281,7 +281,7 @@ graph TB
     │   Tier 1 Media              Documentary             Digital     │
     │   ════════════              ═══════════            ═══════     │
     │   Financial Times  ────┐    Netflix Series         YouTube 1M+ │
-    │   Wall Street Journal  ├──> BBC Documentary  ────> LinkedIn    │
+    │   Wall Street Journal  ├──&gt; BBC Documentary  ────&gt; LinkedIn    │
     │   The Economist       ─┘    Discovery Channel      TikTok Gen Z│
     │   Bloomberg                 National Geographic    Instagram   │
     │                                    │                            │
@@ -316,23 +316,23 @@ graph TB
     ═══════════════════════════════════════════════════
     
     🏭 "Coal to Clean"           │  Worker journeys
-    ────────────────────────────┼─> Personal stories
+    ────────────────────────────┼─&gt; Personal stories
                                 │  Skills transformation
     
     🏘️ "Community Prosperity"    │  Wealth sharing
-    ────────────────────────────┼─> Local ownership
+    ────────────────────────────┼─&gt; Local ownership
                                 │  Regional growth
     
     💰 "Investment Returns"      │  Financial metrics
-    ────────────────────────────┼─> ROI validation
+    ────────────────────────────┼─&gt; ROI validation
                                 │  Risk mitigation
     
     💡 "Innovation Hub"          │  Tech breakthroughs
-    ────────────────────────────┼─> World firsts
+    ────────────────────────────┼─&gt; World firsts
                                 │  R&D excellence
     
     🌏 "Global Template"         │  Replication guide
-    ────────────────────────────┼─> Policy frameworks
+    ────────────────────────────┼─&gt; Policy frameworks
                                 │  Best practices
 ```
 
@@ -505,17 +505,17 @@ graph LR
         M[50,000+ Leaders]
     end
     
-    A --> F
-    B --> G
-    C --> H
-    D --> I
-    E --> J
+    A --&gt; F
+    B --&gt; G
+    C --&gt; H
+    D --&gt; I
+    E --&gt; J
     
-    F --> K
-    G --> L
-    H --> M
-    I --> M
-    J --> K
+    F --&gt; K
+    G --&gt; L
+    H --&gt; M
+    I --&gt; M
+    J --&gt; K
 ```
 
 ### 4.1 Master Case Study Portfolio
@@ -756,15 +756,15 @@ graph LR
 
 ```mermaid
 graph TD
-    A[AU$25M Investment] --> B[Investment Attracted AU$10B+]
-    A --> C[Media Value AU$500M+]
-    A --> D[Brand Value AU$5B+]
-    A --> E[Economic Impact AU$50B+]
+    A[AU$25M Investment] --&gt; B[Investment Attracted AU$10B+]
+    A --&gt; C[Media Value AU$500M+]
+    A --&gt; D[Brand Value AU$5B+]
+    A --&gt; E[Economic Impact AU$50B+]
     
-    B --> F[400x Return]
-    C --> G[20x Return]
-    D --> H[200x Return]
-    E --> I[2,000x Return]
+    B --&gt; F[400x Return]
+    C --&gt; G[20x Return]
+    D --&gt; H[200x Return]
+    E --&gt; I[2,000x Return]
     
     style A fill:#FF6B6B
     style I fill:#4ECDC4
@@ -824,10 +824,10 @@ The International Recognition Campaign will cement Gippsland's position as the g
     ┌─────────────────────────────────────────────────────────────────┐
     │                    RECOGNITION FLYWHEEL                         │
     │                                                                 │
-    │     Awards Won  ──────>  Media Coverage  ──────>  Investment   │
+    │     Awards Won  ──────&gt;  Media Coverage  ──────&gt;  Investment   │
     │         ↑                                              ↓        │
     │         │                                              │        │
-    │    Brand Value  <──────  Global Authority  <──────  Success    │
+    │    Brand Value  &lt;──────  Global Authority  &lt;──────  Success    │
     │                                                                 │
     │              🏆 ACCELERATING WITH EACH CYCLE 🏆                │
     └─────────────────────────────────────────────────────────────────┘

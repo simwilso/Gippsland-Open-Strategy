@@ -33,8 +33,8 @@ journey
 ```mermaid
 quadrantChart
     title Just Transition Commitments Matrix
-    x-axis Individual --> Community
-    y-axis Security --> Opportunity
+    x-axis Individual --&gt; Community
+    y-axis Security --&gt; Opportunity
     
     quadrant-1 Community Growth
     quadrant-2 Collective Security
@@ -215,7 +215,7 @@ Every coal worker receives a customized transition plan developed through:
 ### 2.1 Affected Community Mapping and Analysis
 
 #### Primary Impact Communities
-**Tier 1: Direct Impact (>20% employment from coal)**
+**Tier 1: Direct Impact (&gt;20% employment from coal)**
 - Morwell (Population: 14,000)
   - 22% direct/indirect coal employment
   - Economic dependency: High
@@ -236,7 +236,7 @@ Every coal worker receives a customized transition plan developed through:
 - Yallourn North (18%)
 - Hazelwood North (12%)
 
-**Tier 3: Moderate Impact (<10% employment)**
+**Tier 3: Moderate Impact (&lt;10% employment)**
 - Sale, Warragul, Leongatha
 - Broader Latrobe Valley communities
 
@@ -1080,13 +1080,13 @@ Every coal worker receives a customized transition plan developed through:
 - ✓ 500 workers enrolled
 - ✓ 90% satisfaction rating
 - ✓ Zero forced redundancies
-- ✓ Community support >75%
+- ✓ Community support &gt;75%
 
 **Year 3 (2027)**:
 - ✓ 2,000 successful placements
 - ✓ Income maintenance achieved
 - ✓ Population stability maintained
-- ✓ New business creation >50
+- ✓ New business creation &gt;50
 
 **Year 5 (2029)**:
 - ✓ 3,500 transitions complete
@@ -1152,7 +1152,7 @@ Every coal worker receives a customized transition plan developed through:
 ### 8.2 Contingency Plans
 
 #### Scenario 1: Mass Early Retirement
-**Trigger**: >40% choosing retirement
+**Trigger**: &gt;40% choosing retirement
 **Response**:
 - Accelerated young worker recruitment
 - International skilled migration
@@ -1160,7 +1160,7 @@ Every coal worker receives a customized transition plan developed through:
 - Knowledge transfer programs
 
 #### Scenario 2: Renewable Job Shortage
-**Trigger**: <70% job availability
+**Trigger**: &lt;70% job availability
 **Response**:
 - Public sector employment
 - Infrastructure acceleration
@@ -1168,7 +1168,7 @@ Every coal worker receives a customized transition plan developed through:
 - Extended education support
 
 #### Scenario 3: Community Destabilization
-**Trigger**: Population decline >10%
+**Trigger**: Population decline &gt;10%
 **Response**:
 - Emergency economic stimulus
 - Attraction incentives doubled

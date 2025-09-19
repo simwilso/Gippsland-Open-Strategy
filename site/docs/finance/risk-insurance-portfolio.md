@@ -187,25 +187,25 @@ Total Program Limit: $1.5B
 ```
 Weather Derivative Portfolio
 ├── Wind Speed Protection
-│   ├── Trigger: 3-sec gust >140 km/h
+│   ├── Trigger: 3-sec gust &gt;140 km/h
 │   ├── Payout: $10M per km/h above trigger
 │   ├── Maximum: $500M per event
 │   ├── Locations: 15 weather stations
 │   └── Annual aggregate: $1B
 ├── Solar Radiation Hedge
-│   ├── Trigger: <85% of P50 monthly
+│   ├── Trigger: &lt;85% of P50 monthly
 │   ├── Payout: Linear to 70%
 │   ├── Maximum: $20M per month
 │   ├── Annual cap: $150M
 │   └── Satellite data verification
 ├── Drought Protection
-│   ├── Trigger: Rainfall <60% 12-month avg
+│   ├── Trigger: Rainfall &lt;60% 12-month avg
 │   ├── Impact: Hydrogen water shortage
 │   ├── Payout: $50M per trigger
 │   ├── Maximum: $200M annual
 │   └── Bureau of Meteorology data
 └── Lightning Strike Coverage
-    ├── Density trigger: >5 strikes/km²/year
+    ├── Density trigger: &gt;5 strikes/km²/year
     ├── Equipment damage proxy
     ├── Payout: $5M per strike above
     ├── Maximum: $100M annual
@@ -242,7 +242,7 @@ Weather Derivative Portfolio
 Cat Bond Issuance Plan
 ├── Series 2025-1: Extreme Wind
 │   ├── Size: $750M
-│   ├── Trigger: Modeled loss >$1B
+│   ├── Trigger: Modeled loss &gt;$1B
 │   ├── Coupon: SOFR + 650bps
 │   ├── Term: 3 years
 │   └── Rating: BB (S&P)
@@ -639,7 +639,7 @@ ILS Issuance Program
    - Technical committee governance
 
 3. **Grid Stability Mutual**
-   - Members: All generators >100MW
+   - Members: All generators &gt;100MW
    - Coverage: System events
    - Capacity: $750M
    - AEMO coordination
@@ -732,10 +732,10 @@ Self-Insurance Architecture
    - AI-assisted evaluation
 
 3. **Settlement Authority**
-   - <$1M: Claims manager
+   - &lt;$1M: Claims manager
    - $1-10M: Chief Risk Officer
    - $10-50M: CEO approval
-   - >$50M: Board required
+   - &gt;$50M: Board required
 
 4. **Payment & Recovery**
    - 48-hour emergency payments
@@ -783,13 +783,13 @@ Risk Engineering Program
 **Success Measurement**
 | Metric | Target | Current | Trend |
 |--------|---------|---------|-------|
-| Combined Ratio | <85% | 78% | ↓ |
-| Claims Settlement | <14 days | 11 days | ↓ |
+| Combined Ratio | &lt;85% | 78% | ↓ |
+| Claims Settlement | &lt;14 days | 11 days | ↓ |
 | Loss Frequency | -10% YoY | -12% | ↓ |
 | Average Severity | Stable | -5% | ↓ |
 | Investment Return | 6% | 7.2% | ↑ |
-| Expense Ratio | <15% | 13% | ↓ |
-| Customer Satisfaction | >90% | 94% | ↑ |
+| Expense Ratio | &lt;15% | 13% | ↓ |
+| Customer Satisfaction | &gt;90% | 94% | ↑ |
 | Risk Engineering ROI | 5:1 | 6.2:1 | ↑ |
 
 ---
@@ -806,7 +806,7 @@ Portfolio Construction Model
 ├── Risk Appetite Framework
 │   ├── Maximum loss: $5B (1-in-200)
 │   ├── Target confidence: 99.5%
-│   ├── Earnings volatility: <20%
+│   ├── Earnings volatility: &lt;20%
 │   ├── Liquidity requirement: $1B
 │   └── Credit rating: A- minimum
 ├── Retention Optimization
@@ -1006,9 +1006,9 @@ Optimization Initiatives
 | Metric | Year 1 Target | Year 3 Target | Industry Benchmark |
 |--------|--------------|--------------|-------------------|
 | Premium/TIV Ratio | 2.5% | 2.0% | 3.0% |
-| Claims Ratio | <60% | <50% | 70% |
+| Claims Ratio | &lt;60% | &lt;50% | 70% |
 | Settlement Time | 21 days | 14 days | 45 days |
-| Dispute Rate | <5% | <2% | 8% |
+| Dispute Rate | &lt;5% | &lt;2% | 8% |
 | Coverage Breadth | 85% | 95% | 75% |
 | Innovation Adoption | 30% | 60% | 15% |
 | Stakeholder Satisfaction | 85% | 95% | 75% |

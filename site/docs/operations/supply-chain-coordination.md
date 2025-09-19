@@ -46,16 +46,16 @@ graph TD
         DC3[Site Delivery<br/>Just-in-time]
     end
     
-    T1A --> MH1
-    T1B --> MH2
-    T1C --> MH3
+    T1A --&gt; MH1
+    T1B --&gt; MH2
+    T1C --&gt; MH3
     
-    MH1 --> DC1
-    MH2 --> DC1
-    MH3 --> DC1
+    MH1 --&gt; DC1
+    MH2 --&gt; DC1
+    MH3 --&gt; DC1
     
-    DC1 --> DC2
-    DC2 --> DC3
+    DC1 --&gt; DC2
+    DC2 --&gt; DC3
     
     style T1A fill:#4CAF50,color:#fff
     style T1B fill:#4CAF50,color:#fff
@@ -109,20 +109,20 @@ graph TD
 ```
 Vendor Category     KPIs                  Target    Monitoring
 -----------------------------------------------------------------
-Critical Materials  On-time delivery      >98%      Real-time
-                   Quality acceptance     >99.5%    Per shipment
-                   Cost variance         <±2%      Monthly
+Critical Materials  On-time delivery      &gt;98%      Real-time
+                   Quality acceptance     &gt;99.5%    Per shipment
+                   Cost variance         &lt;±2%      Monthly
                    Safety compliance     100%      Continuous
 
-Manufacturing      Production capacity    >95%      Daily
-Components         Lead time adherence    >96%      Weekly
-                   Innovation score       >80%      Quarterly
-                   Local content         >65%      Per order
+Manufacturing      Production capacity    &gt;95%      Daily
+Components         Lead time adherence    &gt;96%      Weekly
+                   Innovation score       &gt;80%      Quarterly
+                   Local content         &gt;65%      Per order
 
-Services           SLA compliance         >98%      Real-time
-                   Response time         <4hrs     Per incident
-                   First-fix rate        >90%      Weekly
-                   Customer satisfaction  >4.5/5    Monthly
+Services           SLA compliance         &gt;98%      Real-time
+                   Response time         &lt;4hrs     Per incident
+                   First-fix rate        &gt;90%      Weekly
+                   Customer satisfaction  &gt;4.5/5    Monthly
 ```
 
 **Vendor Development Program:**
@@ -192,10 +192,10 @@ Services           SLA compliance         >98%      Real-time
 - Risk profile (10%)
 
 **Approval Thresholds:**
-- <$100K: Category Manager
+- &lt;$100K: Category Manager
 - $100K-$1M: Procurement Director
 - $1M-$10M: Supply Chain Executive
-- >$10M: Executive Committee
+- &gt;$10M: Executive Committee
 
 ### 1.3 Contract Management Excellence
 
@@ -314,9 +314,9 @@ Level 4: Component Manufacturing
 - Results verification
 
 **Key Metrics:**
-- Overall Equipment Effectiveness (OEE): >85%
-- First Pass Yield: >98%
-- Inventory turns: >12/year
+- Overall Equipment Effectiveness (OEE): &gt;85%
+- First Pass Yield: &gt;98%
+- Inventory turns: &gt;12/year
 - Lead time reduction: 20%/year
 - Cost reduction: 5%/year
 
@@ -469,10 +469,10 @@ Regional Hubs    20,000m²    Cross-docking     10K pallets
    - Cost optimisation
 
 3. **Inventory Metrics**
-   - Stock accuracy: >99.5%
-   - Inventory turns: >8/year
-   - Obsolescence: <1%
-   - Stock-outs: <0.5%
+   - Stock accuracy: &gt;99.5%
+   - Inventory turns: &gt;8/year
+   - Obsolescence: &lt;1%
+   - Stock-outs: &lt;0.5%
    - Working capital: Optimized
 
 ### 3.3 Digital Supply Chain
@@ -707,7 +707,7 @@ Where:
 - 60-65% local content: 5% price premium
 - 65-70% local content: 8% price premium
 - 70-75% local content: 10% price premium
-- >75% local content: 12% price premium
+- &gt;75% local content: 12% price premium
 
 **Payment Mechanism:**
 - Quarterly calculation
@@ -718,10 +718,10 @@ Where:
 #### B. Penalty Framework
 
 **Non-Compliance Penalties:**
-- <5% shortfall: Warning
+- &lt;5% shortfall: Warning
 - 5-10% shortfall: 2× shortfall value
 - 10-15% shortfall: 3× shortfall value
-- >15% shortfall: Contract review
+- &gt;15% shortfall: Contract review
 
 **Recovery Mechanisms:**
 - Improvement plans
@@ -841,10 +841,10 @@ Regulatory Change Medium         Medium     Active monitoring
 
 **Resilience Metrics:**
 - Network flexibility: High
-- Response time: <24 hours
-- Recovery time: <72 hours
+- Response time: &lt;24 hours
+- Recovery time: &lt;72 hours
 - Alternative sources: 100%
-- Cost impact: <5%
+- Cost impact: &lt;5%
 
 **Continuous Improvement:**
 - Quarterly risk reviews
@@ -961,11 +961,11 @@ Regulatory Change Medium         Medium     Active monitoring
 5. Lessons learned
 
 **Recovery Targets:**
-- Detection time: <1 hour
-- Containment: <4 hours
-- Recovery: <24 hours
-- Full restoration: <72 hours
-- Data loss: <1 hour
+- Detection time: &lt;1 hour
+- Containment: &lt;4 hours
+- Recovery: &lt;24 hours
+- Full restoration: &lt;72 hours
+- Data loss: &lt;1 hour
 
 ---
 
@@ -979,11 +979,11 @@ Regulatory Change Medium         Medium     Active monitoring
 ```
 Metric                Target      Current    Action
 ------------------------------------------------------
-On-Time Delivery      >98%        97.5%      Improve
-Quality Acceptance    >99.5%      99.6%      Maintain
+On-Time Delivery      &gt;98%        97.5%      Improve
+Quality Acceptance    &gt;99.5%      99.6%      Maintain
 Cost Savings         15%         12.3%      Accelerate
-Local Content        >65%        63.8%      Focus
-Safety (TRIR)        <1.0        0.8        Maintain
+Local Content        &gt;65%        63.8%      Focus
+Safety (TRIR)        &lt;1.0        0.8        Maintain
 ```
 
 #### B. Operational Metrics

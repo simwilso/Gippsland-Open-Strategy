@@ -88,20 +88,20 @@ This political alignment strategy addresses the critical challenge of securing l
 
 ```mermaid
 flowchart LR
-    A[Conservative Values] --> B[Economic Growth]
-    A --> C[Energy Security]
-    A --> D[Rural Prosperity]
-    A --> E[National Strength]
+    A[Conservative Values] --&gt; B[Economic Growth]
+    A --&gt; C[Energy Security]
+    A --&gt; D[Rural Prosperity]
+    A --&gt; E[National Strength]
     
-    B --> F[15,000 Jobs]
-    C --> G[Grid Stability]
-    D --> H[Farm Income]
-    E --> I[Export Leader]
+    B --&gt; F[15,000 Jobs]
+    C --&gt; G[Grid Stability]
+    D --&gt; H[Farm Income]
+    E --&gt; I[Export Leader]
     
-    F --> J[Political Support]
-    G --> J
-    H --> J
-    I --> J
+    F --&gt; J[Political Support]
+    G --&gt; J
+    H --&gt; J
+    I --&gt; J
     
     style J fill:#9f9,stroke:#333,stroke-width:4px
 ```
@@ -316,13 +316,13 @@ graph TD
         B[State Government<br/>$5B commitment]
         C[Local Government<br/>6 LGAs aligned]
         
-        A --> D[Joint Investment<br/>Committee]
-        B --> D
-        C --> D
+        A --&gt; D[Joint Investment<br/>Committee]
+        B --&gt; D
+        C --&gt; D
         
-        D --> E[Integrated<br/>Decision Making]
-        D --> F[Coordinated<br/>Approvals]
-        D --> G[Shared<br/>Benefits]
+        D --&gt; E[Integrated<br/>Decision Making]
+        D --&gt; F[Coordinated<br/>Approvals]
+        D --&gt; G[Shared<br/>Benefits]
         
         style D fill:#99f,stroke:#333,stroke-width:4px
     end
@@ -831,21 +831,21 @@ gantt
 
 ```mermaid
 flowchart TD
-    A[Risk Event] --> B{Risk Type}
-    B -->|Political| C[Activate Coalition]
-    B -->|Economic| D[Deploy Benefits]
-    B -->|Social| E[Community Response]
-    B -->|Media| F[Narrative Control]
+    A[Risk Event] --&gt; B{Risk Type}
+    B --&gt;|Political| C[Activate Coalition]
+    B --&gt;|Economic| D[Deploy Benefits]
+    B --&gt;|Social| E[Community Response]
+    B --&gt;|Media| F[Narrative Control]
     
-    C --> G[Mitigation Plan]
-    D --> G
-    E --> G
-    F --> G
+    C --&gt; G[Mitigation Plan]
+    D --&gt; G
+    E --&gt; G
+    F --&gt; G
     
-    G --> H[Monitor Impact]
-    H --> I{Resolved?}
-    I -->|No| A
-    I -->|Yes| J[Document Learning]
+    G --&gt; H[Monitor Impact]
+    H --&gt; I{Resolved?}
+    I --&gt;|No| A
+    I --&gt;|Yes| J[Document Learning]
 ```
 
 #### Scenario 1: Change of Government
@@ -925,8 +925,8 @@ flowchart TD
 #### Quantitative Metrics
 **Legislative Success**
 - Acts passed: Target 4 major acts by 2026
-- Bipartisan vote margin: >70%
-- Amendment resistance: <5%
+- Bipartisan vote margin: &gt;70%
+- Amendment resistance: &lt;5%
 - Implementation speed: 100% on schedule
 
 ### ✅ 90-Day Success Metrics
@@ -934,16 +934,16 @@ flowchart TD
 | Metric | Target | Achieved | Status |
 |--------|--------|----------|--------|
 | Bipartisan MOU | Signed | ☐ | 🟡 In Progress |
-| Support Level | >80% MPs | ☐ | 🟢 Tracking |
-| Media Sentiment | >75% positive | ☐ | 🟢 On Track |
+| Support Level | &gt;80% MPs | ☐ | 🟢 Tracking |
+| Media Sentiment | &gt;75% positive | ☐ | 🟢 On Track |
 | Business Coalition | $50B backing | ☐ | 🟡 Building |
 | Community Champions | 600 active | ☐ | 🟡 Recruiting |
 | International Lock | 3 treaties | ☐ | 🟢 Negotiating |
 
 **Political Support**
-- MP support rating: >80% across parties
+- MP support rating: &gt;80% across parties
 - Community political engagement: 10,000 active
-- Media sentiment: >75% positive
+- Media sentiment: &gt;75% positive
 - International recognition: 5+ awards
 
 #### Qualitative Assessments

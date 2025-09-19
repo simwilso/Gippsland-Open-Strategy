@@ -84,30 +84,30 @@ timeline
 
 ```mermaid
 graph LR
-    A[2026: Foundation] --> B[2027: Acceleration]
-    B --> C[2028: Scale]
-    C --> D[2029: Optimization]
-    D --> E[2030: Leadership]
+    A[2026: Foundation] --&gt; B[2027: Acceleration]
+    B --&gt; C[2028: Scale]
+    C --&gt; D[2029: Optimization]
+    D --&gt; E[2030: Leadership]
     
-    A --> A1[GREA Operational]
-    A --> A2[First Projects]
-    A --> A3[Systems Testing]
+    A --&gt; A1[GREA Operational]
+    A --&gt; A2[First Projects]
+    A --&gt; A3[Systems Testing]
     
-    B --> B1[Major Approvals]
-    B --> B2[Supply Chain]
-    B --> B3[$10B Investment]
+    B --&gt; B1[Major Approvals]
+    B --&gt; B2[Supply Chain]
+    B --&gt; B3[$10B Investment]
     
-    C --> C1[Full Pipeline]
-    C --> C2[Mass Deployment]
-    C --> C3[$30B Investment]
+    C --&gt; C1[Full Pipeline]
+    C --&gt; C2[Mass Deployment]
+    C --&gt; C3[$30B Investment]
     
-    D --> D1[Process Excellence]
-    D --> D2[Innovation Hub]
-    D --> D3[$50B Investment]
+    D --&gt; D1[Process Excellence]
+    D --&gt; D2[Innovation Hub]
+    D --&gt; D3[$50B Investment]
     
-    E --> E1[Global Best Practice]
-    E --> E2[Model Export]
-    E --> E3[$70B Achieved]
+    E --&gt; E1[Global Best Practice]
+    E --&gt; E2[Model Export]
+    E --&gt; E3[$70B Achieved]
 ```
 
 ## Regulatory Reform Pathways
@@ -116,29 +116,29 @@ graph LR
 
 ```mermaid
 graph TB
-    F[Federal Government] --> F1[Climate Policy]
-    F --> F2[CEFC/ARENA Funding]
-    F --> F3[EPBC Reform]
-    F --> F4[Tax Incentives]
+    F[Federal Government] --&gt; F1[Climate Policy]
+    F --&gt; F2[CEFC/ARENA Funding]
+    F --&gt; F3[EPBC Reform]
+    F --&gt; F4[Tax Incentives]
     
-    S[State Government] --> S1[REZ Declaration]
-    S --> S2[Planning Reform]
-    S --> S3[Grid Investment]
-    S --> S4[Just Transition]
+    S[State Government] --&gt; S1[REZ Declaration]
+    S --&gt; S2[Planning Reform]
+    S --&gt; S3[Grid Investment]
+    S --&gt; S4[Just Transition]
     
-    L[Local Government] --> L1[Zoning Changes]
-    L --> L2[Permit Process]
-    L --> L3[Infrastructure]
-    L --> L4[Community Plans]
+    L[Local Government] --&gt; L1[Zoning Changes]
+    L --&gt; L2[Permit Process]
+    L --&gt; L3[Infrastructure]
+    L --&gt; L4[Community Plans]
     
-    F1 & S1 & L1 --> G[Gippsland Renewable Energy Authority]
-    F2 & S2 & L2 --> G
-    F3 & S3 & L3 --> G
-    F4 & S4 & L4 --> G
+    F1 & S1 & L1 --&gt; G[Gippsland Renewable Energy Authority]
+    F2 & S2 & L2 --&gt; G
+    F3 & S3 & L3 --&gt; G
+    F4 & S4 & L4 --&gt; G
     
-    G --> O[One-Stop-Shop]
-    G --> I[Investment Gateway]
-    G --> C[Community Interface]
+    G --&gt; O[One-Stop-Shop]
+    G --&gt; I[Investment Gateway]
+    G --&gt; C[Community Interface]
 ```
 
 ## Investment Incentive Timeline
@@ -171,9 +171,9 @@ graph LR
         D3[Export Support]
     end
     
-    A1 --> B1 --> C1 --> D1
-    A2 --> B2 --> C2 --> D2
-    A3 --> B3 --> C3 --> D3
+    A1 --&gt; B1 --&gt; C1 --&gt; D1
+    A2 --&gt; B2 --&gt; C2 --&gt; D2
+    A3 --&gt; B3 --&gt; C3 --&gt; D3
 ```
 
 ## Approval Process Evolution
@@ -189,20 +189,20 @@ graph TB
         CS4[Grid Connection: 6-12 months]
         CS5[Other Approvals: 3-6 months]
         
-        CS1 --> CS2 --> CS3 --> CS4 --> CS5
+        CS1 --&gt; CS2 --&gt; CS3 --&gt; CS4 --&gt; CS5
     end
     
     subgraph "Future State (12 months max)"
         FS[One-Stop-Shop]
-        FS --> P1[Concurrent Assessment]
-        FS --> P2[Digital Lodgment]
-        FS --> P3[Pre-Approvals]
-        FS --> P4[Risk-Based Tiers]
+        FS --&gt; P1[Concurrent Assessment]
+        FS --&gt; P2[Digital Lodgment]
+        FS --&gt; P3[Pre-Approvals]
+        FS --&gt; P4[Risk-Based Tiers]
         
-        P1 & P2 & P3 & P4 --> R[Integrated Approval]
+        P1 & P2 & P3 & P4 --&gt; R[Integrated Approval]
     end
     
-    CS5 -.-> |Transform| FS
+    CS5 -.-&gt; |Transform| FS
 ```
 
 ## Governance Implementation Schedule
@@ -210,28 +210,28 @@ graph TB
 ```mermaid
 graph TD
     subgraph "Q1-Q2 2025"
-        A[Legislation] --> B[GREA Charter]
-        B --> C[Board Recruitment]
-        C --> D[CEO Appointment]
+        A[Legislation] --&gt; B[GREA Charter]
+        B --&gt; C[Board Recruitment]
+        C --&gt; D[CEO Appointment]
     end
     
     subgraph "Q3-Q4 2025"
-        D --> E[Executive Team]
-        E --> F[Advisory Bodies]
-        F --> G[Operating Systems]
-        G --> H[First Operations]
+        D --&gt; E[Executive Team]
+        E --&gt; F[Advisory Bodies]
+        F --&gt; G[Operating Systems]
+        G --&gt; H[First Operations]
     end
     
     subgraph "2026"
-        H --> I[Full Operations]
-        I --> J[Performance Review]
-        J --> K[System Refinement]
-        K --> L[Scale Operations]
+        H --&gt; I[Full Operations]
+        I --&gt; J[Performance Review]
+        J --&gt; K[System Refinement]
+        K --&gt; L[Scale Operations]
     end
     
     subgraph "2027+"
-        L --> M[Excellence]
-        M --> N[Global Leadership]
+        L --&gt; M[Excellence]
+        M --&gt; N[Global Leadership]
     end
 ```
 
@@ -263,13 +263,13 @@ flowchart LR
         I5[Monitoring]
     end
     
-    R1 --> M1 --> I1
-    R2 --> M2 --> I2
-    R3 --> M3 --> I3
-    R4 --> M4 --> I4
-    R5 --> M5 --> I5
+    R1 --&gt; M1 --&gt; I1
+    R2 --&gt; M2 --&gt; I2
+    R3 --&gt; M3 --&gt; I3
+    R4 --&gt; M4 --&gt; I4
+    R5 --&gt; M5 --&gt; I5
     
-    I1 & I2 & I3 & I4 & I5 --> S[Secure Framework]
+    I1 & I2 & I3 & I4 & I5 --&gt; S[Secure Framework]
 ```
 
 ## Performance Monitoring Dashboard Design
@@ -298,21 +298,21 @@ graph TB
         P4[API Access]
     end
     
-    D1 & D2 & D3 & D4 & D5 --> A1 & A2 & A3 & A4
-    A1 & A2 & A3 & A4 --> P1 & P2 & P3 & P4
+    D1 & D2 & D3 & D4 & D5 --&gt; A1 & A2 & A3 & A4
+    A1 & A2 & A3 & A4 --&gt; P1 & P2 & P3 & P4
 ```
 
 ## Critical Path Dependencies
 
 ```mermaid
 graph TD
-    CP1[Political Agreement] -->|Required for| CP2[Legislation]
-    CP2 -->|Enables| CP3[GREA Establishment]
-    CP3 -->|Delivers| CP4[Regulatory Framework]
-    CP4 -->|Allows| CP5[Project Approvals]
-    CP5 -->|Triggers| CP6[Investment Flow]
-    CP6 -->|Creates| CP7[Economic Activity]
-    CP7 -->|Generates| CP8[Community Benefits]
+    CP1[Political Agreement] --&gt;|Required for| CP2[Legislation]
+    CP2 --&gt;|Enables| CP3[GREA Establishment]
+    CP3 --&gt;|Delivers| CP4[Regulatory Framework]
+    CP4 --&gt;|Allows| CP5[Project Approvals]
+    CP5 --&gt;|Triggers| CP6[Investment Flow]
+    CP6 --&gt;|Creates| CP7[Economic Activity]
+    CP7 --&gt;|Generates| CP8[Community Benefits]
     
     style CP1 fill:#ff6b6b
     style CP2 fill:#ff6b6b
@@ -352,9 +352,9 @@ graph LR
         M3[Environmental Health]
     end
     
-    I1 & I2 & I3 --> O1 & O2 & O3
-    O1 & O2 & O3 --> R1 & R2 & R3
-    R1 & R2 & R3 --> M1 & M2 & M3
+    I1 & I2 & I3 --&gt; O1 & O2 & O3
+    O1 & O2 & O3 --&gt; R1 & R2 & R3
+    R1 & R2 & R3 --&gt; M1 & M2 & M3
 ```
 
 ---

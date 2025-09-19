@@ -7,28 +7,28 @@ slug: 17-economic-development
 
 ```mermaid
 flowchart TD
-    A[$50B+ Investment Pipeline] --> B[Local Capture Strategy]
-    B --> C[Economic Multiplier 3.8x]
-    C --> D[Regional Prosperity]
+    A[$50B+ Investment Pipeline] --&gt; B[Local Capture Strategy]
+    B --&gt; C[Economic Multiplier 3.8x]
+    C --&gt; D[Regional Prosperity]
     
     E[60% Local Content Target]
     F[15,000+ Direct Jobs]
     G[$5B Annual Exports]
     H[1,500+ New Businesses]
     
-    D --> E
-    D --> F
-    D --> G
-    D --> H
+    D --&gt; E
+    D --&gt; F
+    D --&gt; G
+    D --&gt; H
     
     I[GDP Growth: 4.2% p.a.]
     J[Household Income: +35%]
     K[Wealth Equality: Gini 0.28]
     
-    E --> I
-    F --> J
-    G --> K
-    H --> K
+    E --&gt; I
+    F --&gt; J
+    G --&gt; K
+    H --&gt; K
 ```
 
 ## Executive Summary for Government and Investor Audiences
@@ -56,7 +56,7 @@ flowchart TD
 xychart-beta
     title "GDP Growth Trajectory 2025-2035"
     x-axis [2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035]
-    y-axis "GDP ($Billions)" 10 --> 20
+    y-axis "GDP ($Billions)" 10 --&gt; 20
     line [11.5, 12.0, 12.8, 13.8, 14.9, 16.1, 17.0, 17.7, 18.0, 18.2, 18.5]
 ```
 
@@ -298,30 +298,30 @@ sankey-beta
 
 ```mermaid
 flowchart TD
-    A[Local Content Strategy] --> B[Progressive Targets]
-    A --> C[Supplier Development]
-    A --> D[Skills Alignment]
-    A --> E[Enforcement]
+    A[Local Content Strategy] --&gt; B[Progressive Targets]
+    A --&gt; C[Supplier Development]
+    A --&gt; D[Skills Alignment]
+    A --&gt; E[Enforcement]
     
-    B --> F[Phase 1: 30% Target]
-    B --> G[Phase 2: 45% Target]
-    B --> H[Phase 3: 60% Target]
+    B --&gt; F[Phase 1: 30% Target]
+    B --&gt; G[Phase 2: 45% Target]
+    B --&gt; H[Phase 3: 60% Target]
     
-    C --> I[200 Suppliers Certified]
-    C --> J[50 Tech Transfers]
-    C --> K[$200M Finance Support]
+    C --&gt; I[200 Suppliers Certified]
+    C --&gt; J[50 Tech Transfers]
+    C --&gt; K[$200M Finance Support]
     
-    D --> L[5,000 Workers Trained]
-    D --> M[20 Career Pathways]
-    D --> N[Skills Passport System]
+    D --&gt; L[5,000 Workers Trained]
+    D --&gt; M[20 Career Pathways]
+    D --&gt; N[Skills Passport System]
     
-    E --> O[Contract Requirements]
-    E --> P[Penalty Framework]
-    E --> Q[Performance Bonds]
+    E --&gt; O[Contract Requirements]
+    E --&gt; P[Penalty Framework]
+    E --&gt; Q[Performance Bonds]
     
-    F --> R[2025-2027 Foundation]
-    G --> S[2028-2030 Scale]
-    H --> T[2031-2035 Leadership]
+    F --&gt; R[2025-2027 Foundation]
+    G --&gt; S[2028-2030 Scale]
+    H --&gt; T[2031-2035 Leadership]
 ```
 
 ### 2.1 Progressive Local Content Targets
@@ -369,27 +369,27 @@ Local Content % = (Local Labor + Local Materials + Local Services + Local IP) / 
 ```mermaid
 graph TB
     subgraph "SUPPLIER READINESS PIPELINE"
-        A[Gap Analysis] --> B[6-Month Training]
-        B --> C[Prime Contractor Mentoring]
-        C --> D[Industry Certification]
-        D --> E[Contract Opportunities]
+        A[Gap Analysis] --&gt; B[6-Month Training]
+        B --&gt; C[Prime Contractor Mentoring]
+        C --&gt; D[Industry Certification]
+        D --&gt; E[Contract Opportunities]
     end
     
     subgraph "TECHNOLOGY TRANSFER HUB"
-        F[International OEM Partners] --> G[Technology Licensing]
-        G --> H[Local Adaptation]
-        H --> I[Commercial Deployment]
+        F[International OEM Partners] --&gt; G[Technology Licensing]
+        G --&gt; H[Local Adaptation]
+        H --&gt; I[Commercial Deployment]
     end
     
     subgraph "FINANCIAL ECOSYSTEM"
-        J[$100M Equipment Finance] --> K[$50M Working Capital]
-        K --> L[Performance Bonds]
-        L --> M[Export Credit]
+        J[$100M Equipment Finance] --&gt; K[$50M Working Capital]
+        K --&gt; L[Performance Bonds]
+        L --&gt; M[Export Credit]
     end
     
-    E --> F
-    I --> J
-    M --> A
+    E --&gt; F
+    I --&gt; J
+    M --&gt; A
 ```
 
 #### Comprehensive Supplier Capability Architecture
@@ -947,7 +947,7 @@ Gippsland Renewable Energy Trust
 - **Product Range**: 20+ offerings
 - **Service Expansion**: Consulting, training
 - **Value Chain**: Vertical integration
-- **Risk Spread**: No >20% dependency
+- **Risk Spread**: No &gt;20% dependency
 
 **3. Climate Adaptation**
 - **Infrastructure**: Climate-proofed

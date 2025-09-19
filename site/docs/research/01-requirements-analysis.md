@@ -7,26 +7,26 @@ slug: 01-requirements-analysis
 
 ```mermaid
 graph TD
-    A[Gippsland Energy Hub Vision] --> B[Technical Requirements]
-    A --> C[Economic Framework]
-    A --> D[Social Impact]
-    A --> E[Environmental Stewardship]
+    A[Gippsland Energy Hub Vision] --&gt; B[Technical Requirements]
+    A --&gt; C[Economic Framework]
+    A --&gt; D[Social Impact]
+    A --&gt; E[Environmental Stewardship]
     
-    B --> B1[Generation Infrastructure]
-    B --> B2[Grid Integration]
-    B --> B3[Storage Systems]
+    B --&gt; B1[Generation Infrastructure]
+    B --&gt; B2[Grid Integration]
+    B --&gt; B3[Storage Systems]
     
-    C --> C1[Investment Targets]
-    C --> C2[Local Content]
-    C --> C3[Export Revenue]
+    C --&gt; C1[Investment Targets]
+    C --&gt; C2[Local Content]
+    C --&gt; C3[Export Revenue]
     
-    D --> D1[Workforce Transition]
-    D --> D2[Community Engagement]
-    D --> D3[Just Transition]
+    D --&gt; D1[Workforce Transition]
+    D --&gt; D2[Community Engagement]
+    D --&gt; D3[Just Transition]
     
-    E --> E1[Biodiversity Protection]
-    E --> E2[Carbon Reduction]
-    E --> E3[Regenerative Development]
+    E --&gt; E1[Biodiversity Protection]
+    E --&gt; E2[Carbon Reduction]
+    E --&gt; E3[Regenerative Development]
 
     style A fill:#e1f5fe
     style B fill:#f3e5f5
@@ -68,26 +68,26 @@ pie title Requirements Distribution by Investment
 
 ```mermaid
 graph LR
-    A[Requirements Categories] --> B[Technical]
-    A --> C[Economic] 
-    A --> D[Social]
-    A --> E[Environmental]
+    A[Requirements Categories] --&gt; B[Technical]
+    A --&gt; C[Economic] 
+    A --&gt; D[Social]
+    A --&gt; E[Environmental]
     
-    B --> B1[Generation: 5+ GW]
-    B --> B2[Storage: 800+ MWh]
-    B --> B3[Grid: Smart Infrastructure]
+    B --&gt; B1[Generation: 5+ GW]
+    B --&gt; B2[Storage: 800+ MWh]
+    B --&gt; B3[Grid: Smart Infrastructure]
     
-    C --> C1[Investment: AU$50B]
-    C --> C2[Local Content: 60%+]
-    C --> C3[Export Revenue: AU$5B]
+    C --&gt; C1[Investment: AU$50B]
+    C --&gt; C2[Local Content: 60%+]
+    C --&gt; C3[Export Revenue: AU$5B]
     
-    D --> D1[Jobs: 15,000+]
-    D --> D2[Training: 5,000 workers]
-    D --> D3[Community: 75% support]
+    D --&gt; D1[Jobs: 15,000+]
+    D --&gt; D2[Training: 5,000 workers]
+    D --&gt; D3[Community: 75% support]
     
-    E --> E1[Carbon: 80% reduction]
-    E --> E2[Biodiversity: Net positive]
-    E --> E3[Circular: 90% waste diversion]
+    E --&gt; E1[Carbon: 80% reduction]
+    E --&gt; E2[Biodiversity: Net positive]
+    E --&gt; E3[Circular: 90% waste diversion]
 
     style A fill:#e3f2fd
     style B fill:#f3e5f5
@@ -110,7 +110,7 @@ graph LR
 
 #### Technology Standards
 - **Turbine Technology**: Latest generation offshore wind turbines (15+ MW capacity)
-- **Solar Efficiency**: >22% efficiency panels for utility-scale
+- **Solar Efficiency**: &gt;22% efficiency panels for utility-scale
 - **Storage Technology**: Lithium-ion and emerging technologies (flow batteries, etc.)
 - **Grid Integration**: AEMO compliance, synthetic inertia capabilities
 - **Digital Infrastructure**: IoT sensors, AI-driven optimization, blockchain for energy trading
@@ -149,7 +149,7 @@ graph LR
 - **Indigenous Partnership**: Formal agreements with Traditional Owners
 - **Youth Programs**: 1,000+ young people in renewable careers by 2030
 - **Education Integration**: Renewable energy curriculum in all schools
-- **Public Support**: >75% community support maintained
+- **Public Support**: &gt;75% community support maintained
 
 ### 1.4 Environmental Requirements
 
@@ -202,15 +202,15 @@ gantt
 
 ```mermaid
 graph TD
-    A[Q1 2025] --> A1[Community Engagement Framework]
-    A --> A2[First 100 MW Projects Launch]
-    A --> A3[Workforce Transition Launch]
-    A --> A4[Innovation Hub Planning]
+    A[Q1 2025] --&gt; A1[Community Engagement Framework]
+    A --&gt; A2[First 100 MW Projects Launch]
+    A --&gt; A3[Workforce Transition Launch]
+    A --&gt; A4[Innovation Hub Planning]
     
-    B[Q2-Q4 2025] --> B1[500 MW Under Construction]
-    B --> B2[200 Workers in Retraining]
-    B --> B3[Supply Chain Mapping]
-    B --> B4[Investment Campaign Launch]
+    B[Q2-Q4 2025] --&gt; B1[500 MW Under Construction]
+    B --&gt; B2[200 Workers in Retraining]
+    B --&gt; B3[Supply Chain Mapping]
+    B --&gt; B4[Investment Campaign Launch]
 
     style A fill:#e8f5e8
     style B fill:#f3e5f5

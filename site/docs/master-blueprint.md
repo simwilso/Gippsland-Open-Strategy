@@ -374,7 +374,7 @@ Supported Retirement (3% - 135 workers)
 
 ### 3.3 Community Transformation Plans
 
-#### Tier 1 Communities (>20% coal employment)
+#### Tier 1 Communities (&gt;20% coal employment)
 **Morwell** (Population 14,000)
 - Transformation: Innovation and manufacturing hub
 - Investment: $800 million
@@ -1049,7 +1049,7 @@ Academia/Research
 #### Q4 2025: Validation
 - First solar farms operational
 - 3,000 jobs created
-- Community support >80%
+- Community support &gt;80%
 - Investment pipeline $10B+
 - International recognition
 

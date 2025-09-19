@@ -12,13 +12,13 @@ slug: knowledge-export-business
     ┌─────────────────────────────────────────────────────────────┐
     │              GIPPSLAND EXPERTISE GLOBAL REACH               │
     │                                                             │
-    │  Local Success ═════> Knowledge Export ═════> Global Impact │
+    │  Local Success ═════&gt; Knowledge Export ═════&gt; Global Impact │
     │       │                     │                      │        │
     │  AU$150B Project      12 Service Lines        50+ Countries │
     │  45Mt CO₂ Cut        AU$500M Revenue         2,000+ Regions│
     │  50,000 Jobs          Proven Methods          400M Workers  │
     │                                                             │
-    │  🇦🇺 AUSTRALIA ═════════════════════════════════════> 🌍 WORLD │
+    │  🇦🇺 AUSTRALIA ═════════════════════════════════════&gt; 🌍 WORLD │
     └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -31,19 +31,19 @@ slug: knowledge-export-business
 
 ```mermaid
 graph LR
-    A[Gippsland Success] --> B[Knowledge Assets]
-    B --> C[Global Services]
-    C --> D[Market Leadership]
-    D --> E[AU$500M Revenue]
+    A[Gippsland Success] --&gt; B[Knowledge Assets]
+    B --&gt; C[Global Services]
+    C --&gt; D[Market Leadership]
+    D --&gt; E[AU$500M Revenue]
     
-    A --> F[AU$150B Investment]
-    A --> G[Zero Worker Loss]
-    A --> H[4.2% Growth]
+    A --&gt; F[AU$150B Investment]
+    A --&gt; G[Zero Worker Loss]
+    A --&gt; H[4.2% Growth]
     
-    C --> I[Consulting]
-    C --> J[Training]
-    C --> K[Technology]
-    C --> L[Policy]
+    C --&gt; I[Consulting]
+    C --&gt; J[Training]
+    C --&gt; K[Technology]
+    C --&gt; L[Policy]
     
     style A fill:#2E7D32
     style E fill:#FFD700
@@ -242,11 +242,11 @@ graph TB
         J[Decision Framework]
     end
     
-    A --> F
-    B --> G
-    C --> H
-    D --> I
-    E --> J
+    A --&gt; F
+    B --&gt; G
+    C --&gt; H
+    D --&gt; I
+    E --&gt; J
 ```
 
 **Master Planning Services**
@@ -500,16 +500,16 @@ graph LR
         I[AU$50-100M/year]
     end
     
-    A --> E
-    B --> E
-    C --> F
-    C --> H
-    D --> G
+    A --&gt; E
+    B --&gt; E
+    C --&gt; F
+    C --&gt; H
+    D --&gt; G
     
-    E --> I
-    F --> I
-    G --> I
-    H --> I
+    E --&gt; I
+    F --&gt; I
+    G --&gt; I
+    H --&gt; I
 ```
 
 ### 4.1 Proprietary Methodologies
@@ -708,15 +708,15 @@ graph TD
         K[Accelerated Approvals]
     end
     
-    A --> H
-    B --> I
-    C --> J
-    C --> K
+    A --&gt; H
+    B --&gt; I
+    C --&gt; J
+    C --&gt; K
     
-    H --> D
-    I --> E
-    J --> F
-    K --> G
+    H --&gt; D
+    I --&gt; E
+    J --&gt; F
+    K --&gt; G
 ```
 
 ### 6.1 Joint Venture Development
@@ -883,7 +883,7 @@ graph TD
 **Service Delivery Standards**
 - **ISO Certifications:** 9001, 14001, 45001
 - **Industry Accreditations:** Engineering, finance
-- **Client Satisfaction:** >90% target
+- **Client Satisfaction:** &gt;90% target
 - **Impact Measurement:** Standardized metrics
 
 **Knowledge Management**
@@ -1062,7 +1062,7 @@ The Gippsland Knowledge Export Business represents a transformative opportunity 
     ┌─────────────────────────────────────────────────────────────┐
     │                    IMPACT MULTIPLIER EFFECT                     │
     │                                                                 │
-    │  Gippsland Success ───> Knowledge Export ───> Global Impact     │
+    │  Gippsland Success ───&gt; Knowledge Export ───&gt; Global Impact     │
     │        ↓                      ↓                    ↓            │
     │   1 Region              50 Countries         2,000 Regions      │
     │   50,000 Jobs           AU$500M Revenue      400M Workers      │

@@ -62,10 +62,10 @@ Building on the remarkable 79% community support achieved in Day 1, this 30-day 
 
 ```mermaid
 graph LR
-    A[Day 1<br/>79% Support] -->|Week 1| B[81% Support]
-    B -->|Week 2| C[82% Support]
-    C -->|Week 3| D[84% Support]
-    D -->|Week 4| E[85%+ Support]
+    A[Day 1<br/>79% Support] --&gt;|Week 1| B[81% Support]
+    B --&gt;|Week 2| C[82% Support]
+    C --&gt;|Week 3| D[84% Support]
+    D --&gt;|Week 4| E[85%+ Support]
     
     style A fill:#ff9,stroke:#333,stroke-width:2px
     style E fill:#9f9,stroke:#333,stroke-width:2px
@@ -322,19 +322,19 @@ pie title Week 1 Community Participation (500+ people)
 
 ```mermaid
 flowchart TD
-    A[Community Member] --> B{Feedback Channel}
-    B -->|Digital| C[Online Platform]
-    B -->|Mobile| D[SMS System]
-    B -->|In-Person| E[Community Hub]
-    B -->|Phone| F[Hotline]
+    A[Community Member] --&gt; B{Feedback Channel}
+    B --&gt;|Digital| C[Online Platform]
+    B --&gt;|Mobile| D[SMS System]
+    B --&gt;|In-Person| E[Community Hub]
+    B --&gt;|Phone| F[Hotline]
     
-    C --> G[Central Dashboard]
-    D --> G
-    E --> G
-    F --> G
+    C --&gt; G[Central Dashboard]
+    D --&gt; G
+    E --&gt; G
+    F --&gt; G
     
-    G --> H[Response Team]
-    H --> I[48hr Response]
+    G --&gt; H[Response Team]
+    H --&gt; I[48hr Response]
     
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style I fill:#9f9,stroke:#333,stroke-width:2px
@@ -543,11 +543,11 @@ graph LR
         D[Cultural Issues<br/>Low/High]
         E[Digital Divide<br/>Medium/Medium]
         
-        A --> F[Varied Methods]
-        B --> G[Structured Process]
-        C --> H[Clear Communication]
-        D --> I[Cultural Training]
-        E --> J[Multiple Channels]
+        A --&gt; F[Varied Methods]
+        B --&gt; G[Structured Process]
+        C --&gt; H[Clear Communication]
+        D --&gt; I[Cultural Training]
+        E --&gt; J[Multiple Channels]
     end
     
     style A fill:#fa6,stroke:#333,stroke-width:2px

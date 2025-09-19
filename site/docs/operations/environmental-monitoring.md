@@ -149,22 +149,22 @@ graph LR
         O5[Reports]
     end
     
-    S1 --> P1
-    S2 --> P1
-    S3 --> P1
-    S4 --> P1
-    S5 --> P1
+    S1 --&gt; P1
+    S2 --&gt; P1
+    S3 --&gt; P1
+    S4 --&gt; P1
+    S5 --&gt; P1
     
-    P1 --> P2
-    P2 --> P3
-    P3 --> P4
-    P4 --> P5
+    P1 --&gt; P2
+    P2 --&gt; P3
+    P3 --&gt; P4
+    P4 --&gt; P5
     
-    P5 --> O1
-    P5 --> O2
-    P5 --> O3
-    P5 --> O4
-    P5 --> O5
+    P5 --&gt; O1
+    P5 --&gt; O2
+    P5 --&gt; O3
+    P5 --&gt; O4
+    P5 --&gt; O5
     
     style P1 fill:#4CAF50,color:#fff
     style P2 fill:#2196F3,color:#fff
@@ -478,14 +478,14 @@ Alert Level System:
 │   └── Operational adjustments
 ├── Level 3 (Alert): AQI 151-200
 │   └── Curtailment consideration
-└── Level 4 (Emergency): AQI >200
+└── Level 4 (Emergency): AQI &gt;200
     └── Immediate shutdown
 ```
 
 **Wildlife Impact Triggers**:
 - Single threatened species mortality: Investigation
-- Multiple mortalities (>3/month): Operation review
-- Population decline (>10%): Major intervention
+- Multiple mortalities (&gt;3/month): Operation review
+- Population decline (&gt;10%): Major intervention
 - Breeding failure: Immediate assessment
 
 **Noise Level Triggers**:
@@ -1086,17 +1086,17 @@ Environmental Monitoring Budget:
 
 #### Key Performance Indicators
 **System Performance**:
-- Data availability: >99.5%
-- Sensor uptime: >95%
-- Response time compliance: >90%
-- Citizen engagement: >1,000 active
+- Data availability: &gt;99.5%
+- Sensor uptime: &gt;95%
+- Response time compliance: &gt;90%
+- Citizen engagement: &gt;1,000 active
 - Report timeliness: 100%
 
 **Stakeholder Satisfaction**:
-- Community trust: >85%
+- Community trust: &gt;85%
 - Regulatory confidence: 100%
 - Scientific credibility: Peer reviewed
-- Staff satisfaction: >90%
+- Staff satisfaction: &gt;90%
 - Partner engagement: Active
 
 ### 11.3 Innovation Metrics

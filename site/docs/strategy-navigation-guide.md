@@ -134,11 +134,11 @@
 ### 👔 **For Government Ministers & Senior Officials**
 ```mermaid
 graph TB
-    A[Executive Summaries] --> B[Master Blueprint]
-    B --> C[Implementation Readiness]
-    C --> D[90-Day Launch Plan]
-    D --> E[Policy & Regulatory Framework]
-    E --> F[Economic Development Strategy]
+    A[Executive Summaries] --&gt; B[Master Blueprint]
+    B --&gt; C[Implementation Readiness]
+    C --&gt; D[90-Day Launch Plan]
+    D --&gt; E[Policy & Regulatory Framework]
+    E --&gt; F[Economic Development Strategy]
 ```
 
 **Recommended Sequence:**
@@ -147,11 +147,11 @@ graph TB
 ### 💼 **For Corporate Investors & Partners**
 ```mermaid
 graph TB
-    A[Executive Summaries] --> B[Investment Fund Architecture]
-    B --> C[Revenue Diversification]
-    C --> D[Risk Assessment Audit]
-    D --> E[Global Technology Agreements]
-    E --> F[Partnership Opportunities]
+    A[Executive Summaries] --&gt; B[Investment Fund Architecture]
+    B --&gt; C[Revenue Diversification]
+    C --&gt; D[Risk Assessment Audit]
+    D --&gt; E[Global Technology Agreements]
+    E --&gt; F[Partnership Opportunities]
 ```
 
 **Recommended Sequence:**
@@ -160,11 +160,11 @@ graph TB
 ### 🏘️ **For Community Leaders & Representatives**
 ```mermaid
 graph TB
-    A[Executive Summaries] --> B[Community Wealth Creation]
-    B --> C[Just Transition Strategy]
-    C --> D[Community Co-design Launch]
-    D --> E[Stakeholder Engagement]
-    E --> F[Environmental Impact]
+    A[Executive Summaries] --&gt; B[Community Wealth Creation]
+    B --&gt; C[Just Transition Strategy]
+    C --&gt; D[Community Co-design Launch]
+    D --&gt; E[Stakeholder Engagement]
+    E --&gt; F[Environmental Impact]
 ```
 
 **Recommended Sequence:**
@@ -173,11 +173,11 @@ graph TB
 ### 🔬 **For Technical Teams & Researchers**
 ```mermaid
 graph TB
-    A[Requirements Analysis] --> B[Technology Innovations]
-    B --> C[Digital Twin Platform]
-    C --> D[Grid Innovation Solutions]
-    D --> E[Research Infrastructure]
-    E --> F[IP Strategy]
+    A[Requirements Analysis] --&gt; B[Technology Innovations]
+    B --&gt; C[Digital Twin Platform]
+    C --&gt; D[Grid Innovation Solutions]
+    D --&gt; E[Research Infrastructure]
+    E --&gt; F[IP Strategy]
 ```
 
 **Recommended Sequence:**
@@ -186,11 +186,11 @@ graph TB
 ### 🌍 **For International Partners & Diplomats**
 ```mermaid
 graph TB
-    A[Master Blueprint] --> B[Global Benchmarking]
-    B --> C[International Recognition Campaign]
-    C --> D[Knowledge Export Business]
-    D --> E[Diplomatic Engagement]
-    E --> F[Conference Series Strategy]
+    A[Master Blueprint] --&gt; B[Global Benchmarking]
+    B --&gt; C[International Recognition Campaign]
+    C --&gt; D[Knowledge Export Business]
+    D --&gt; E[Diplomatic Engagement]
+    E --&gt; F[Conference Series Strategy]
 ```
 
 **Recommended Sequence:**

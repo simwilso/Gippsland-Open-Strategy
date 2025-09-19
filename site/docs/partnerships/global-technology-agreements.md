@@ -27,16 +27,16 @@ graph TB
         M[Manufacturing Hub]
     end
     
-    V -->|AU$1.2B Investment| G
-    O -->|AU$3.5B Projects| G
-    C -->|AU$5B Funding| G
-    R -->|AU$4B Integration| G
-    S -->|AU$800M Manufacturing| G
+    V --&gt;|AU$1.2B Investment| G
+    O --&gt;|AU$3.5B Projects| G
+    C --&gt;|AU$5B Funding| G
+    R --&gt;|AU$4B Integration| G
+    S --&gt;|AU$800M Manufacturing| G
     
-    G --> J
-    G --> I
-    G --> T
-    G --> M
+    G --&gt; J
+    G --&gt; I
+    G --&gt; T
+    G --&gt; M
     
     style V fill:#1e40af,stroke:#1e3a8a,color:#fff
     style O fill:#1e40af,stroke:#1e3a8a,color:#fff
@@ -393,7 +393,7 @@ Port Energy Hub      Multi-tech      AU$500M      AU$3B        2030
 - Minimum project size: AU$500M
 - Target returns: 8-12% IRR
 - ESG compliance: EU Taxonomy
-- Local content: >50% by value
+- Local content: &gt;50% by value
 
 ### ARTICLE 3: VALUE CREATION STRATEGY
 
@@ -401,7 +401,7 @@ Port Energy Hub      Multi-tech      AU$500M      AU$3B        2030
 - Deploy CIP asset management platform
 - Implement performance optimization
 - Drive cost reductions (20% target)
-- Maximize availability (>97%)
+- Maximize availability (&gt;97%)
 
 **3.2 Financial Engineering**
 - Green bond issuance program
@@ -624,9 +624,9 @@ Category              Metric                    Target      Review
 -------------------------------------------------------------------
 Investment           Capital Deployed          AU$2B/year   Quarterly
 Jobs                 Direct Employment         2,500/year   Monthly
-Local Content        Australian Value          >65%         Quarterly
+Local Content        Australian Value          &gt;65%         Quarterly
 Technology Transfer  Capability Milestones     100%         Bi-annual
-Project Delivery     On-time Completion        >90%         Monthly
+Project Delivery     On-time Completion        &gt;90%         Monthly
 ```
 
 **Reporting Requirements:**

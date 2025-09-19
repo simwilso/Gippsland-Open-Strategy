@@ -9,21 +9,21 @@ slug: research-infrastructure
 ```mermaid
 graph TB
     subgraph "Research Infrastructure Ecosystem"
-        A[Core Laboratories] --> A1[Advanced Materials Lab]
-        A --> A2[Wind Energy Centre]
-        A --> A3[Marine Energy Lab]
+        A[Core Laboratories] --&gt; A1[Advanced Materials Lab]
+        A --&gt; A2[Wind Energy Centre]
+        A --&gt; A3[Marine Energy Lab]
         
-        B[System Integration] --> B1[Grid Integration Test]
-        B --> B2[Hydrogen Technology]
-        B --> B3[Digital Twin Centre]
+        B[System Integration] --&gt; B1[Grid Integration Test]
+        B --&gt; B2[Hydrogen Technology]
+        B --&gt; B3[Digital Twin Centre]
         
-        C[Collaboration Spaces] --> C1[Innovation Hub]
-        C --> C2[Training Centre]
-        C --> C3[Industry Offices]
+        C[Collaboration Spaces] --&gt; C1[Innovation Hub]
+        C --&gt; C2[Training Centre]
+        C --&gt; C3[Industry Offices]
         
-        D[Digital Infrastructure] --> D1[HPC Cluster]
-        D --> D2[AI/ML Platform]
-        D --> D3[Data Management]
+        D[Digital Infrastructure] --&gt; D1[HPC Cluster]
+        D --&gt; D2[AI/ML Platform]
+        D --&gt; D3[Data Management]
     end
     
     style A fill:#1565C0,color:#fff
@@ -39,14 +39,14 @@ This document outlines the comprehensive research infrastructure architecture fo
 ```mermaid
 graph LR
     subgraph "Research Infrastructure Investment"
-        A[Phase 1: $150M] --> B[Core Labs & Equipment]
-        C[Phase 2: $100M] --> D[Specialised Facilities]
-        E[Phase 3: $50M] --> F[Expansion & Scale-up]
+        A[Phase 1: $150M] --&gt; B[Core Labs & Equipment]
+        C[Phase 2: $100M] --&gt; D[Specialised Facilities]
+        E[Phase 3: $50M] --&gt; F[Expansion & Scale-up]
         
-        G[Total: $300M] --> H[World-Class Facility]
-        H --> I[5,000 Researchers]
-        H --> J[500+ Industry Partners]
-        H --> K[100+ Patents/Year]
+        G[Total: $300M] --&gt; H[World-Class Facility]
+        H --&gt; I[5,000 Researchers]
+        H --&gt; J[500+ Industry Partners]
+        H --&gt; K[100+ Patents/Year]
     end
     
     style A fill:#2E7D32,color:#fff
@@ -589,17 +589,17 @@ graph LR
 ```mermaid
 graph TB
     subgraph "Research Excellence Metrics"
-        A[Research Output] --> B[Publications]
-        A --> C[Patents]
-        A --> D[Demonstrations]
+        A[Research Output] --&gt; B[Publications]
+        A --&gt; C[Patents]
+        A --&gt; D[Demonstrations]
         
-        E[Economic Impact] --> F[Jobs Created]
-        E --> G[Industry Investment]
-        E --> H[Export Revenue]
+        E[Economic Impact] --&gt; F[Jobs Created]
+        E --&gt; G[Industry Investment]
+        E --&gt; H[Export Revenue]
         
-        I[Innovation Metrics] --> J[Time to Market]
-        I --> K[Technology Transfer]
-        I --> L[Global Rankings]
+        I[Innovation Metrics] --&gt; J[Time to Market]
+        I --&gt; K[Technology Transfer]
+        I --&gt; L[Global Rankings]
     end
     
     style A fill:#1565C0,color:#fff

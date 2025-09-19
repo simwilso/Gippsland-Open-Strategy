@@ -9,18 +9,18 @@ slug: grid-innovation-solutions
 ```mermaid
 graph TB
     subgraph "Smart Grid Architecture"
-        A[11GW+ Renewable Capacity] --> B[Advanced SCADA/ADMS]
-        B --> C[Wide Area Monitoring]
-        C --> D[AI-Powered Control]
-        D --> E[Grid Stability]
+        A[11GW+ Renewable Capacity] --&gt; B[Advanced SCADA/ADMS]
+        B --&gt; C[Wide Area Monitoring]
+        C --&gt; D[AI-Powered Control]
+        D --&gt; E[Grid Stability]
         
-        F[Energy Storage 5GWh] --> G[Grid-Forming Inverters]
-        G --> H[Synchronous Condensers]
-        H --> I[System Strength]
+        F[Energy Storage 5GWh] --&gt; G[Grid-Forming Inverters]
+        G --&gt; H[Synchronous Condensers]
+        H --&gt; I[System Strength]
         
-        J[DER Integration] --> K[Virtual Power Plants]
-        K --> L[Demand Response 2GW]
-        L --> M[Grid Flexibility]
+        J[DER Integration] --&gt; K[Virtual Power Plants]
+        K --&gt; L[Demand Response 2GW]
+        L --&gt; M[Grid Flexibility]
     end
     
     style A fill:#00695C,color:#fff
@@ -83,7 +83,7 @@ This technical architecture document defines comprehensive grid innovation solut
 
 **Technical Specifications:**
 - **Processing Capacity**: 10 million data points/second
-- **Latency**: <100ms end-to-end
+- **Latency**: &lt;100ms end-to-end
 - **Availability**: 99.999% uptime
 - **Scalability**: 1 million devices
 - **Cybersecurity**: IEC 62351 compliant
@@ -320,7 +320,7 @@ class AssetMonitoring:
 
 **Performance Specifications:**
 - **Round-trip Efficiency**: 92%
-- **Response Time**: <500ms
+- **Response Time**: &lt;500ms
 - **Ramp Rate**: 200MW/second
 - **Cycle Life**: 10,000 cycles
 - **Availability**: 98.5%
@@ -336,7 +336,7 @@ class FrequencyRegulation:
         self.deadband = 0.015  # ±15mHz deadband
         
     def calculate_response(self, frequency_deviation):
-        if abs(frequency_deviation) > self.deadband:
+        if abs(frequency_deviation) &gt; self.deadband:
             power_response = (frequency_deviation / self.droop) * self.capacity
             return min(max(power_response, -self.capacity), self.capacity)
         return 0
@@ -428,7 +428,7 @@ class ResidentialVPP:
         
     def aggregate_resources(self):
         for home in self.participants:
-            if home.battery.soc > 0.2:  # Maintain 20% reserve
+            if home.battery.soc &gt; 0.2:  # Maintain 20% reserve
                 self.available_power += home.battery.available_power()
         return self.available_power
     
@@ -465,7 +465,7 @@ Unit Specifications (300MVAr):
 ├── Electrical Parameters
 │   ├── Reactive Power: +300/-150 MVAr
 │   ├── Short Circuit Ratio: 0.5
-│   ├── Response Time: <1 second
+│   ├── Response Time: &lt;1 second
 │   └── Overload: 150% for 30 seconds
 └── Control Systems
     ├── Automatic Voltage Regulator
@@ -484,7 +484,7 @@ Unit Specifications (300MVAr):
 
 **1. Fault Level Contribution**
 - Short circuit current: 5 x rated current
-- X/R ratio: >20
+- X/R ratio: &gt;20
 - Zero sequence impedance: designed for earth faults
 - Sustained fault current capability
 
@@ -568,7 +568,7 @@ class VirtualSynchronousMachine:
 - Voltage establishment: 0-100% in 10 seconds
 - Frequency accuracy: ±0.1Hz in island mode
 - Load step capability: 20% rated power
-- Harmonic distortion: <3% THD
+- Harmonic distortion: &lt;3% THD
 - Unbalanced load: 30% negative sequence
 
 ### 3.3 FAST FREQUENCY RESPONSE SYSTEMS
@@ -578,8 +578,8 @@ class VirtualSynchronousMachine:
 **Response Characteristics:**
 ```
 FFR Performance Specifications:
-├── Detection Time: <100ms
-├── Full Response: <500ms
+├── Detection Time: &lt;100ms
+├── Full Response: &lt;500ms
 ├── Accuracy: ±10MW
 ├── Duration: 10 seconds minimum
 ├── Recovery: Automatic
@@ -595,7 +595,7 @@ class FastFrequencyResponse:
         self.proportional_gain = 1000  # MW/Hz
         
     def detect_event(self, frequency_measurement):
-        if frequency_measurement < self.trigger_threshold:
+        if frequency_measurement &lt; self.trigger_threshold:
             return True, (self.trigger_threshold - frequency_measurement)
         return False, 0
     
@@ -707,7 +707,7 @@ class ExtremeWeatherSystem:
         risks = []
         
         # Wind assessment
-        if weather_data.wind_speed > self.thresholds['high_wind']:
+        if weather_data.wind_speed &gt; self.thresholds['high_wind']:
             risks.append({
                 'type': 'high_wind',
                 'severity': self.calculate_severity(weather_data.wind_speed),
@@ -862,7 +862,7 @@ class CustomerBehaviorAnalytics:
         )
         
         # Estimate response magnitude
-        if participation_prob > 0.5:
+        if participation_prob &gt; 0.5:
             response_kw = self.ml_models['response_magnitude'].predict(
                 [customer_profile.features, event_characteristics]
             )
@@ -910,7 +910,7 @@ class IndustrialFlexibility:
         schedule = ProductionSchedule()
         
         for hour in range(168):  # Weekly schedule
-            if price_forecast[hour] < threshold:
+            if price_forecast[hour] &lt; threshold:
                 schedule.add_high_energy_process(hour)
             else:
                 schedule.add_low_energy_process(hour)
@@ -1261,14 +1261,14 @@ class SmartMeterAnalytics:
 #### Key Performance Indicators
 
 **Technical KPIs:**
-- Grid availability: >99.99%
-- Renewable curtailment: <2%
-- Forecast accuracy: >95%
-- Response time: <500ms
-- System strength: >3000MVA
+- Grid availability: &gt;99.99%
+- Renewable curtailment: &lt;2%
+- Forecast accuracy: &gt;95%
+- Response time: &lt;500ms
+- System strength: &gt;3000MVA
 
 **Economic KPIs:**
-- ROI: >15% annually
+- ROI: &gt;15% annually
 - Operating cost reduction: 30%
 - Market revenue: AU$500M/year
 - Job creation: 5,000 positions

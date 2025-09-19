@@ -224,7 +224,7 @@ Facility Utilization   85%         87%         ✓
 Energy Efficiency      95%         92%         ⚠
 User Satisfaction     4.5/5       4.6/5       ✓
 Equipment Uptime       99%         98.7%       ⚠
-Safety Incidents       <0.1%       0.05%       ✓
+Safety Incidents       &lt;0.1%       0.05%       ✓
 ```
 
 #### Maintenance and Lifecycle Management
@@ -916,7 +916,7 @@ Cohort    Companies    Completion    Series A    Total Funding    Jobs
 
 **Portfolio Company Performance:**
 - **Total Portfolio Value:** AU$2.8 billion (marked to market)
-- **Unicorn Companies:** 2 companies valued >AU$1 billion
+- **Unicorn Companies:** 2 companies valued &gt;AU$1 billion
 - **Acquisition Exits:** 12 successful acquisitions
 - **IPO Exits:** 3 public offerings completed
 - **Average Exit Multiple:** 8.5x invested capital
@@ -988,7 +988,7 @@ Cohort    Companies    Completion    Series A    Total Funding    Jobs
 **Service Level Agreements:**
 - **Response Time:** All inquiries answered within 4 hours
 - **Issue Resolution:** 90% of problems resolved within 24 hours
-- **Satisfaction Rating:** Maintain >4.5/5.0 customer satisfaction
+- **Satisfaction Rating:** Maintain &gt;4.5/5.0 customer satisfaction
 - **Accessibility:** 24/7 support availability
 - **Quality Assurance:** Monthly service audits and improvements
 
@@ -1021,7 +1021,7 @@ Administrative Staff      80             Professional     Annually
 
 **Performance Standards:**
 - **Equipment Uptime:** 99.5% availability guarantee
-- **Network Performance:** 99.9% uptime with <50ms latency
+- **Network Performance:** 99.9% uptime with &lt;50ms latency
 - **Environmental Control:** ±1°C temperature, ±5% humidity
 - **Safety Record:** Zero lost-time accidents target
 - **Compliance:** 100% regulatory compliance maintenance
@@ -1297,7 +1297,7 @@ Customer Service Manager      1      User experience and satisfaction
 
 **Organizational Health Metrics:**
 - **Employee Satisfaction:** 4.6/5.0 rating (target: 4.5/5.0)
-- **Staff Turnover:** 8% annually (target: <10%)
+- **Staff Turnover:** 8% annually (target: &lt;10%)
 - **Internal Promotion:** 65% of leadership from internal development
 - **Training Investment:** AU$15,000 per employee annually
 - **Innovation Suggestions:** 450 improvement ideas implemented annually

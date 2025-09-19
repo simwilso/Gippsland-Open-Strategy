@@ -7,28 +7,28 @@ slug: 23-brand-toolkit
 
 ```mermaid
 flowchart TD
-    A[Brand Toolkit] --> B[Quick Reference]
-    A --> C[Story Templates]
-    A --> D[Visual Assets]
-    A --> E[Presentation Tools]
-    A --> F[Digital Resources]
-    A --> G[Crisis Management]
+    A[Brand Toolkit] --&gt; B[Quick Reference]
+    A --&gt; C[Story Templates]
+    A --&gt; D[Visual Assets]
+    A --&gt; E[Presentation Tools]
+    A --&gt; F[Digital Resources]
+    A --&gt; G[Crisis Management]
     
-    B --> B1[30-Second Pitch]
-    B --> B2[One-Liners]
-    B --> B3[Key Hashtags]
+    B --&gt; B1[30-Second Pitch]
+    B --&gt; B2[One-Liners]
+    B --&gt; B3[Key Hashtags]
     
-    C --> C1[Worker Stories]
-    C --> C2[Community Transformation]
-    C --> C3[Innovation Success]
+    C --&gt; C1[Worker Stories]
+    C --&gt; C2[Community Transformation]
+    C --&gt; C3[Innovation Success]
     
-    D --> D1[Photography Guidelines]
-    D --> D2[Infographic Templates]
-    D --> D3[Video Frameworks]
+    D --&gt; D1[Photography Guidelines]
+    D --&gt; D2[Infographic Templates]
+    D --&gt; D3[Video Frameworks]
     
-    E --> E1[Investor Decks]
-    E --> E2[Government Briefings]
-    E --> E3[Community Presentations]
+    E --&gt; E1[Investor Decks]
+    E --&gt; E2[Government Briefings]
+    E --&gt; E3[Community Presentations]
 ```
 
 ## Quick Reference Guide for All Stakeholders
@@ -165,17 +165,17 @@ flowchart TD
 ```mermaid
 graph TB
     subgraph "VISUAL IDENTITY SYSTEM"
-        A[Photography] --> A1[Hero Shots]
-        A --> A2[Technical Specs]
-        A --> A3[Style Direction]
+        A[Photography] --&gt; A1[Hero Shots]
+        A --&gt; A2[Technical Specs]
+        A --&gt; A3[Style Direction]
         
-        B[Infographics] --> B1[Transformation Timeline]
-        B --> B2[Jobs Flow Diagram]
-        B --> B3[Investment Impact]
+        B[Infographics] --&gt; B1[Transformation Timeline]
+        B --&gt; B2[Jobs Flow Diagram]
+        B --&gt; B3[Investment Impact]
         
-        C[Video Content] --> C1[2-Min Overview]
-        C --> C2[30-Sec Social]
-        C --> C3[5-Min Deep Dive]
+        C[Video Content] --&gt; C1[2-Min Overview]
+        C --&gt; C2[30-Sec Social]
+        C --&gt; C3[5-Min Deep Dive]
     end
 ```
 

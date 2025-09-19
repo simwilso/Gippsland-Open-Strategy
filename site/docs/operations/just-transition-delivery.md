@@ -41,11 +41,11 @@ This service delivery framework operationalises the 100% employment guarantee fo
 
 ```mermaid
 graph LR
-    A[Initial Contact &<br/>Registration<br/>Week 0] --> B[Comprehensive<br/>Assessment<br/>Weeks 1-2]
-    B --> C[Personalised<br/>Transition Plan<br/>Weeks 3-4]
-    C --> D[Support Service<br/>Activation<br/>Week 5]
-    D --> E[Active Case<br/>Management<br/>Ongoing]
-    E --> F[Post-Transition<br/>Follow-Up<br/>24 months]
+    A[Initial Contact &<br/>Registration<br/>Week 0] --&gt; B[Comprehensive<br/>Assessment<br/>Weeks 1-2]
+    B --&gt; C[Personalised<br/>Transition Plan<br/>Weeks 3-4]
+    C --&gt; D[Support Service<br/>Activation<br/>Week 5]
+    D --&gt; E[Active Case<br/>Management<br/>Ongoing]
+    E --&gt; F[Post-Transition<br/>Follow-Up<br/>24 months]
     
     style A fill:#E3F2FD,stroke:#1976D2
     style B fill:#E8F5E9,stroke:#4CAF50

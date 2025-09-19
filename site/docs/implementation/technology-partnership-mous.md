@@ -376,7 +376,7 @@ Date: _______________________
 **Cost Targets:**
 - System cost: AU$20/kWh by 2030
 - Levelized cost: AU$15/MWh
-- Round-trip efficiency: >70%
+- Round-trip efficiency: &gt;70%
 - 25-year design life
 
 **Local Content:**
@@ -388,8 +388,8 @@ Date: _______________________
 **Performance Guarantees:**
 - 100-hour duration capability
 - 25-year operational life
-- Capacity retention: >80% after 10,000 cycles
-- Availability: >98%
+- Capacity retention: &gt;80% after 10,000 cycles
+- Availability: &gt;98%
 
 ---
 
@@ -672,15 +672,15 @@ Date: _______________________
 - Design life: 30 years
 
 1.2 **Energy Storage:**
-- Round-trip efficiency: >70%
-- Capacity retention: >80% after 10,000 cycles
-- Response time: <30 seconds
-- Availability: >98%
+- Round-trip efficiency: &gt;70%
+- Capacity retention: &gt;80% after 10,000 cycles
+- Response time: &lt;30 seconds
+- Availability: &gt;98%
 
 1.3 **Solar Systems:**
 - Module efficiency: Per specifications
-- Degradation: <0.5% per year
-- Performance ratio: >80%
+- Degradation: &lt;0.5% per year
+- Performance ratio: &gt;80%
 - Warranty: 25 years
 
 **2. DELIVERY GUARANTEES**

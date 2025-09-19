@@ -21,7 +21,7 @@ This framework establishes world-class quality assurance operations for Gippslan
 - **Zero Defect Rate:** Manufacturing and construction
 - **99.9% Reliability:** Operational systems
 - **ISO 9001:2015:** Full compliance across operations
-- **Customer Satisfaction:** >95% rating
+- **Customer Satisfaction:** &gt;95% rating
 - **Continuous Improvement:** 20% annual efficiency gains
 
 ---
@@ -131,48 +131,48 @@ This framework establishes world-class quality assurance operations for Gippslan
 
 #### A. Manufacturing Quality Metrics
 **Product Quality:**
-- First Pass Yield: >99.5%
-- Defect Rate: <100 PPM
-- Scrap Rate: <0.5%
-- Rework Rate: <1%
-- Customer Returns: <0.1%
+- First Pass Yield: &gt;99.5%
+- Defect Rate: &lt;100 PPM
+- Scrap Rate: &lt;0.5%
+- Rework Rate: &lt;1%
+- Customer Returns: &lt;0.1%
 
 **Process Quality:**
-- Process Capability: Cpk >1.67
-- Equipment Effectiveness: OEE >85%
+- Process Capability: Cpk &gt;1.67
+- Equipment Effectiveness: OEE &gt;85%
 - Calibration Compliance: 100%
-- Audit Score: >95%
-- Corrective Action: <24 hours
+- Audit Score: &gt;95%
+- Corrective Action: &lt;24 hours
 
 #### B. Construction Quality Metrics
 **Build Quality:**
-- First-Time Right: >98%
-- NCR Rate: <2%
-- Punch List Items: <5 per MW
+- First-Time Right: &gt;98%
+- NCR Rate: &lt;2%
+- Punch List Items: &lt;5 per MW
 - Safety Incidents: Zero
-- Schedule Adherence: >95%
+- Schedule Adherence: &gt;95%
 
 **Inspection Metrics:**
 - Hold Point Compliance: 100%
-- Test Pass Rate: >99%
+- Test Pass Rate: &gt;99%
 - Documentation Complete: 100%
 - Witness Points: 100%
 - As-Built Accuracy: ±2mm
 
 #### C. Operational Quality Metrics
 **Performance Quality:**
-- System Availability: >99.5%
-- Performance Ratio: >85%
-- Mean Time Between Failures: >8760 hours
-- Mean Time To Repair: <4 hours
-- Capacity Factor: >40%
+- System Availability: &gt;99.5%
+- Performance Ratio: &gt;85%
+- Mean Time Between Failures: &gt;8760 hours
+- Mean Time To Repair: &lt;4 hours
+- Capacity Factor: &gt;40%
 
 **Service Quality:**
-- Response Time: <15 minutes
-- Resolution Time: <4 hours
-- Customer Satisfaction: >95%
-- Complaint Rate: <0.1%
-- Service Level Agreement: >99%
+- Response Time: &lt;15 minutes
+- Resolution Time: &lt;4 hours
+- Customer Satisfaction: &gt;95%
+- Complaint Rate: &lt;0.1%
+- Service Level Agreement: &gt;99%
 
 ### 2.2 Quality Dashboards
 
@@ -226,12 +226,12 @@ This framework establishes world-class quality assurance operations for Gippslan
 
 ```mermaid
 graph TD
-    D[DEFINE<br/>Problem & Goals] --> M[MEASURE<br/>Current State]
-    M --> A[ANALYSE<br/>Root Causes]
-    A --> I[IMPROVE<br/>Implement Solutions]
-    I --> C[CONTROL<br/>Sustain Gains]
-    C --> Monitor[Monitor &<br/>Continuous<br/>Improvement]
-    Monitor --> D
+    D[DEFINE<br/>Problem & Goals] --&gt; M[MEASURE<br/>Current State]
+    M --&gt; A[ANALYSE<br/>Root Causes]
+    A --&gt; I[IMPROVE<br/>Implement Solutions]
+    I --&gt; C[CONTROL<br/>Sustain Gains]
+    C --&gt; Monitor[Monitor &<br/>Continuous<br/>Improvement]
+    Monitor --&gt; D
     
     style D fill:#FF6B6B,color:#fff
     style M fill:#4ECDC4,color:#fff
@@ -523,11 +523,11 @@ Employee → Role Requirements → Current Skills → Gap Analysis → Training 
 
 #### B. Satisfaction Measurement
 **Key Metrics:**
-- Net Promoter Score (NPS): >70
-- Customer Satisfaction (CSAT): >95%
-- Customer Effort Score (CES): <2.0
-- First Contact Resolution: >90%
-- Complaint Resolution: <24 hours
+- Net Promoter Score (NPS): &gt;70
+- Customer Satisfaction (CSAT): &gt;95%
+- Customer Effort Score (CES): &lt;2.0
+- First Contact Resolution: &gt;90%
+- Complaint Resolution: &lt;24 hours
 
 **Analysis Framework:**
 ```
@@ -801,7 +801,7 @@ Trends   Causes    Plans      Deploy    Sustain
 **Quality Excellence Indicators:**
 - Zero defects in critical processes
 - 99.9% system reliability achieved
-- >95% customer satisfaction maintained
+- &gt;95% customer satisfaction maintained
 - 20% annual improvement sustained
 - World-class quality recognition earned
 

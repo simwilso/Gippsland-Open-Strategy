@@ -516,7 +516,7 @@ Starting Cohort: 300 workers
 ### 6.1 Employer Engagement Model
 
 #### Tiered Partnership Structure
-**Tier 1: Anchor Partners** (>100 jobs)
+**Tier 1: Anchor Partners** (&gt;100 jobs)
 - Star of the South (500)
 - Squadron Energy (400)
 - Alinta Energy (300)
@@ -532,7 +532,7 @@ Starting Cohort: 300 workers
 - Equipment contributions
 - Instructor secondments
 
-**Tier 3: Growing Partners** (<50 jobs)
+**Tier 3: Growing Partners** (&lt;50 jobs)
 - 50+ SMEs engaged
 - Total jobs: 1,000+
 - Group training schemes

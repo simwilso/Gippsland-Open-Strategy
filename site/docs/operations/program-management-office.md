@@ -18,11 +18,11 @@ slug: program-management-office
 The Gippsland Programme Management Office (PMO) represents the most advanced project governance system ever deployed for a regional energy transformation. Designed to coordinate 100+ concurrent projects across a $70+ billion investment portfolio, this PMO architecture combines proven methodologies with cutting-edge technology to deliver unprecedented program management excellence.
 
 ### Critical Success Metrics
-- **Project Success Rate**: >95% on-time, on-budget delivery
+- **Project Success Rate**: &gt;95% on-time, on-budget delivery
 - **Portfolio Value**: $70+ billion coordinated investment
-- **Stakeholder Satisfaction**: >90% across all stakeholder groups  
-- **Risk Mitigation**: <2% portfolio value at risk at any time
-- **Resource Optimization**: >85% resource utilization efficiency
+- **Stakeholder Satisfaction**: &gt;90% across all stakeholder groups  
+- **Risk Mitigation**: &lt;2% portfolio value at risk at any time
+- **Resource Optimization**: &gt;85% resource utilization efficiency
 
 ### Key PMO Features
 - **Matrix Organization Structure** with dedicated project streams
@@ -50,7 +50,7 @@ The CPO is the transformation delivery leader responsible for orchestrating the 
 
 **Essential Qualifications:**
 - 20+ years major infrastructure program leadership
-- Proven track record with >$20B portfolio management
+- Proven track record with &gt;$20B portfolio management
 - International energy transformation experience
 - Advanced program management certifications (PgMP, MSP)
 - Executive MBA or equivalent leadership qualification
@@ -78,31 +78,31 @@ The CPO is the transformation delivery leader responsible for orchestrating the 
 graph TD
     CPO[Chief Programme Officer]
     
-    CPO --> DPD[Deputy CPO<br/>Portfolio Delivery]
-    CPO --> DSE[Deputy CPO<br/>Stakeholder Excellence]
-    CPO --> COE[PMO Centre of<br/>Excellence]
-    CPO --> OPS[PMO Operations]
+    CPO --&gt; DPD[Deputy CPO<br/>Portfolio Delivery]
+    CPO --&gt; DSE[Deputy CPO<br/>Stakeholder Excellence]
+    CPO --&gt; COE[PMO Centre of<br/>Excellence]
+    CPO --&gt; OPS[PMO Operations]
     
-    DPD --> OWP[Offshore Wind<br/>Programme Director]
-    DPD --> ORP[Onshore Renewables<br/>Programme Director]
-    DPD --> HIP[Hydrogen Infrastructure<br/>Programme Director]
-    DPD --> GTP[Grid & Transmission<br/>Programme Director]
-    DPD --> EIP[Enabling Infrastructure<br/>Programme Director]
+    DPD --&gt; OWP[Offshore Wind<br/>Programme Director]
+    DPD --&gt; ORP[Onshore Renewables<br/>Programme Director]
+    DPD --&gt; HIP[Hydrogen Infrastructure<br/>Programme Director]
+    DPD --&gt; GTP[Grid & Transmission<br/>Programme Director]
+    DPD --&gt; EIP[Enabling Infrastructure<br/>Programme Director]
     
-    DSE --> GRD[Government Relations<br/>Director]
-    DSE --> CED[Community Engagement<br/>Director]
-    DSE --> IPD[Industry Partnerships<br/>Director]
-    DSE --> CMD[Communications &<br/>Media Director]
+    DSE --&gt; GRD[Government Relations<br/>Director]
+    DSE --&gt; CED[Community Engagement<br/>Director]
+    DSE --&gt; IPD[Industry Partnerships<br/>Director]
+    DSE --&gt; CMD[Communications &<br/>Media Director]
     
-    COE --> PMD[Portfolio Management<br/>Director]
-    COE --> RQD[Risk & Quality<br/>Assurance Director]
-    COE --> ROD[Resource Optimisation<br/>Director]
-    COE --> PAD[Performance Analytics<br/>Director]
+    COE --&gt; PMD[Portfolio Management<br/>Director]
+    COE --&gt; RQD[Risk & Quality<br/>Assurance Director]
+    COE --&gt; ROD[Resource Optimisation<br/>Director]
+    COE --&gt; PAD[Performance Analytics<br/>Director]
     
-    OPS --> PCD[Programme Controls<br/>Director]
-    OPS --> TSD[Technology & Systems<br/>Director]
-    OPS --> KMD[Knowledge Management<br/>Director]
-    OPS --> ASD[Administrative Services<br/>Director]
+    OPS --&gt; PCD[Programme Controls<br/>Director]
+    OPS --&gt; TSD[Technology & Systems<br/>Director]
+    OPS --&gt; KMD[Knowledge Management<br/>Director]
+    OPS --&gt; ASD[Administrative Services<br/>Director]
     
     style CPO fill:#1E5128,stroke:#1E5128,color:#fff
     style DPD fill:#4E9F3D,stroke:#4E9F3D,color:#fff
@@ -220,16 +220,16 @@ graph TD
 
 ```mermaid
 graph LR
-    S0[Stage 0<br/>Concept Development] --> G0{Gate 0<br/>Review}
-    G0 --> S1[Stage 1<br/>Feasibility & Planning]
-    S1 --> G1{Gate 1<br/>Review}
-    G1 --> S2[Stage 2<br/>Design & Development]
-    S2 --> G2{Gate 2<br/>Review}
-    G2 --> S3[Stage 3<br/>Construction & Implementation]
-    S3 --> G3{Gate 3<br/>Review}
-    G3 --> S4[Stage 4<br/>Commissioning & Handover]
-    S4 --> G4{Gate 4<br/>Review}
-    G4 --> PC[Project<br/>Closure]
+    S0[Stage 0<br/>Concept Development] --&gt; G0{Gate 0<br/>Review}
+    G0 --&gt; S1[Stage 1<br/>Feasibility & Planning]
+    S1 --&gt; G1{Gate 1<br/>Review}
+    G1 --&gt; S2[Stage 2<br/>Design & Development]
+    S2 --&gt; G2{Gate 2<br/>Review}
+    G2 --&gt; S3[Stage 3<br/>Construction & Implementation]
+    S3 --&gt; G3{Gate 3<br/>Review}
+    G3 --&gt; S4[Stage 4<br/>Commissioning & Handover]
+    S4 --&gt; G4{Gate 4<br/>Review}
+    G4 --&gt; PC[Project<br/>Closure]
     
     style S0 fill:#E8F5E9,stroke:#4CAF50
     style S1 fill:#E8F5E9,stroke:#4CAF50
@@ -676,29 +676,29 @@ Level 4: Activity Performance (Teams/Individuals)
 
 **Portfolio Level KPIs:**
 1. **Strategic Delivery Performance**
-   - Portfolio milestone achievement rate (Target: >95%)
-   - Investment deployment against targets (Target: >90%)
-   - Strategic objective realization (Target: >85%)
-   - Stakeholder satisfaction index (Target: >90%)
+   - Portfolio milestone achievement rate (Target: &gt;95%)
+   - Investment deployment against targets (Target: &gt;90%)
+   - Strategic objective realization (Target: &gt;85%)
+   - Stakeholder satisfaction index (Target: &gt;90%)
 
 2. **Financial Performance**
-   - Portfolio ROI achievement (Target: >target IRR)
-   - Budget variance performance (Target: <5% variance)
-   - Cash flow management efficiency (Target: >95%)
-   - Cost optimization achievements (Target: >10% efficiency gain)
+   - Portfolio ROI achievement (Target: &gt;target IRR)
+   - Budget variance performance (Target: &lt;5% variance)
+   - Cash flow management efficiency (Target: &gt;95%)
+   - Cost optimization achievements (Target: &gt;10% efficiency gain)
 
 3. **Risk and Quality Performance**
-   - Portfolio risk exposure (Target: <2% portfolio value)
-   - Quality compliance rate (Target: >98%)
+   - Portfolio risk exposure (Target: &lt;2% portfolio value)
+   - Quality compliance rate (Target: &gt;98%)
    - Safety performance (Target: Zero serious incidents)
    - Environmental compliance (Target: 100%)
 
 **Programme Stream KPIs:**
-- Schedule performance index (Target: >0.95)
-- Cost performance index (Target: >0.95)  
-- Quality achievement rate (Target: >98%)
-- Resource utilization efficiency (Target: >85%)
-- Stakeholder satisfaction (Target: >85%)
+- Schedule performance index (Target: &gt;0.95)
+- Cost performance index (Target: &gt;0.95)  
+- Quality achievement rate (Target: &gt;98%)
+- Resource utilization efficiency (Target: &gt;85%)
+- Stakeholder satisfaction (Target: &gt;85%)
 
 ### 6.2 Real-Time Monitoring and Analytics
 
@@ -1128,8 +1128,8 @@ graph TB
     subgraph "Executive Dashboard"
         KPI1[Portfolio Health<br/>95% On Track ✓]
         KPI2[Budget Performance<br/>98% Accuracy ✓]
-        KPI3[Risk Exposure<br/>1.8% < 2% Target ✓]
-        KPI4[Stakeholder Satisfaction<br/>92% > 90% Target ✓]
+        KPI3[Risk Exposure<br/>1.8% &lt; 2% Target ✓]
+        KPI4[Stakeholder Satisfaction<br/>92% &gt; 90% Target ✓]
     end
     
     subgraph "Operational Metrics"
@@ -1208,18 +1208,18 @@ graph TB
 
 #### Quantitative Success Metrics
 **Portfolio Delivery Excellence:**
-- Project success rate >95% (on-time, on-budget, quality)
+- Project success rate &gt;95% (on-time, on-budget, quality)
 - Portfolio value delivery $70+ billion over 5 years
-- Schedule performance index >0.95 across all projects
-- Cost performance index >0.95 across all projects
-- Quality compliance rate >98% across all deliverables
+- Schedule performance index &gt;0.95 across all projects
+- Cost performance index &gt;0.95 across all projects
+- Quality compliance rate &gt;98% across all deliverables
 
 **Operational Performance:**
-- Resource utilization efficiency >85% across all resources
-- Risk mitigation effectiveness <2% portfolio value at risk
-- Stakeholder satisfaction >90% across all stakeholder groups
-- Communication effectiveness >95% message reach and understanding
-- Innovation implementation >50 major innovations deployed
+- Resource utilization efficiency &gt;85% across all resources
+- Risk mitigation effectiveness &lt;2% portfolio value at risk
+- Stakeholder satisfaction &gt;90% across all stakeholder groups
+- Communication effectiveness &gt;95% message reach and understanding
+- Innovation implementation &gt;50 major innovations deployed
 
 #### Qualitative Success Indicators
 **Organizational Excellence:**

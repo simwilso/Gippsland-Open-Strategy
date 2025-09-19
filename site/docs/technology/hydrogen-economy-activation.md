@@ -12,15 +12,15 @@ slug: hydrogen-economy-activation
 ```mermaid
 graph LR
     subgraph "Hydrogen Value Chain"
-        A[2.2GW Renewable Energy] --> B[Electrolysers 2GW]
-        B --> C[Green H2 Production]
-        C --> D[Storage & Transport]
-        D --> E[Export Terminals]
-        E --> F[Global Markets]
+        A[2.2GW Renewable Energy] --&gt; B[Electrolysers 2GW]
+        B --&gt; C[Green H2 Production]
+        C --&gt; D[Storage & Transport]
+        D --&gt; E[Export Terminals]
+        E --&gt; F[Global Markets]
         
-        C --> G[Industrial Use]
-        C --> H[Transport Fuel]
-        C --> I[Ammonia Production]
+        C --&gt; G[Industrial Use]
+        C --&gt; H[Transport Fuel]
+        C --&gt; I[Ammonia Production]
     end
     
     subgraph "Economic Impact"
@@ -177,7 +177,7 @@ Year    Capacity Added    Total Capacity    Investment
 **Liquid Hydrogen Tanks**
 - **Capacity:** 4 x 5,000 m³ cryogenic tanks
 - **Temperature:** -253°C
-- **Boil-off Rate:** <0.1% per day
+- **Boil-off Rate:** &lt;0.1% per day
 - **Location:** Port Anthony export terminal
 
 **Compressed Gas Storage**
@@ -343,7 +343,7 @@ Spot Markets       2        As required  200
 - Container handling: 200 moves/hour
 - Pipeline switching: Remote operated
 - Safety interlocks: Triple redundancy
-- Emergency response: <3 minute activation
+- Emergency response: &lt;3 minute activation
 
 ---
 
@@ -370,10 +370,10 @@ Spot Markets       2        As required  200
 **Quantitative Risk Analysis (QRA):**
 ```
 Facility Component    Risk Level    Mitigation          Target
-Electrolyser Hall    Medium        Ventilation, Detection  <1E-6
-LH2 Storage         High          Distance, Barriers      <1E-6
-Pipeline Network    Low-Medium     Monitoring, Valves      <1E-7
-Loading Terminal    High          Automation, Training    <1E-6
+Electrolyser Hall    Medium        Ventilation, Detection  &lt;1E-6
+LH2 Storage         High          Distance, Barriers      &lt;1E-6
+Pipeline Network    Low-Medium     Monitoring, Valves      &lt;1E-7
+Loading Terminal    High          Automation, Training    &lt;1E-6
 ```
 
 **Safety Management Protocols:**
@@ -606,21 +606,21 @@ Total   $3.1B      $8.5B       $5.9B           $17.5B
 
 #### Key Performance Indicators
 **Production Metrics:**
-- Electrolyser utilization: >90%
-- Production cost: <$3/kg by 2030
-- Carbon intensity: <0.5 kg CO2/kg H2
-- Water efficiency: <9 L/kg H2
+- Electrolyser utilization: &gt;90%
+- Production cost: &lt;$3/kg by 2030
+- Carbon intensity: &lt;0.5 kg CO2/kg H2
+- Water efficiency: &lt;9 L/kg H2
 
 **Commercial Metrics:**
 - Export volumes: Per contracts
 - Revenue targets: ±5% variance
 - Market share: Per agreements
-- Customer satisfaction: >95%
+- Customer satisfaction: &gt;95%
 
 **Sustainability Metrics:**
 - CO2 abatement: 10 Mt/year by 2035
 - Renewable integration: 100% by 2032
-- Local content: >65%
+- Local content: &gt;65%
 - Community benefit: $100M/year
 
 ---
@@ -684,7 +684,7 @@ Tech Disruption   Obsolescence     R&D investment
 #### Grid Stability Services
 **Virtual Power Plant Capability:**
 - **Capacity:** 2 GW demand response
-- **Response Time:** <5 seconds
+- **Response Time:** &lt;5 seconds
 - **Services:** FCAS, synthetic inertia
 - **Revenue:** AU$100M/year potential
 

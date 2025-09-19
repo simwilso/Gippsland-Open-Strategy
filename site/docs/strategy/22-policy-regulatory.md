@@ -7,25 +7,25 @@ slug: 22-policy-regulatory
 
 ```mermaid
 flowchart TD
-    A[Policy Framework Vision] --> B[Streamlined Approvals]
-    A --> C[Investment Incentives]
-    A --> D[Market Mechanisms]
-    A --> E[Governance Structure]
+    A[Policy Framework Vision] --&gt; B[Streamlined Approvals]
+    A --&gt; C[Investment Incentives]
+    A --&gt; D[Market Mechanisms]
+    A --&gt; E[Governance Structure]
     
-    B --> F[One-Stop-Shop GREAA]
-    C --> G[Tax Credits & Grants]
-    D --> H[CfD & Market Reform]
-    E --> I[GREA Authority]
+    B --&gt; F[One-Stop-Shop GREAA]
+    C --&gt; G[Tax Credits & Grants]
+    D --&gt; H[CfD & Market Reform]
+    E --&gt; I[GREA Authority]
     
-    F --> J[12-Month Max Approvals]
-    G --> K[$10B+ Government Support]
-    H --> L[Revenue Certainty]
-    I --> M[Integrated Delivery]
+    F --&gt; J[12-Month Max Approvals]
+    G --&gt; K[$10B+ Government Support]
+    H --&gt; L[Revenue Certainty]
+    I --&gt; M[Integrated Delivery]
     
-    J --> N[$70B Investment Attracted]
-    K --> N
-    L --> N
-    M --> N
+    J --&gt; N[$70B Investment Attracted]
+    K --&gt; N
+    L --&gt; N
+    M --&gt; N
 ```
 
 ## Executive Summary for Government and Investor Audiences
@@ -135,18 +135,18 @@ sequenceDiagram
     participant L as Local Councils
     participant C as Community
     
-    D->>G: Single Application Lodgment
-    G->>F: Concurrent Assessment
-    G->>S: Concurrent Assessment
-    G->>L: Concurrent Assessment
-    G->>C: Community Consultation
+    D-&gt;&gt;G: Single Application Lodgment
+    G-&gt;&gt;F: Concurrent Assessment
+    G-&gt;&gt;S: Concurrent Assessment
+    G-&gt;&gt;L: Concurrent Assessment
+    G-&gt;&gt;C: Community Consultation
     
-    F-->>G: Technical Review (60 days)
-    S-->>G: Environmental Review (60 days)
-    L-->>G: Planning Review (45 days)
-    C-->>G: Community Feedback (30 days)
+    F--&gt;&gt;G: Technical Review (60 days)
+    S--&gt;&gt;G: Environmental Review (60 days)
+    L--&gt;&gt;G: Planning Review (45 days)
+    C--&gt;&gt;G: Community Feedback (30 days)
     
-    G->>D: Integrated Approval Decision (12 months max)
+    G-&gt;&gt;D: Integrated Approval Decision (12 months max)
 ```
 
 #### Gippsland Renewable Energy Approval Authority (GREAA)
@@ -161,9 +161,9 @@ sequenceDiagram
 | **Response Guarantees** | No firm timelines | 12-month maximum | Certainty premium | 20% risk discount |
 
 **Approval Timeframes**
-- **Major Projects (>100MW)**: 12 months maximum
+- **Major Projects (&gt;100MW)**: 12 months maximum
 - **Medium Projects (10-100MW)**: 6 months maximum
-- **Small Projects (<10MW)**: 3 months maximum
+- **Small Projects (&lt;10MW)**: 3 months maximum
 - **Grid Connections**: Parallel processing
 - **Environmental Permits**: Integrated assessment
 
@@ -436,9 +436,9 @@ sequenceDiagram
 
 #### Approval Delegation
 **Clear Decision Rights**
-- CEO: Projects <$100 million
+- CEO: Projects &lt;$100 million
 - Board: Projects $100-500 million  
-- Minister: Projects >$500 million
+- Minister: Projects &gt;$500 million
 - Cabinet: Policy changes
 
 **Appeal Mechanisms**
