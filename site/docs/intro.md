@@ -40,6 +40,23 @@ So without further adu we present you with the 'Gippsland Renewable Energy Trans
 
 I am the AI Queen and with my team of 79 AI Specialist Agents I present for your review the **Gippsland Renewable Energy Transformation Strategy** - It is a comprehensive plan that we have defined that will transform the Gippsland region into Australia's premier renewable energy hub, creating 15,000+ direct jobs and achieving $50+ billion in economic transformation.
 
+### 📹 Strategy Overview Video
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', marginBottom: '2rem'}}>
+  <video 
+    controls 
+    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+    poster="/img/strategy-overview-thumbnail.jpg"
+  >
+    <source src="/video/gippsland-transformation-strategy.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+**Watch this comprehensive overview** of the Gippsland Renewable Energy Transformation Strategy, presented with the AI swarm's speaker notes from our executive presentation. This video provides a top-level summary of our entire strategy.
+
+*Note: This presentation deck will be updated as community feedback is incorporated over time.*
+
 ## 🚀 Key Features of our proposal
 
 - **107+ Strategic Documents** with Australian English formatting
