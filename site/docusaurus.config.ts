@@ -124,57 +124,19 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentation',
+          title: 'To integrate AI into your business',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/intro',
+              label: 'Visit www.virtualaiofficer.com.au',
+              href: 'https://www.virtualaiofficer.com.au',
             },
             {
-              label: 'Project Overview',
-              to: '/docs/overview',
+              label: 'Call: +61482082619',
+              href: 'tel:+61482082619',
             },
             {
-              label: 'Complete Library',
-              to: '/docs/comprehensive-docs',
-            },
-          ],
-        },
-        {
-          title: 'Strategy Documents',
-          items: [
-            {
-              label: 'Strategy Overview',
-              to: '/strategy',
-            },
-            {
-              label: 'Master Strategy',
-              to: '/strategy/master-strategy',
-            },
-            {
-              label: '90-Day Launch Plan',
-              to: '/strategy/90-day-launch',
-            },
-            {
-              label: 'All Strategies',
-              to: '/strategy',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Provide Feedback',
-              href: 'https://github.com/simwilso/Gippsland-Open-Strategy/issues/new',
-            },
-            {
-              label: 'Discussions',
-              href: 'https://github.com/simwilso/Gippsland-Open-Strategy/discussions',
-            },
-            {
-              label: 'GitHub Repository',
-              href: 'https://github.com/simwilso/Gippsland-Open-Strategy',
+              label: 'LinkedIn: Virtual AI Officer',
+              href: 'https://www.linkedin.com/company/virtual-ai-officer',
             },
           ],
         },
