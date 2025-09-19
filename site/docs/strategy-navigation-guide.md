@@ -6,9 +6,9 @@
 ## 🎯 Executive Quick Start
 
 **For Busy Stakeholders**: Start with these 3 documents in order:
-1. 📋 **[Executive Summaries](executive-summaries.md)** - Complete overview of all strategies
-2. 🏗️ **[Master Blueprint](master-blueprint.md)** - Comprehensive transformation framework  
-3. 💼 **[Implementation Readiness](executive/implementation-readiness.md)** - Action-ready next steps
+1. 📋 **[Executive Summaries](/docs/executive-summaries)** - Complete overview of all strategies
+2. 🏗️ **[Master Blueprint](/docs/master-blueprint)** - Comprehensive transformation framework  
+3. 💼 **[Implementation Readiness](/docs/executive/implementation-readiness)** - Action-ready next steps
 
 ---
 
@@ -17,115 +17,115 @@
 ### 🌟 **TIER 1: Foundation & Vision** *(Read First)*
 
 #### **1.1 Strategic Foundation** 
-- 📋 **[Executive Summaries](executive-summaries.md)** - *Start here for complete overview*
-- 🏗️ **[Master Blueprint](master-blueprint.md)** - *Comprehensive transformation framework*
-- 📊 **[Master Blueprint Visual Summary](master-blueprint-visual-summary.md)** - *Visual overview with charts*
+- 📋 **[Executive Summaries](/docs/executive-summaries)** - *Start here for complete overview*
+- 🏗️ **[Master Blueprint](/docs/master-blueprint)** - *Comprehensive transformation framework*
+- 📊 **[Master Blueprint Visual Summary](/docs/master-blueprint-visual-summary)** - *Visual overview with charts*
 
 #### **1.2 Core Strategy Framework**
-- 🎯 **[Master Strategy (16)](strategy/16-master-strategy.md)** - *Primary strategic document*
-- 💰 **[Economic Development Strategy (17)](strategy/17-economic-development.md)** - *Economic transformation plan*
+- 🎯 **[Master Strategy (16)](/docs/strategy/16-master-strategy)** - *Primary strategic document*
+- 💰 **[Economic Development Strategy (17)](/docs/strategy/17-economic-development)** - *Economic transformation plan*
 
 #### **1.3 Research Foundation**
-- 📊 **[Requirements Analysis (01)](research/01-requirements-analysis.md)** - *Strategic requirements framework*
-- 🌐 **[Global Benchmarking (08)](research/08-global-benchmarking.md)** - *International best practices*
+- 📊 **[Requirements Analysis (01)](/docs/research/01-requirements-analysis)** - *Strategic requirements framework*
+- 🌐 **[Global Benchmarking (08)](/docs/research/08-global-benchmarking)** - *International best practices*
 
 ---
 
 ### ⚡ **TIER 2: Implementation Framework** *(Read Second)*
 
 #### **2.1 Implementation Strategy**
-- ⚡ **[90-Day Launch Plan](implementation/90-day-launch-plan.md)** - *Immediate action framework*
-- 🏛️ **[Regulatory Acceleration Framework](implementation/regulatory-acceleration-framework.md)** - *Policy implementation*
-- 💼 **[Implementation Readiness](executive/implementation-readiness.md)** - *Readiness assessment*
+- ⚡ **[90-Day Launch Plan](/docs/implementation/90-day-launch-plan)** - *Immediate action framework*
+- 🏛️ **[Regulatory Acceleration Framework](/docs/implementation/regulatory-acceleration-framework)** - *Policy implementation*
+- 💼 **[Implementation Readiness](/docs/executive/implementation-readiness)** - *Readiness assessment*
 
 #### **2.2 Organizational Framework**
-- 🏢 **[GREA Organisational Architecture](operations/grea-organizational-architecture.md)** - *Governance structure*
-- 📋 **[Programme Management Office](operations/program-management-office.md)** - *Management framework*
+- 🏢 **[GREA Organisational Architecture](/docs/operations/grea-organizational-architecture)** - *Governance structure*
+- 📋 **[Programme Management Office](/docs/operations/program-management-office)** - *Management framework*
 
 #### **2.3 Stakeholder Engagement**
-- 🤝 **[Stakeholder Engagement Strategy (20)](strategy/20-stakeholder-engagement.md)** - *Engagement framework*
-- 🏘️ **[Community Co-design Launch](implementation/community-codesign-launch.md)** - *Community participation*
+- 🤝 **[Stakeholder Engagement Strategy (20)](/docs/strategy/20-stakeholder-engagement)** - *Engagement framework*
+- 🏘️ **[Community Co-design Launch](/docs/implementation/community-codesign-launch)** - *Community participation*
 
 ---
 
 ### 💰 **TIER 3: Financial Architecture** *(Critical for Funding)*
 
 #### **3.1 Investment Framework**
-- 💰 **[Investment Fund Architecture](finance/investment-fund-architecture.md)** - *Financial structure*
-- 📈 **[Revenue Diversification Strategy](finance/revenue-diversification-strategy.md)** - *Revenue streams*
-- 💵 **[Investment Attraction Package](implementation/investment-attraction-package.md)** - *Investor engagement*
+- 💰 **[Investment Fund Architecture](/docs/finance/investment-fund-architecture)** - *Financial structure*
+- 📈 **[Revenue Diversification Strategy](/docs/finance/revenue-diversification-strategy)** - *Revenue streams*
+- 💵 **[Investment Attraction Package](/docs/implementation/investment-attraction-package)** - *Investor engagement*
 
 #### **3.2 Community Wealth**
-- 🏘️ **[Community Wealth Creation](finance/community-wealth-creation.md)** - *Local prosperity model*
-- 🤝 **[Community Investment Vehicles](partnerships/community-investment-vehicles.md)** - *Community ownership*
+- 🏘️ **[Community Wealth Creation](/docs/finance/community-wealth-creation)** - *Local prosperity model*
+- 🤝 **[Community Investment Vehicles](/docs/partnerships/community-investment-vehicles)** - *Community ownership*
 
 #### **3.3 Risk Management**
-- 🛡️ **[Risk Insurance Portfolio](finance/risk-insurance-portfolio.md)** - *Risk mitigation*
-- ⚠️ **[Risk Assessment Audit](risk-assessment-audit.md)** - *Comprehensive risk analysis*
+- 🛡️ **[Risk Insurance Portfolio](/docs/finance/risk-insurance-portfolio)** - *Risk mitigation*
+- ⚠️ **[Risk Assessment Audit](/docs/risk-assessment-audit)** - *Comprehensive risk analysis*
 
 ---
 
 ### 🌍 **TIER 4: Global Positioning** *(International Engagement)*
 
 #### **4.1 Global Recognition**
-- 🌍 **[International Recognition Campaign](global/international-recognition-campaign.md)** - *Global positioning*
-- 🎓 **[Knowledge Export Business](global/knowledge-export-business.md)** - *Intellectual property commercialisation*
+- 🌍 **[International Recognition Campaign](/docs/global/international-recognition-campaign)** - *Global positioning*
+- 🎓 **[Knowledge Export Business](/docs/global/knowledge-export-business)** - *Intellectual property commercialisation*
 
 #### **4.2 International Finance**
-- 💰 **[International Finance Mobilisation](finance/international-finance-mobilization.md)** - *Global capital access*
-- 🤝 **[Global Technology Agreements](partnerships/global-technology-agreements.md)** - *Technology partnerships*
+- 💰 **[International Finance Mobilisation](/docs/finance/international-finance-mobilization)** - *Global capital access*
+- 🤝 **[Global Technology Agreements](/docs/partnerships/global-technology-agreements)** - *Technology partnerships*
 
 #### **4.3 Diplomatic Engagement**
-- 🏛️ **[Diplomatic Energy Engagement](global/diplomatic-energy-engagement.md)** - *Government relations*
-- 🏆 **[Conference Series Strategy](global/conference-series-strategy.md)** - *International events*
+- 🏛️ **[Diplomatic Energy Engagement](/docs/global/diplomatic-energy-engagement)** - *Government relations*
+- 🏆 **[Conference Series Strategy](/docs/global/conference-series-strategy)** - *International events*
 
 ---
 
 ### 🔬 **TIER 5: Technology & Innovation** *(Technical Implementation)*
 
 #### **5.1 Technology Strategy**
-- 💻 **[Digital Twin Platform](technology/digital-twin-platform.md)** - *Digital infrastructure*
-- ⚡ **[Grid Innovation Solutions](technology/grid-innovation-solutions.md)** - *Smart grid technology*
-- 🔋 **[Hydrogen Economy Activation](technology/hydrogen-economy-activation.md)** - *Hydrogen development*
+- 💻 **[Digital Twin Platform](/docs/technology/digital-twin-platform)** - *Digital infrastructure*
+- ⚡ **[Grid Innovation Solutions](/docs/technology/grid-innovation-solutions)** - *Smart grid technology*
+- 🔋 **[Hydrogen Economy Activation](/docs/technology/hydrogen-economy-activation)** - *Hydrogen development*
 
 #### **5.2 Innovation Framework**
-- 💡 **[Innovation Hub Strategy (19)](strategy/19-innovation-hub.md)** - *Innovation ecosystem*
-- 🔬 **[Research Infrastructure](technology/research-infrastructure.md)** - *R&D facilities*
-- 🏢 **[Innovation Hub Operations](operations/innovation-hub-operations.md)** - *Hub operations*
+- 💡 **[Innovation Hub Strategy (19)](/docs/strategy/19-innovation-hub)** - *Innovation ecosystem*
+- 🔬 **[Research Infrastructure](/docs/technology/research-infrastructure)** - *R&D facilities*
+- 🏢 **[Innovation Hub Operations](/docs/operations/innovation-hub-operations)** - *Hub operations*
 
 #### **5.3 Intellectual Property**
-- 📄 **[IP Strategy & Patent Portfolio](technology/ip-strategy-patent-portfolio.md)** - *Intellectual property*
-- 📚 **[Technology Partnership MOUs](implementation/technology-partnership-mous.md)** - *Partnership agreements*
+- 📄 **[IP Strategy & Patent Portfolio](/docs/technology/ip-strategy-patent-portfolio)** - *Intellectual property*
+- 📚 **[Technology Partnership MOUs](/docs/implementation/technology-partnership-mous)** - *Partnership agreements*
 
 ---
 
 ### 🏭 **TIER 6: Operations & Delivery** *(Implementation Details)*
 
 #### **6.1 Just Transition**
-- ⚖️ **[Just Transition Strategy (18)](strategy/18-just-transition.md)** - *Worker transition framework*
-- 👥 **[Skills Activation Programme](implementation/skills-activation-program.md)** - *Workforce development*
-- 🤝 **[Just Transition Delivery](operations/just-transition-delivery.md)** - *Transition operations*
+- ⚖️ **[Just Transition Strategy (18)](/docs/strategy/18-just-transition)** - *Worker transition framework*
+- 👥 **[Skills Activation Programme](/docs/implementation/skills-activation-program)** - *Workforce development*
+- 🤝 **[Just Transition Delivery](/docs/operations/just-transition-delivery)** - *Transition operations*
 
 #### **6.2 Supply Chain**
-- 🏭 **[Supply Chain Agreements](partnerships/supply-chain-agreements.md)** - *Manufacturing partnerships*
-- 🔗 **[Supply Chain Coordination](operations/supply-chain-coordination.md)** - *Logistics management*
+- 🏭 **[Supply Chain Agreements](/docs/partnerships/supply-chain-agreements)** - *Manufacturing partnerships*
+- 🔗 **[Supply Chain Coordination](/docs/operations/supply-chain-coordination)** - *Logistics management*
 
 #### **6.3 Environmental Framework**
-- 🌱 **[Environmental Impact Strategy (21)](strategy/21-environmental-impact.md)** - *Environmental enhancement*
-- 🌿 **[Environmental Monitoring](operations/environmental-monitoring.md)** - *Monitoring systems*
+- 🌱 **[Environmental Impact Strategy (21)](/docs/strategy/21-environmental-impact)** - *Environmental enhancement*
+- 🌿 **[Environmental Monitoring](/docs/operations/environmental-monitoring)** - *Monitoring systems*
 
 ---
 
 ### 📢 **TIER 7: Communication & Brand** *(Public Engagement)*
 
 #### **7.1 Brand Strategy**
-- 🎯 **[Brand Narrative Strategy (23)](strategy/23-brand-narrative.md)** - *Brand positioning*
-- 🎨 **[Brand Toolkit (23)](strategy/23-brand-toolkit.md)** - *Brand implementation*
+- 🎯 **[Brand Narrative Strategy (23)](/docs/strategy/23-brand-narrative)** - *Brand positioning*
+- 🎨 **[Brand Toolkit (23)](/docs/strategy/23-brand-toolkit)** - *Brand implementation*
 
 #### **7.2 Policy Communication**
-- 🏛️ **[Policy & Regulatory Framework (22)](strategy/22-policy-regulatory.md)** - *Policy strategy*
-- 📅 **[Policy Regulatory Timeline](strategy/22-policy-regulatory-timeline.md)** - *Implementation timeline*
-- 🎤 **[Political Alignment Strategy](implementation/political-alignment-strategy.md)** - *Political engagement*
+- 🏛️ **[Policy & Regulatory Framework (22)](/docs/strategy/22-policy-regulatory)** - *Policy strategy*
+- 📅 **[Policy Regulatory Timeline](/docs/strategy/22-policy-regulatory-timeline)** - *Implementation timeline*
+- 🎤 **[Political Alignment Strategy](/docs/implementation/political-alignment-strategy)** - *Political engagement*
 
 ---
 
@@ -316,24 +316,24 @@ graph TB
 ## 📱 Quick Access Links
 
 ### **Start Here** (New Users)
-- 📋 [Executive Summaries](executive-summaries.md)
-- 🏗️ [Master Blueprint](master-blueprint.md)
-- 💼 [Implementation Readiness](executive/implementation-readiness.md)
+- 📋 [Executive Summaries](/docs/executive-summaries)
+- 🏗️ [Master Blueprint](/docs/master-blueprint)
+- 💼 [Implementation Readiness](/docs/executive/implementation-readiness)
 
 ### **Strategic Core** (Leadership)
-- 🎯 [Master Strategy](strategy/16-master-strategy.md)
-- 💰 [Economic Development](strategy/17-economic-development.md)
-- ⚡ [90-Day Launch Plan](implementation/90-day-launch-plan.md)
+- 🎯 [Master Strategy](/docs/strategy/16-master-strategy)
+- 💰 [Economic Development](/docs/strategy/17-economic-development)
+- ⚡ [90-Day Launch Plan](/docs/implementation/90-day-launch-plan)
 
 ### **Financial Framework** (Investors)
-- 💰 [Investment Fund Architecture](finance/investment-fund-architecture.md)
-- 📈 [Revenue Diversification](finance/revenue-diversification-strategy.md)
-- 🏘️ [Community Wealth Creation](finance/community-wealth-creation.md)
+- 💰 [Investment Fund Architecture](/docs/finance/investment-fund-architecture)
+- 📈 [Revenue Diversification](/docs/finance/revenue-diversification-strategy)
+- 🏘️ [Community Wealth Creation](/docs/finance/community-wealth-creation)
 
 ### **Global Positioning** (International)
-- 🌍 [International Recognition](global/international-recognition-campaign.md)
-- 🎓 [Knowledge Export Business](global/knowledge-export-business.md)
-- 🏛️ [Diplomatic Engagement](global/diplomatic-energy-engagement.md)
+- 🌍 [International Recognition](/docs/global/international-recognition-campaign)
+- 🎓 [Knowledge Export Business](/docs/global/knowledge-export-business)
+- 🏛️ [Diplomatic Engagement](/docs/global/diplomatic-energy-engagement)
 
 ---
 
