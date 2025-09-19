@@ -1,3 +1,8 @@
+---
+title: "19 Innovation Hub"
+slug: 19-innovation-hub
+---
+
 # Gippsland Renewable Energy Innovation Hub Strategy
 
 ```mermaid

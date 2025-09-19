@@ -1,3 +1,8 @@
+---
+title: "20 Stakeholder Engagement"
+slug: 20-stakeholder-engagement
+---
+
 # Gippsland Renewable Energy Hub - Stakeholder Engagement Strategy
 
 ```mermaid

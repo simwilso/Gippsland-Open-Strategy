@@ -1,3 +1,8 @@
+---
+title: "Grid Innovation Solutions"
+slug: grid-innovation-solutions
+---
+
 # Grid Innovation Solutions Architecture - Gippsland Day 2 Phase 5
 ## Engineering Next-Generation Smart Grid for 10GW+ Renewable Integration
 

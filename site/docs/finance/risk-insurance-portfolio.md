@@ -1,3 +1,8 @@
+---
+title: "Risk Insurance Portfolio"
+slug: risk-insurance-portfolio
+---
+
 # GIPPSLAND RENEWABLE ENERGY RISK INSURANCE PORTFOLIO
 ## Comprehensive Insurance Architecture for $70B Investment Protection
 

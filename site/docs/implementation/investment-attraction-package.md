@@ -1,3 +1,8 @@
+---
+title: "Investment Attraction Package"
+slug: investment-attraction-package
+---
+
 # GIPPSLAND RENEWABLE ENERGY INVESTMENT ATTRACTION PACKAGE
 ## Securing $10B+ Commitments in 90 Days
 

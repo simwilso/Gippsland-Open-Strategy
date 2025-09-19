@@ -1,3 +1,8 @@
+---
+title: "01 Requirements Analysis"
+slug: 01-requirements-analysis
+---
+
 # 📋 Gippsland Energy Hub Requirements Analysis
 
 ```mermaid

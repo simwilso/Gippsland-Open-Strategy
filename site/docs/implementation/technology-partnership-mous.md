@@ -1,3 +1,8 @@
+---
+title: "Technology Partnership Mous"
+slug: technology-partnership-mous
+---
+
 # Technology Partnership Frameworks for Gippsland Energy Transformation
 
 ## Executive Overview

@@ -1,3 +1,8 @@
+---
+title: "Conference Series Strategy"
+slug: conference-series-strategy
+---
+
 # 🌍 Gippsland Global Renewable Energy Conference Series Strategy
 ## Establishing the World's Premier Energy Transition Platform
 

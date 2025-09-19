@@ -1,3 +1,8 @@
+---
+title: "21 Environmental Impact"
+slug: 21-environmental-impact
+---
+
 # Environmental Impact Strategy for Gippsland's Renewable Transformation
 
 ```mermaid

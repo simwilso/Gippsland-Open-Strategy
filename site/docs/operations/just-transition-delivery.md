@@ -1,3 +1,8 @@
+---
+title: "Just Transition Delivery"
+slug: just-transition-delivery
+---
+
 # Just Transition Service Delivery Framework for Gippsland Day 2 Phase 3
 ## Operationalizing 100% Employment Guarantee for 4,500 Coal Workers
 

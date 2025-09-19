@@ -1,3 +1,8 @@
+---
+title: "Diplomatic Energy Engagement"
+slug: diplomatic-energy-engagement
+---
+
 # 🌏 Diplomatic Energy Engagement Strategy for Gippsland's Renewable Transformation
 ## Government-to-Government Energy Partnerships and Multilateral Frameworks
 

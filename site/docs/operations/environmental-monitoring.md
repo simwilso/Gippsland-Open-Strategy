@@ -1,3 +1,8 @@
+---
+title: "Environmental Monitoring"
+slug: environmental-monitoring
+---
+
 # Environmental Monitoring Operations for Gippsland Day 2 Phase 3
 ## Real-Time Protection Systems for Net-Positive Environmental Outcomes
 

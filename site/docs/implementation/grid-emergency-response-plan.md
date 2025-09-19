@@ -1,3 +1,8 @@
+---
+title: "Grid Emergency Response Plan"
+slug: grid-emergency-response-plan
+---
+
 # Grid Infrastructure Emergency Response Plan
 ## Breaking the 2GW Bottleneck: Rapid Solutions for 10GW+ Renewable Integration
 

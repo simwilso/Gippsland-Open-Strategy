@@ -1,3 +1,8 @@
+---
+title: "Knowledge Export Business"
+slug: knowledge-export-business
+---
+
 # 🌏 Gippsland Knowledge Export Business Portfolio
 ## Commercialising Renewable Energy Transformation Expertise Globally
 

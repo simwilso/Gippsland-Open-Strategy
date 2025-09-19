@@ -1,3 +1,8 @@
+---
+title: "Regulatory Acceleration Framework"
+slug: regulatory-acceleration-framework
+---
+
 # Regulatory Acceleration Framework for Gippsland's Renewable Energy Transformation
 ## Fast-Track Approval Pathways to Achieve 6-12 Month Timelines
 

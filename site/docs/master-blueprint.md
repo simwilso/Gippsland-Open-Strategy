@@ -1,3 +1,8 @@
+---
+title: "Master Blueprint"
+slug: master-blueprint
+---
+
 # GIPPSLAND RENEWABLE ENERGY TRANSFORMATION MASTER BLUEPRINT
 ## The Definitive Guide for Australia's Energy Future
 

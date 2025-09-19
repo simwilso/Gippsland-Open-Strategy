@@ -1,3 +1,8 @@
+---
+title: "23 Brand Toolkit"
+slug: 23-brand-toolkit
+---
+
 # Gippsland Brand Toolkit: Practical Resources and Templates
 
 ```mermaid

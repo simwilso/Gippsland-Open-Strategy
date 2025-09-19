@@ -1,3 +1,8 @@
+---
+title: "22 Policy Regulatory Timeline"
+slug: 22-policy-regulatory-timeline
+---
+
 # Policy and Regulatory Implementation Timeline
 
 ## Visual Timeline: 2025-2030 Policy Rollout

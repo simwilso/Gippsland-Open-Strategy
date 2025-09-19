@@ -1,3 +1,8 @@
+---
+title: "Community Codesign Launch"
+slug: community-codesign-launch
+---
+
 # Community Co-Design Launch Strategy
 ## 30-Day Activation Plan for Gippsland's Day 2 Implementation
 

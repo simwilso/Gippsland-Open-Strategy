@@ -1,3 +1,8 @@
+---
+title: "Revenue Diversification Strategy"
+slug: revenue-diversification-strategy
+---
+
 # REVENUE DIVERSIFICATION STRATEGY FOR GIPPSLAND'S RENEWABLE ENERGY TRANSFORMATION
 ## Engineering Multiple Income Streams Beyond Energy-Only Markets - Day 2 Phase 4
 

@@ -1,3 +1,8 @@
+---
+title: "Community Investment Vehicles"
+slug: community-investment-vehicles
+---
+
 # Community Investment Vehicles for Gippsland's Energy Transformation
 ## Launch-Ready Programs for Local Ownership and Wealth Creation
 

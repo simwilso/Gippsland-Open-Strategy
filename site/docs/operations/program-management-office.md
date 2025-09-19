@@ -1,3 +1,8 @@
+---
+title: "Program Management Office"
+slug: program-management-office
+---
+
 # Gippsland Programmeme Management Office (PMO)
 ## Day 2 Phase 3: Comprehensive PMO Architecture for $70B+ Investment Programme
 

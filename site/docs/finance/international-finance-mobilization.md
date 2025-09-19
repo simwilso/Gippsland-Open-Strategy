@@ -1,3 +1,8 @@
+---
+title: "International Finance Mobilization"
+slug: international-finance-mobilization
+---
+
 # International Finance Mobilization Strategy for Gippsland
 ## Unlocking $50B+ Global Climate and Development Finance
 

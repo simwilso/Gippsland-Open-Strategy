@@ -1,3 +1,8 @@
+---
+title: "Executive Summaries"
+slug: executive-summaries
+---
+
 # GIPPSLAND RENEWABLE ENERGY TRANSFORMATION
 ## Executive Summary Collection
 

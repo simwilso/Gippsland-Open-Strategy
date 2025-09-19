@@ -1,3 +1,8 @@
+---
+title: "22 Policy Regulatory"
+slug: 22-policy-regulatory
+---
+
 # Policy and Regulatory Framework for Gippsland's Renewable Energy Transformation
 
 ```mermaid

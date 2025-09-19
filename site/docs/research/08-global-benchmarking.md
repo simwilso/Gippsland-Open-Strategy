@@ -1,3 +1,8 @@
+---
+title: "08 Global Benchmarking"
+slug: 08-global-benchmarking
+---
+
 # Global Renewable Energy Hubs: Benchmarking Study for Gippsland
 
 ## Executive Summary

@@ -1,3 +1,8 @@
+---
+title: "Research Infrastructure"
+slug: research-infrastructure
+---
+
 # Gippsland Energy Research Infrastructure Architecture
 ## World-Class Facilities for Renewable Energy Innovation
 

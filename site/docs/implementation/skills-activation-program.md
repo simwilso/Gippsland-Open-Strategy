@@ -1,3 +1,8 @@
+---
+title: "Skills Activation Program"
+slug: skills-activation-program
+---
+
 # Gippsland Skills Pipeline Activation Program
 ## Ready-to-Launch Workforce Development Initiative
 

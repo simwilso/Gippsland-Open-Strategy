@@ -1,3 +1,8 @@
+---
+title: "16 Master Strategy"
+slug: 16-master-strategy
+---
+
 # Gippsland 2030: Master Strategy for Global Renewable Energy Leadership
 
 ```mermaid

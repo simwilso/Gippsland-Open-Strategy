@@ -1,3 +1,8 @@
+---
+title: "Supply Chain Coordination"
+slug: supply-chain-coordination
+---
+
 # Supply Chain Coordination Operations
 ## Gippsland Renewable Energy Transformation - Day 2 Phase 3
 

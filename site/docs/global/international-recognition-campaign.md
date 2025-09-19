@@ -1,3 +1,8 @@
+---
+title: "International Recognition Campaign"
+slug: international-recognition-campaign
+---
+
 # 🌏 International Recognition Campaign for Gippsland Energy Transformation
 ## Positioning Global Leadership Through Strategic Awards and Recognition
 

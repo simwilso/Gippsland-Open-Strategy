@@ -1,3 +1,8 @@
+---
+title: "Hydrogen Economy Activation"
+slug: hydrogen-economy-activation
+---
+
 # Hydrogen Economy Activation Roadmap
 ## Gippsland Day 2 Phase 5 Implementation
 

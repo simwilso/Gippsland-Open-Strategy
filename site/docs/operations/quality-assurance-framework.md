@@ -1,3 +1,8 @@
+---
+title: "Quality Assurance Framework"
+slug: quality-assurance-framework
+---
+
 # Quality Assurance Framework Operations
 ## Gippsland Renewable Energy Transformation - Day 2 Phase 3
 

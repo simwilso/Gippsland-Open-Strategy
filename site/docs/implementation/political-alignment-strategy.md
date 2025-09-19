@@ -1,3 +1,8 @@
+---
+title: "Political Alignment Strategy"
+slug: political-alignment-strategy
+---
+
 # Political Alignment Strategy for Gippsland's Renewable Energy Transformation
 ## Securing Bipartisan 20-Year Commitment for Day 2 Implementation
 

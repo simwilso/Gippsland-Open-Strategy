@@ -1,3 +1,8 @@
+---
+title: "Grea Organizational Architecture"
+slug: grea-organizational-architecture
+---
+
 # GREA Organisational Architecture: World-Class Governance for Gippsland's Energy Transformation
 ## Complete Organisational Design for Australia's Premier Regional Energy Authority
 

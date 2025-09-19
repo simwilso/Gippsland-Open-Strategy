@@ -1,3 +1,8 @@
+---
+title: "Global Technology Agreements"
+slug: global-technology-agreements
+---
+
 # Global Technology Partnership Agreements - Gippsland Energy Transformation
 
 ## Executive Summary

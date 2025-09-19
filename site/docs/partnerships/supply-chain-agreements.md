@@ -1,3 +1,8 @@
+---
+title: "Supply Chain Agreements"
+slug: supply-chain-agreements
+---
+
 # Gippsland Renewable Energy Supply Chain Agreements
 ## Comprehensive Partnership Framework for Local Manufacturing & Economic Development
 

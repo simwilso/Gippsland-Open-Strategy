@@ -1,3 +1,8 @@
+---
+title: "Investment Fund Architecture"
+slug: investment-fund-architecture
+---
+
 # GIPPSLAND RENEWABLE ENERGY INVESTMENT FUND ARCHITECTURE
 ## Master Fund Structure & Governance Framework
 

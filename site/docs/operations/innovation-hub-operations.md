@@ -1,3 +1,8 @@
+---
+title: "Innovation Hub Operations"
+slug: innovation-hub-operations
+---
+
 # Innovation Hub Operations - Gippsland Day 2 Phase 3
 ## Operational Excellence for Renewable Energy Innovation Leadership
 

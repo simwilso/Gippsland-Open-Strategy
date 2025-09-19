@@ -1,3 +1,8 @@
+---
+title: "Community Engagement Operations"
+slug: community-engagement-operations
+---
+
 # Community Engagement Operations for Gippsland Day 2 Phase 3
 ## On-Ground Systems for Sustained Community Partnership
 

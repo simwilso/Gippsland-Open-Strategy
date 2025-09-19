@@ -1,3 +1,8 @@
+---
+title: "Digital Twin Platform"
+slug: digital-twin-platform
+---
+
 # Digital Twin Platform Architecture - Gippsland Day 2 Phase 5
 ## Real-Time Intelligence for Renewable Energy Optimisation
 

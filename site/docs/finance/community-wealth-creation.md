@@ -1,3 +1,8 @@
+---
+title: "Community Wealth Creation"
+slug: community-wealth-creation
+---
+
 # Community Wealth Creation Strategy for Gippsland's Renewable Energy Transition
 
 ## Executive Summary

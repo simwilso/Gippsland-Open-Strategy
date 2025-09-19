@@ -1,3 +1,8 @@
+---
+title: "Ip Strategy Patent Portfolio"
+slug: ip-strategy-patent-portfolio
+---
+
 # Intellectual Property Strategy and Patent Portfolio Management
 ## Comprehensive Framework for Gippsland's Renewable Energy Innovation
 

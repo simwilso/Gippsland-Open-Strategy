@@ -1,3 +1,8 @@
+---
+title: "23 Brand Narrative"
+slug: 23-brand-narrative
+---
+
 # The Gippsland Story: Brand Narrative and Positioning Strategy
 
 ```mermaid
