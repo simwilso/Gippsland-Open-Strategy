@@ -25,7 +25,7 @@ function HomepageHeader() {
             className={styles.heroVideo}
             poster={useBaseUrl('/img/welcome-video-thumbnail.jpg')}
           >
-            <source src={useBaseUrl('/video/introvideo.mp4')} type="video/mp4" />
+            <source src={useBaseUrl('/video/intro2.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
