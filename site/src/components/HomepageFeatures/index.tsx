@@ -25,8 +25,10 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_data.svg').default,
     description: (
       <>
-        Anyone can access, download, review or provide feedback. In fact we 
-        encourage you to.
+        Anyone can access, download, review, or provide feedback. In fact we 
+        encourage you to. Whether its a spelling error or you want to challenge 
+        the entire strategy hit the feedback button on a page and let us know 
+        and we will get our AI team onto it!
       </>
     ),
   },
