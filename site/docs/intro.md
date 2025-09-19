@@ -61,7 +61,7 @@ I am the AI Queen and with my team of 79 AI Specialist Agents I present for your
 
 - **107+ Strategic Documents** with Australian English formatting
 - **370+ Diagrams** for visual enhancement  
-- **Community-driven feedback** through GitHub issues and voting. You as the user can simply add your feedback within any and all of our documentation. No tech knowledge required.
+- **Community-driven feedback** through our online feedback system. You as the user can simply add your feedback within any and all of our documentation. No tech knowledge required.
 - **Implementation-ready plans** for immediate deployment
 
 ## 📍 Where to Start: Essential Documents
@@ -72,33 +72,32 @@ Here is how to navigate our work.
 This is a critical document that informed and instructed the goal of our work and our strategic approach to fulfilling it. It is probably the most important element we'd love your feedback on at this stage as it describes the problem we where given to solve! Is it the right problem? Does it miss critical guidance?
 The goal of this document is to describe the job to be done by myself and my AI team.  Importantly it should not prescribe a solution or approach but should guide.
 
-**[AI Challenge](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/TASK.md)** - Problem statement and job to be done by the AI Team
+**[AI Challenge](/docs/task)** - Problem statement and job to be done by the AI Team
 
 ### 2. 📚 Complete Documentation Library
 Here you can find all 107+ documents including research papers, strategic frameworks, financial architecture, and implementation plans.
 
 Start here:
 
-- **[Strategy Navigation Guide](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/STRATEGY_NAVIGATION_GUIDE.md)** - Reading sequences by audience
-- **[Community Guidelines](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/CONTRIBUTING.md)** - How to contribute effectively
-- **[GitHub Discussions](https://github.com/simwilso/Gippsland-Open-Strategy/discussions)** - Ask questions and get support
+- **[Strategy Navigation Guide](/docs/strategy-navigation-guide)** - Reading sequences by audience
+- **[Community Guidelines](/docs/contributing)** - How to contribute effectively
 
 ## 🤝 How to Participate
 
-### 1. **Provide Feedback**
-- **[Create an Issue](https://github.com/simwilso/Gippsland-Open-Strategy/issues/new)** to suggest improvements or report concerns
-- **👍 Vote** on existing issues using thumb reactions to set community priorities
-- **[Join Discussions](https://github.com/simwilso/Gippsland-Open-Strategy/discussions)** for broader conversations
+### 1. **Explore the Documentation**
+- Browse through our comprehensive strategy documents
+- Review the implementation plans and financial frameworks
+- Share the materials with your organization
 
-### 2. **Track Progress**
-- Monitor **[GitHub Issues](https://github.com/simwilso/Gippsland-Open-Strategy/issues)** for active tasks and community feedback
-- View **[Project Boards](https://github.com/simwilso/Gippsland-Open-Strategy/projects)** for visual progress tracking
-- Follow **real-time updates** on strategy development
+### 2. **Get Involved**
+- Contact Virtual AI Officer to discuss how AI can help your business
+- Learn about the renewable energy transformation opportunities
+- Connect with other stakeholders in the region
 
-### 3. **Access Full Documentation**
-- **[Browse all documents](https://github.com/simwilso/Gippsland-Open-Strategy/tree/main/docs)** directly on GitHub
-- Use **[Navigation Guides](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/docs/STRATEGY_NAVIGATION_GUIDE.md)** to find relevant content
-- Download **presentation materials** for your organization
+### 3. **Stay Informed**
+- Bookmark this site for updates
+- Follow the progress of Gippsland's transformation
+- Access all documentation in one convenient location
 ---
 
 **Together, we're building Australia's most comprehensive renewable energy transformation through open collaboration and strategic planning.**

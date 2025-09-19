@@ -33,3 +33,6 @@ yarn-error.log*
 # But keep intro.md which is specific to Docusaurus
 /docs/*
 !/docs/intro.md
+!/docs/task.md
+!/docs/strategy-navigation-guide.md
+!/docs/contributing.md
