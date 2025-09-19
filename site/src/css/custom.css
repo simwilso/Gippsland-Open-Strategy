@@ -28,3 +28,46 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Center footer content */
+.footer {
+  text-align: center;
+}
+
+.footer__links {
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.footer__col {
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer__items {
+  align-items: center;
+}
+
+.footer__item {
+  margin: 0.5rem 0;
+}
+
+.footer__link-item {
+  color: var(--ifm-footer-link-color);
+  transition: color 0.2s;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-light);
+  text-decoration: underline;
+}
+
+.footer__bottom {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--ifm-footer-link-color);
+}
