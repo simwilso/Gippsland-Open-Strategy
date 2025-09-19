@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import styles from './index.module.css';
 
@@ -22,9 +23,9 @@ function HomepageHeader() {
           <video 
             controls 
             className={styles.heroVideo}
-            poster="/img/welcome-video-thumbnail.jpg"
+            poster={useBaseUrl('/img/welcome-video-thumbnail.jpg')}
           >
-            <source src="/video/introvideo.mp4" type="video/mp4" />
+            <source src={useBaseUrl('/video/introvideo.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
