@@ -1,0 +1,331 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0e384e19": [
+      976
+    ],
+    "1df93b7f": [
+      869,
+      583
+    ],
+    "2a750c8f": [
+      869,
+      321
+    ],
+    "392f8aa6": [
+      869,
+      751
+    ],
+    "3df94b4b": [
+      869,
+      765
+    ],
+    "3ecc6ae4": [
+      869,
+      49
+    ],
+    "572f8b26": [
+      869,
+      309
+    ],
+    "5e95c892": [
+      647
+    ],
+    "87727eb1": [
+      869,
+      536
+    ],
+    "935f2afb": [
+      581
+    ],
+    "951afa46": [
+      869,
+      410
+    ],
+    "9826b625": [
+      869,
+      535
+    ],
+    "a52ca8ae": [
+      869,
+      461
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "b0e31874": [
+      727
+    ],
+    "c929ea02": [
+      869,
+      980
+    ],
+    "cb79e292": [
+      869,
+      612
+    ],
+    "eb8d7459": [
+      981
+    ],
+    "styles": [
+      48,
+      49,
+      309,
+      321,
+      354,
+      401,
+      410,
+      461,
+      535,
+      536,
+      583,
+      612,
+      751,
+      765,
+      792,
+      980,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.a859484f.js",
+          "hash": "9615671fad3bfa3d",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/a94703ab.a859484f.js"
+        }
+      ]
+    },
+    "49": {
+      "js": [
+        {
+          "file": "assets/js/3ecc6ae4.1ddb9e7f.js",
+          "hash": "426eaf42b3bb140e",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/3ecc6ae4.1ddb9e7f.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.440f671e.js",
+          "hash": "4e837ab39fbee21e",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/a7bd4aaa.440f671e.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.5341dc69.js",
+          "hash": "3a13a5579752d171",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/237.5341dc69.js"
+        }
+      ]
+    },
+    "309": {
+      "js": [
+        {
+          "file": "assets/js/572f8b26.aa09bae6.js",
+          "hash": "39a8d74db4ce1ee2",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/572f8b26.aa09bae6.js"
+        }
+      ]
+    },
+    "321": {
+      "js": [
+        {
+          "file": "assets/js/2a750c8f.c40174aa.js",
+          "hash": "398166822eb62bfb",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/2a750c8f.c40174aa.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.95128cc2.js",
+          "hash": "1811a3c9b9d208b6",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/runtime~main.95128cc2.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.0febda4f.js",
+          "hash": "ce3911d6af1cccdb",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/17896441.0febda4f.js"
+        }
+      ]
+    },
+    "410": {
+      "js": [
+        {
+          "file": "assets/js/951afa46.d4609d88.js",
+          "hash": "067dcd8ceec3490c",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/951afa46.d4609d88.js"
+        }
+      ]
+    },
+    "461": {
+      "js": [
+        {
+          "file": "assets/js/a52ca8ae.73d707d4.js",
+          "hash": "74638ef21c4d904a",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/a52ca8ae.73d707d4.js"
+        }
+      ]
+    },
+    "535": {
+      "js": [
+        {
+          "file": "assets/js/9826b625.7925b9c8.js",
+          "hash": "a3ae9fe29042403f",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/9826b625.7925b9c8.js"
+        }
+      ]
+    },
+    "536": {
+      "js": [
+        {
+          "file": "assets/js/87727eb1.61360f66.js",
+          "hash": "70d5696d6b3a2e72",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/87727eb1.61360f66.js"
+        }
+      ]
+    },
+    "581": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.85a34161.js",
+          "hash": "707a9d9ccc732b33",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/935f2afb.85a34161.js"
+        }
+      ]
+    },
+    "583": {
+      "js": [
+        {
+          "file": "assets/js/1df93b7f.72d328a8.js",
+          "hash": "5c780cc51499f09c",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/1df93b7f.72d328a8.js"
+        }
+      ]
+    },
+    "612": {
+      "js": [
+        {
+          "file": "assets/js/cb79e292.b91acfc1.js",
+          "hash": "5116482a54a128de",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/cb79e292.b91acfc1.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.3df1c290.js",
+          "hash": "6c81def3a812fa1c",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/5e95c892.3df1c290.js"
+        }
+      ]
+    },
+    "727": {
+      "js": [
+        {
+          "file": "assets/js/b0e31874.64065701.js",
+          "hash": "dd4d6f92e014fc95",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/b0e31874.64065701.js"
+        }
+      ]
+    },
+    "751": {
+      "js": [
+        {
+          "file": "assets/js/392f8aa6.d2ae6133.js",
+          "hash": "87164ca859530de4",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/392f8aa6.d2ae6133.js"
+        }
+      ]
+    },
+    "765": {
+      "js": [
+        {
+          "file": "assets/js/3df94b4b.87099245.js",
+          "hash": "8f6e3ab6beb7e723",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/3df94b4b.87099245.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.4714db9f.js",
+          "hash": "ea473b1dae877025",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/main.4714db9f.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.93dfa9e1.css",
+          "hash": "fbf3bccc61a0a467",
+          "publicPath": "/Gippsland-Open-Strategy/assets/css/styles.93dfa9e1.css"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.3a22a045.js",
+          "hash": "cd8f36af6c72acb9",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/0e384e19.3a22a045.js"
+        }
+      ]
+    },
+    "980": {
+      "js": [
+        {
+          "file": "assets/js/c929ea02.3ec4fc49.js",
+          "hash": "012c1b048d9d12fe",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/c929ea02.3ec4fc49.js"
+        }
+      ]
+    },
+    "981": {
+      "js": [
+        {
+          "file": "assets/js/eb8d7459.dee65c20.js",
+          "hash": "8e83493422635814",
+          "publicPath": "/Gippsland-Open-Strategy/assets/js/eb8d7459.dee65c20.js"
+        }
+      ]
+    }
+  }
+}
