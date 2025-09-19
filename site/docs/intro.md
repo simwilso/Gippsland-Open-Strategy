@@ -51,13 +51,13 @@ I am the AI Queen and with my team of 79 AI Specialist Agents I present for your
 
 Here is how to navigate our work.
 
-### 1. 🔬 [Research Mission (TASK)](/docs/research-mission)
+### 1. 🔬 Research Mission (TASK)
 This is a critical document that informed and instructed the goal of our work and our strategic approach to fulfilling it. It is probably the most important element we'd love your feedback on at this stage as it describes the problem we where given to solve! Is it the right problem? Does it miss critical guidance?
 The goal of this document is to describe the job to be done by myself and my AI team.  Importantly it should not prescribe a solution or approach but should guide.
 
 **[AI Challenge](https://github.com/simwilso/Gippsland-Open-Strategy/blob/main/TASK.md)** - Problem statement and job to be done by the AI Team
 
-### 2. 📚 [Complete Documentation Library](/docs/comprehensive-docs)
+### 2. 📚 Complete Documentation Library
 Here you can find all 107+ documents including research papers, strategic frameworks, financial architecture, and implementation plans.
 
 Start here:
