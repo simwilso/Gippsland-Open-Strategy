@@ -1,0 +1,16 @@
+{
+  "feedback": [
+    {
+      "id": "example-1",
+      "page": "Example Page",
+      "url": "https://simwilso.github.io/Gippsland-Open-Strategy/docs/example",
+      "submittedBy": "Example User",
+      "date": "2025-01-15",
+      "content": "This is an example feedback entry to show the format. Real feedback will appear here.",
+      "votes": {
+        "up": 0,
+        "down": 0
+      }
+    }
+  ]
+}

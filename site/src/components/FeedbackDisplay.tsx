@@ -1,169 +1,184 @@
 import React, { useState, useEffect } from 'react';
 import styles from './FeedbackDisplay.module.css';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 interface FeedbackItem {
-  id: number;
-  title: string;
-  body: string;
-  user: {
-    login: string;
-    avatar_url: string;
-  };
-  created_at: string;
-  html_url: string;
-  reactions: {
-    '+1': number;
-    '-1': number;
-    heart: number;
+  id: string;
+  page: string;
+  url: string;
+  submittedBy: string;
+  date: string;
+  content: string;
+  votes: {
+    up: number;
+    down: number;
   };
 }
 
 export default function FeedbackDisplay() {
   const [feedback, setFeedback] = useState<FeedbackItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetchFeedback();
+    if (ExecutionEnvironment.canUseDOM) {
+      loadFeedback();
+      
+      // Listen for feedback updates
+      window.addEventListener('feedbackUpdated', loadFeedback);
+      
+      return () => {
+        window.removeEventListener('feedbackUpdated', loadFeedback);
+      };
+    }
   }, []);
 
-  const fetchFeedback = async () => {
+  const loadFeedback = () => {
     try {
       setLoading(true);
-      // Fetch issues with 'feedback' label from the past week
-      const oneWeekAgo = new Date();
-      oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
-      
-      const response = await fetch(
-        `https://api.github.com/repos/simwilso/Gippsland-Open-Strategy/issues?labels=feedback&state=open&since=${oneWeekAgo.toISOString()}&per_page=10&sort=created&direction=desc`
-      );
-      
-      if (!response.ok) {
-        throw new Error('Failed to fetch feedback');
+      const storedFeedback = localStorage.getItem('communityFeedback');
+      if (storedFeedback) {
+        const parsedFeedback = JSON.parse(storedFeedback);
+        // Filter to show only feedback from the last 7 days
+        const oneWeekAgo = new Date();
+        oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+        
+        const recentFeedback = parsedFeedback.filter(item => 
+          new Date(item.date) > oneWeekAgo
+        );
+        
+        setFeedback(recentFeedback);
       }
-      
-      const issues = await response.json();
-      setFeedback(issues);
     } catch (err) {
-      setError(err.message);
+      console.error('Error loading feedback:', err);
     } finally {
       setLoading(false);
     }
   };
 
-  const extractFeedbackContent = (body: string) => {
-    // Extract the actual feedback from the issue body
-    const lines = body.split('\n');
-    const feedbackStart = lines.findIndex(line => line === '---') + 1;
-    const feedbackEnd = lines.findIndex((line, index) => index > feedbackStart && line === '---');
+  const handleVote = (feedbackId: string, voteType: 'up' | 'down') => {
+    const updatedFeedback = feedback.map(item => {
+      if (item.id === feedbackId) {
+        return {
+          ...item,
+          votes: {
+            ...item.votes,
+            [voteType]: item.votes[voteType] + 1
+          }
+        };
+      }
+      return item;
+    });
     
-    if (feedbackStart > 0 && feedbackEnd > feedbackStart) {
-      return lines.slice(feedbackStart, feedbackEnd).join('\n').trim();
-    }
-    return body;
+    setFeedback(updatedFeedback);
+    
+    // Save all feedback (not just recent) back to localStorage
+    const allFeedback = JSON.parse(localStorage.getItem('communityFeedback') || '[]');
+    const updatedAllFeedback = allFeedback.map(item => {
+      const updated = updatedFeedback.find(f => f.id === item.id);
+      return updated || item;
+    });
+    
+    localStorage.setItem('communityFeedback', JSON.stringify(updatedAllFeedback));
   };
 
-  const extractPageName = (body: string) => {
-    const pageMatch = body.match(/\*\*Page\*\*: (.+)/);
-    return pageMatch ? pageMatch[1] : 'Unknown Page';
-  };
+  if (!ExecutionEnvironment.canUseDOM) {
+    return null;
+  }
 
   if (loading) {
     return (
-      <div className={styles.feedbackContainer}>
-        <h2>This Week's Community Feedback</h2>
-        <div className={styles.loading}>Loading feedback...</div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className={styles.feedbackContainer}>
-        <h2>This Week's Community Feedback</h2>
-        <div className={styles.error}>Unable to load feedback at this time.</div>
-      </div>
+      <section className={styles.feedbackSection}>
+        <div className="container">
+          <h2 className={styles.sectionTitle}>This Week's Community Feedback</h2>
+          <div className={styles.loading}>Loading feedback...</div>
+        </div>
+      </section>
     );
   }
 
   if (feedback.length === 0) {
     return (
-      <div className={styles.feedbackContainer}>
-        <h2>This Week's Community Feedback</h2>
-        <div className={styles.empty}>
-          No feedback submitted this week yet. Be the first to share your thoughts!
+      <section className={styles.feedbackSection}>
+        <div className="container">
+          <h2 className={styles.sectionTitle}>This Week's Community Feedback</h2>
+          <div className={styles.empty}>
+            No feedback submitted this week yet. Be the first to share your thoughts!
+          </div>
         </div>
-      </div>
+      </section>
     );
   }
+
+  const exportFeedback = () => {
+    const dataStr = JSON.stringify(feedback, null, 2);
+    const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+    
+    const exportFileDefaultName = `feedback-${new Date().toISOString().split('T')[0]}.json`;
+    
+    const linkElement = document.createElement('a');
+    linkElement.setAttribute('href', dataUri);
+    linkElement.setAttribute('download', exportFileDefaultName);
+    linkElement.click();
+  };
 
   return (
     <section className={styles.feedbackSection}>
       <div className="container">
         <h2 className={styles.sectionTitle}>This Week's Community Feedback</h2>
         <p className={styles.sectionSubtitle}>
-          Recent suggestions and comments from our community. React with 👍 or 👎 on GitHub to vote!
+          Recent suggestions and comments from our community. Click 👍 or 👎 to vote!
         </p>
         
         <div className={styles.feedbackGrid}>
-          {feedback.map((item) => {
-            const feedbackText = extractFeedbackContent(item.body);
-            const pageName = extractPageName(item.body);
-            
-            return (
-              <div key={item.id} className={styles.feedbackCard}>
-                <div className={styles.feedbackHeader}>
-                  <span className={styles.pageName}>{pageName}</span>
-                  <span className={styles.date}>
-                    {new Date(item.created_at).toLocaleDateString()}
-                  </span>
-                </div>
-                
-                <div className={styles.feedbackContent}>
-                  {feedbackText.length > 200 
-                    ? `${feedbackText.substring(0, 200)}...` 
-                    : feedbackText}
-                </div>
-                
-                <div className={styles.feedbackFooter}>
-                  <div className={styles.reactions}>
-                    {item.reactions['+1'] > 0 && (
-                      <span className={styles.reaction}>👍 {item.reactions['+1']}</span>
-                    )}
-                    {item.reactions['-1'] > 0 && (
-                      <span className={styles.reaction}>👎 {item.reactions['-1']}</span>
-                    )}
-                    {item.reactions.heart > 0 && (
-                      <span className={styles.reaction}>❤️ {item.reactions.heart}</span>
-                    )}
-                  </div>
-                  
-                  <a 
-                    href={item.html_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.viewLink}
+          {feedback.map((item) => (
+            <div key={item.id} className={styles.feedbackCard}>
+              <div className={styles.feedbackHeader}>
+                <span className={styles.pageName}>{item.page}</span>
+                <span className={styles.date}>
+                  {new Date(item.date).toLocaleDateString()}
+                </span>
+              </div>
+              
+              <div className={styles.feedbackContent}>
+                {item.content}
+              </div>
+              
+              <div className={styles.submittedBy}>
+                — {item.submittedBy}
+              </div>
+              
+              <div className={styles.feedbackFooter}>
+                <div className={styles.voteButtons}>
+                  <button 
+                    className={styles.voteButton}
+                    onClick={() => handleVote(item.id, 'up')}
+                    aria-label="Vote up"
                   >
-                    View & Vote →
-                  </a>
+                    👍 {item.votes.up}
+                  </button>
+                  <button 
+                    className={styles.voteButton}
+                    onClick={() => handleVote(item.id, 'down')}
+                    aria-label="Vote down"
+                  >
+                    👎 {item.votes.down}
+                  </button>
                 </div>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
         
         <div className={styles.feedbackActions}>
-          <a 
-            href="https://github.com/simwilso/Gippsland-Open-Strategy/issues?q=is%3Aissue+is%3Aopen+label%3Afeedback"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.viewAllLink}
+          <button 
+            onClick={exportFeedback}
+            className={styles.exportButton}
           >
-            View All Feedback on GitHub →
-          </a>
+            📥 Export This Week's Feedback (JSON)
+          </button>
           
           <p className={styles.aiNote}>
-            📤 This feedback table is automatically processed by our AI team each week
+            📤 Export this feedback table for AI processing each week
           </p>
         </div>
       </div>
