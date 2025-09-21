@@ -18,6 +18,7 @@ interface FeedbackItem {
 export default function FeedbackDisplay() {
   const [feedback, setFeedback] = useState<FeedbackItem[]>([]);
   const [loading, setLoading] = useState(true);
+  const [showAllTime, setShowAllTime] = useState(false);
 
   useEffect(() => {
     if (ExecutionEnvironment.canUseDOM) {
@@ -30,7 +31,7 @@ export default function FeedbackDisplay() {
         window.removeEventListener('feedbackUpdated', loadFeedback);
       };
     }
-  }, []);
+  }, [showAllTime]);
 
   const loadFeedback = () => {
     try {
@@ -38,15 +39,21 @@ export default function FeedbackDisplay() {
       const storedFeedback = localStorage.getItem('communityFeedback');
       if (storedFeedback) {
         const parsedFeedback = JSON.parse(storedFeedback);
-        // Filter to show only feedback from the last 7 days
-        const oneWeekAgo = new Date();
-        oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
         
-        const recentFeedback = parsedFeedback.filter(item => 
-          new Date(item.date) > oneWeekAgo
-        );
-        
-        setFeedback(recentFeedback);
+        if (showAllTime) {
+          // Show all feedback
+          setFeedback(parsedFeedback);
+        } else {
+          // Filter to show only feedback from the last 7 days
+          const oneWeekAgo = new Date();
+          oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+          
+          const recentFeedback = parsedFeedback.filter(item => 
+            new Date(item.date) > oneWeekAgo
+          );
+          
+          setFeedback(recentFeedback);
+        }
       }
     } catch (err) {
       console.error('Error loading feedback:', err);
@@ -89,7 +96,9 @@ export default function FeedbackDisplay() {
     return (
       <section className={styles.feedbackSection}>
         <div className="container">
-          <h2 className={styles.sectionTitle}>This Week's Community Feedback</h2>
+          <h2 className={styles.sectionTitle}>
+            {showAllTime ? 'All Community Feedback' : 'This Week\'s Community Feedback'}
+          </h2>
           <div className={styles.loading}>Loading feedback...</div>
         </div>
       </section>
@@ -100,10 +109,23 @@ export default function FeedbackDisplay() {
     return (
       <section className={styles.feedbackSection}>
         <div className="container">
-          <h2 className={styles.sectionTitle}>This Week's Community Feedback</h2>
+          <h2 className={styles.sectionTitle}>
+            {showAllTime ? 'All Community Feedback' : 'This Week\'s Community Feedback'}
+          </h2>
           <div className={styles.empty}>
-            No feedback submitted this week yet. Be the first to share your thoughts!
+            {showAllTime 
+              ? 'No feedback submitted yet. Be the first to share your thoughts!'
+              : 'No feedback submitted this week yet. Be the first to share your thoughts!'}
           </div>
+          {!showAllTime && (
+            <button 
+              onClick={() => setShowAllTime(true)}
+              className={styles.showAllButton}
+              style={{ marginTop: '1rem' }}
+            >
+              Show All Feedback
+            </button>
+          )}
         </div>
       </section>
     );
@@ -121,19 +143,44 @@ export default function FeedbackDisplay() {
     linkElement.click();
   };
 
+  // Get total feedback count
+  const getTotalFeedbackCount = () => {
+    try {
+      const allFeedback = JSON.parse(localStorage.getItem('communityFeedback') || '[]');
+      return allFeedback.length;
+    } catch {
+      return 0;
+    }
+  };
+
   return (
     <section className={styles.feedbackSection}>
       <div className="container">
-        <h2 className={styles.sectionTitle}>This Week's Community Feedback</h2>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', marginBottom: '1rem' }}>
+          <h2 className={styles.sectionTitle}>
+            {showAllTime ? 'All Community Feedback' : 'This Week\'s Community Feedback'}
+          </h2>
+          <button 
+            onClick={() => setShowAllTime(!showAllTime)}
+            className={styles.toggleButton}
+            style={{ padding: '0.5rem 1rem', borderRadius: '5px', border: '1px solid #ccc', cursor: 'pointer' }}
+          >
+            {showAllTime ? 'Show Recent Only' : `Show All (${getTotalFeedbackCount()} total)`}
+          </button>
+        </div>
         <p className={styles.sectionSubtitle}>
-          Recent suggestions and comments from our community. Click 👍 or 👎 to vote!
+          {showAllTime 
+            ? `All suggestions and comments from our community (${feedback.length} items). Click 👍 or 👎 to vote!`
+            : 'Recent suggestions and comments from our community. Click 👍 or 👎 to vote!'}
         </p>
         
         <div className={styles.feedbackGrid}>
           {feedback.map((item) => (
             <div key={item.id} className={styles.feedbackCard}>
               <div className={styles.feedbackHeader}>
-                <span className={styles.pageName}>{item.page}</span>
+                <span className={styles.pageName} title={`From: ${item.url}`}>
+                  📄 {item.page || 'Unknown Page'}
+                </span>
                 <span className={styles.date}>
                   {new Date(item.date).toLocaleDateString()}
                 </span>
@@ -174,7 +221,7 @@ export default function FeedbackDisplay() {
             onClick={exportFeedback}
             className={styles.exportButton}
           >
-            📥 Export This Week's Feedback (JSON)
+            📥 Export {showAllTime ? 'All' : 'This Week\'s'} Feedback (JSON)
           </button>
           
           <p className={styles.aiNote}>

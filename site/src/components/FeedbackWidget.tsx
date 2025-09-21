@@ -68,6 +68,9 @@ export default function FeedbackWidget({ pageTitle }) {
             </button>
             
             <h3>Share Your Feedback</h3>
+            <p className={styles.documentInfo}>
+              <strong>📄 Document:</strong> {pageTitle || 'Current Page'}
+            </p>
             <p>Your feedback will be displayed on the homepage for community discussion</p>
             
             {!submitted ? (
