@@ -25,7 +25,7 @@ graph TB
 ```
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Strategic Implementation Framework  
 > **IP Asset Target:** 500+ patents by 2030  
 > **Licensing Revenue Target:** AU$250 million annually by 2035  

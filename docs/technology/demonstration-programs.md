@@ -31,7 +31,7 @@ graph TB
 ```
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Implementation-Ready  
 > **Total Investment:** AU$3.2 billion  
 > **Demonstration Projects:** 45 First-of-Kind Technologies  

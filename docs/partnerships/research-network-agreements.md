@@ -2,7 +2,7 @@
 ## World-Class R&D Partnership Framework for Competitive Advantage
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Execute-Ready  
 > **Total Research Investment:** AU$8.5 billion  
 > **Partner Institutions:** 15+ Global Leaders  

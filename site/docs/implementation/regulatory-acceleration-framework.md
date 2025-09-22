@@ -6,7 +6,7 @@ title: Regulatory Acceleration Framework
 ## Fast-Track Approval Pathways to Achieve 6-12 Month Timelines
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Implementation Ready  
 > **Target:** Compress approvals from 2-5 years to 6-12 months  
 > **Competitive Advantage:** First-mover position in global energy transition  
@@ -429,7 +429,7 @@ All Assessments Conducted Simultaneously:
 6. Enforcement mechanisms
 
 **Legislative Timeline**
-- Drafting: January 2025
+- Drafting: September 10th, 2025
 - Consultation: February 2025
 - Introduction: March 2025
 - Passage: April 2025
@@ -444,7 +444,7 @@ All Assessments Conducted Simultaneously:
 5. Emergency pathway powers
 
 **Implementation Schedule**
-- Amendment drafting: January 2025
+- Amendment drafting: September 10th, 2025
 - Council consultation: February 2025
 - Exhibition: March 2025
 - Adoption: April 2025
@@ -1063,7 +1063,7 @@ By 2026, Gippsland's regulatory framework will be studied and replicated globall
 ---
 
 *Regulatory Acceleration Framework Version 1.0*
-*Date: January 2025*
+*Date: September 10th, 2025*
 *Next Review: April 2025*
 *Status: Ready for Implementation*
 

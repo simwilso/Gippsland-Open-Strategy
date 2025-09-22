@@ -1294,5 +1294,5 @@ The strategy ensures that the benefits of the clean energy revolution flow to al
 
 *Economic Development Strategy v1.0*
 *Prepared by: Gippsland Economic Development Specialist*
-*Date: January 2025*
+*Date: September 10th, 2025*
 *Next Review: July 2025*

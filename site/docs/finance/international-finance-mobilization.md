@@ -6,7 +6,7 @@ title: International Finance Mobilization
 ## Unlocking $50B+ Global Climate and Development Finance
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Ready for Implementation  
 > **Target:** $50B+ international investment mobilization  
 > **Timeline:** 2025-2035  

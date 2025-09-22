@@ -2,7 +2,7 @@
 ## Ready-to-Launch Workforce Development Initiative
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Launch-Ready  
 > **Target:** 20,000+ skilled workers by 2030  
 > **Critical Mission:** Zero coal workers left behind  

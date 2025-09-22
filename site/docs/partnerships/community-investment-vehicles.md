@@ -8,7 +8,7 @@ title: Community Investment Vehicles
 > **Document Status**: Day 2 Phase 2 - Ready for Implementation
 > **Target**: Enable 10,000+ community investors within 90 days
 > **Investment Range**: $100 to $50,000 per individual
-> **Version**: 1.0 | Date: January 2025
+> **Version**: 1.0 | Date: September 10th, 2025
 
 ---
 
@@ -771,7 +771,7 @@ The time to act is now. Every investment, no matter how small, contributes to Gi
 ---
 
 **Document Version**: 1.0
-**Date**: January 2025
+**Date**: September 10th, 2025
 **Next Review**: March 2025
 **Classification**: Public - Ready for Launch
 

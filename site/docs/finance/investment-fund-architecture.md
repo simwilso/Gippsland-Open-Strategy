@@ -8,7 +8,7 @@ title: Investment Fund Architecture
 > **Document Status**: Day 2, Phase 4 - Investment Fund Structuring
 > **Fund Target**: $5B Initial Capital with $15B Growth Path
 > **Structure**: Multi-Asset Master/Feeder Architecture
-> **Version**: 1.0 | Date: January 2025
+> **Version**: 1.0 | Date: September 10th, 2025
 
 ---
 
@@ -1286,7 +1286,7 @@ This architecture positions Gippsland as a global leader in renewable energy inv
 
 **Document Control**
 - Version: 1.0
-- Date: January 2025
+- Date: September 10th, 2025
 - Classification: Investment Grade
 - Next Review: Quarterly
 

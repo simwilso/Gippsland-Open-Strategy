@@ -2,7 +2,7 @@
 ## Strategic Power Purchase Agreements & Green Energy Partnerships
 
 *Executive-Ready Document for Day 2 Phase 2 Implementation*
-*Last Updated: January 2025*
+*Last Updated: September 10th, 2025*
 
 ---
 

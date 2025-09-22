@@ -22,7 +22,7 @@ title: Conference Series Strategy
 ```
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Strategic Implementation Plan  
 > **Economic Impact:** AU$2.5 billion over 10 years  
 > **Global Reach:** 50,000+ delegates annually by 2030  

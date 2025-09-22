@@ -1,7 +1,7 @@
 # Gippsland Renewable Energy Projects Inventory
 ## Comprehensive Database of All Projects (Operational, Under Construction, Approved, Proposed)
 
-*Document Date: January 2025*
+*Document Date: September 10th, 2025*
 *Author: Current Projects Inventory Specialist*
 
 ---
@@ -431,7 +431,7 @@ While not located in Gippsland, Snowy 2.0 (2,000 MW pumped hydro) will provide s
 ---
 
 *Document Version: 1.0*
-*Last Updated: January 2025*
+*Last Updated: September 10th, 2025*
 *Next Update: Quarterly*
 
 ---

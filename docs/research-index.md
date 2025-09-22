@@ -201,4 +201,4 @@
 
 ---
 
-*Index Version 1.0 - January 2025*
+*Index Version 1.0 - September 10th, 2025*

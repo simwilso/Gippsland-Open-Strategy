@@ -156,7 +156,7 @@ This quality assurance report evaluates the complete document set for the Gippsl
 **Enhancement Opportunities:**
 - Add page numbers to longer documents
 - Include more visual summaries
-- Standardize date formats (some use Jan 2025, others January 2025)
+- Standardize date formats (some use Jan 2025, others September 10th, 2025)
 - Add executive summary page limits
 
 ---
@@ -199,7 +199,7 @@ This quality assurance report evaluates the complete document set for the Gippsl
    - Include technology comparison charts
 
 4. **Standardize Formats**
-   - Dates: Use "January 2025" format throughout
+   - Dates: Use "September 10th, 2025" format throughout
    - Numbers: Use commas for thousands consistently
    - Percentages: Always include % symbol
 

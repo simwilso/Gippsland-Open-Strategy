@@ -6,7 +6,7 @@
 | **Field** | **Details** |
 |-----------|-------------|
 | **Type** | Implementation Readiness Certification |
-| **Date** | 9 January 2025 |
+| **Date** | 9 September 10th, 2025 |
 | **Validator** | Implementation Readiness Specialist |
 | **Purpose** | Certify conference readiness for GNEC 2025 executive presentation |
 | **Certification Status** | ✅ READY FOR LAUNCH WITH CONDITIONS |
@@ -740,7 +740,7 @@ The Gippsland renewable energy transformation is ready to be unveiled as Austral
 ---
 
 **Certified by:** Implementation Readiness Validator  
-**Date:** 9 January 2025  
+**Date:** 9 September 10th, 2025  
 **Valid until:** GNEC 2025 Conference Completion
 
 **Next Review:** Post-conference assessment within 7 days of event completion

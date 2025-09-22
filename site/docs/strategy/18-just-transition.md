@@ -1301,6 +1301,6 @@ Together, we will make history. Together, we will ensure that Gippsland's bright
 ---
 
 **Document Version**: 1.0  
-**Date**: January 2025  
+**Date**: September 10th, 2025  
 **Next Review**: June 2025  
 **Contact**: justtransition@gippslandenergyhub.com.au

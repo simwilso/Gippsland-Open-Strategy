@@ -29,7 +29,7 @@ graph TB
 ```
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Technical Architecture Ready  
 > **Investment:** AU$3.5 billion  
 > **Grid Capacity Target:** 11GW+ by 2027  
@@ -1305,7 +1305,7 @@ The success of this grid innovation program depends on immediate action, sustain
 
 **Document Control:**
 - Version: 1.0
-- Date: January 2025
+- Date: September 10th, 2025
 - Classification: Technical Architecture
 - Distribution: GNEC Leadership, Technical Teams, Implementation Partners
 - Next Review: March 2025

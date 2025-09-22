@@ -1,7 +1,7 @@
 # Gippsland Renewable Energy Transformation Research Compendium
 
 > **Version:** 1.0  
-> **Last Updated:** January 2025  
+> **Last Updated:** September 10th, 2025  
 > **Access Level:** Public Release  
 > **Document ID:** GNEC-RC-2025-001  
 
@@ -529,7 +529,7 @@ A: Community ownership models, local investment funds, and cooperative schemes.
 
 #### Current Version
 - **Version:** 1.0
-- **Release Date:** January 2025
+- **Release Date:** September 10th, 2025
 - **Next Update:** April 2025
 
 #### Update Schedule
@@ -563,7 +563,7 @@ Scan for instant mobile access
 
 ### 📅 Version History
 
-#### Version 1.0 - January 2025
+#### Version 1.0 - September 10th, 2025
 - Initial release of comprehensive research
 - 23 core documents published
 - Interactive dashboards launched

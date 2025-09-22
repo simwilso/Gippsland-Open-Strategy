@@ -1024,6 +1024,6 @@ The policy and regulatory framework outlined here provides the roadmap. The jour
 ---
 
 *Policy and Regulatory Framework Version 1.0*
-*Date: January 2025*
+*Date: September 10th, 2025*
 *Next Review: July 2025*
 *Status: Ready for Government Consideration*

@@ -4,7 +4,7 @@
 > **Document Status**: Revenue Diversification Architecture  
 > **Target**: 6+ diversified revenue streams generating $2B+ annually  
 > **Risk Reduction**: From 100% energy revenue to <40% by 2030  
-> **Version**: 1.0 | Date: January 2025  
+> **Version**: 1.0 | Date: September 10th, 2025  
 > **Classification**: Strategic Revenue Engineering
 
 ---
@@ -1049,7 +1049,7 @@ By 2030, Gippsland will demonstrate that renewable energy infrastructure can gen
 
 **Document Control**
 - **Version**: 1.0
-- **Date**: January 2025
+- **Date**: September 10th, 2025
 - **Classification**: Revenue Diversification Strategy
 - **Next Review**: Quarterly updates
 - **Contact**: Gippsland Revenue Innovation Team

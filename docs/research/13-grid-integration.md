@@ -644,4 +644,4 @@ The grid integration challenge is significant but solvable with coordinated acti
 ---
 
 *This analysis prepared for the Gippsland New Energy Conference 2025*
-*Document represents current technical understanding as of January 2025*
+*Document represents current technical understanding as of September 10th, 2025*

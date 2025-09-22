@@ -2,7 +2,7 @@
 ## Standardised Agreements for Rapid Partnership Formation
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Purpose:** Accelerate partnership formation with pre-approved templates  
 > **Coverage:** Technology, Investment, Community, Government partnerships  
 
@@ -460,7 +460,7 @@ flowchart LR
 
 **Document Management:**
 - Version: 1.0
-- Date: January 2025
+- Date: September 10th, 2025
 - Review Cycle: Quarterly
 - Owner: Partnership Development Office
 - Contact: partnerships@grea.gov.au

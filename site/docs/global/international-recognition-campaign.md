@@ -23,7 +23,7 @@ title: International Recognition Campaign
 
 **Document Type**: Global Recognition Strategy  
 **Version**: 1.0 Final  
-**Date**: 9 January 2025  
+**Date**: 9 September 10th, 2025  
 **Author**: International Recognition Campaign Manager  
 **Status**: IMPLEMENTATION READY  
 **Validation**: Aligns with all 6 phases of Gippsland transformation

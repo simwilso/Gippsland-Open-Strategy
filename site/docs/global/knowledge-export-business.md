@@ -22,7 +22,7 @@ title: Knowledge Export Business
 ```
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Business Development Strategy  
 > **Revenue Target:** AU$500 million annually by 2030  
 > **Market Coverage:** 50+ countries  

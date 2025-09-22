@@ -6,7 +6,7 @@ title: Supply Chain Agreements
 ## Comprehensive Partnership Framework for Local Manufacturing & Economic Development
 
 **Document Status:** EXECUTION READY  
-**Date:** January 2025  
+**Date:** September 10th, 2025  
 **Classification:** BINDING COMMITMENTS  
 
 ---

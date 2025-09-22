@@ -5,7 +5,7 @@ title: Risk Assessment Audit
 # Gippsland Renewable Energy Transformation: Comprehensive Risk Assessment Audit
 
 **Document Version:** 1.0  
-**Date:** January 2025  
+**Date:** September 10th, 2025  
 **Classification:** Critical Strategic Document  
 **Author:** Risk Assessment Audit Team  
 
@@ -820,7 +820,7 @@ Low       │      E2     │ F4  S3
 ## Document Control
 
 **Version:** 1.0
-**Date:** January 2025
+**Date:** September 10th, 2025
 **Next Review:** March 2025
 **Owner:** Gippsland Renewable Energy Transformation Board
 **Classification:** Strategic Risk Management

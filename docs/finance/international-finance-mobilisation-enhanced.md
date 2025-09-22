@@ -2,7 +2,7 @@
 ## Unlocking $50B+ Global Climate and Development Finance
 
 > **Version**: 2.0 Enhanced  
-> **Date**: January 2025  
+> **Date**: September 10th, 2025  
 > **Status**: Ready for Implementation  
 > **Target**: $50B+ international investment mobilisation  
 > **Timeline**: 2025-2035
@@ -577,7 +577,7 @@ By end-2025, we target **$20 billion** in committed funding, providing the found
 
 **Document Control**
 - **Version**: 2.0 Enhanced
-- **Date**: January 2025  
+- **Date**: September 10th, 2025  
 - **Classification**: Strategic Finance
 - **Review**: Quarterly
 - **Distribution**: Controlled

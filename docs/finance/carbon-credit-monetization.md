@@ -5,7 +5,7 @@
 > **Potential Revenue**: $2-5 billion over project lifetime
 > **Carbon Avoidance**: 200+ million tonnes CO2-e by 2040
 > **Premium Positioning**: Nature+ and co-benefits maximization
-> **Version**: 1.0 | Date: January 2025
+> **Version**: 1.0 | Date: September 10th, 2025
 
 ---
 
@@ -850,7 +850,7 @@ Gippsland's renewable energy transformation creates Australia's largest carbon c
 
 **Document Control:**
 - Version: 1.0
-- Date: January 2025
+- Date: September 10th, 2025
 - Author: Carbon Credit Monetization Specialist
 - Review: Quarterly
 - Distribution: Controlled

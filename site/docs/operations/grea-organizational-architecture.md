@@ -5,7 +5,7 @@ title: Grea Organizational Architecture
 # GREA Organisational Architecture: World-Class Governance for Gippsland's Energy Transformation
 ## Complete Organisational Design for Australia's Premier Regional Energy Authority
 
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Ready for Implementation  
 > **Vision:** Build a world-class organizational structure to deliver $70B+ transformation  
 > **Mission:** Establish governance excellence that ensures accountability, transparency, and community trust  
@@ -2067,6 +2067,6 @@ The transformation starts with establishing this world-class organization. The f
 ---
 
 *GREA Organizational Architecture Version 1.0*  
-*Date: January 2025*  
+*Date: September 10th, 2025*  
 *Next Review: July 2025*  
 *Status: Ready for Government Approval and Implementation*

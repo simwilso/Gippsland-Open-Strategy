@@ -4,7 +4,7 @@
 > **Document Status**: Day 2, Phase 4 - Risk Insurance Product Engineering
 > **Coverage Target**: $70B Total Investment Protection
 > **Insurance Architecture**: Multi-Layer, Multi-Peril, Alternative Risk Transfer
-> **Version**: 1.0 | Date: January 2025
+> **Version**: 1.0 | Date: September 10th, 2025
 
 ---
 
@@ -1186,7 +1186,7 @@ Through careful implementation of this insurance portfolio, Gippsland's renewabl
 
 **Document Control**
 - Version: 1.0
-- Date: January 2025
+- Date: September 10th, 2025
 - Classification: Insurance Strategy
 - Next Review: Quarterly
 - Owner: Gippsland Energy Risk Management

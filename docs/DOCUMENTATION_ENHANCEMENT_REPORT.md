@@ -69,7 +69,7 @@ graph TB
 
 ### 📖 Style Guidelines Applied
 
-- **Date Format**: 9 January 2025 (Australian standard)
+- **Date Format**: 9 September 10th, 2025 (Australian standard)
 - **Currency**: AUD formatting ($X.X million/billion)
 - **Technical Terms**: British spellings (metres, aluminium, etc.)
 - **Formal Language**: Australian government terminology

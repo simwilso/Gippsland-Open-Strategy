@@ -21,7 +21,7 @@
 
 **Document Type**: Diplomatic Energy Strategy  
 **Version**: 1.0  
-**Date**: 9 January 2025  
+**Date**: 9 September 10th, 2025  
 **Classification**: Strategic Framework  
 **Status**: READY FOR EXECUTION
 

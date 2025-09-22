@@ -32,7 +32,7 @@ graph TB
 ```
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Implementation Ready  
 > **Investment:** AU$850 million  
 > **Performance Target:** 25% efficiency gains across all assets  

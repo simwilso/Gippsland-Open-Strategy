@@ -2,7 +2,7 @@
 
 *Research Document 4 of 12*
 *Comprehensive mapping of developers, suppliers, and supply chain participants*
-*Last Updated: January 2025*
+*Last Updated: September 10th, 2025*
 
 ---
 

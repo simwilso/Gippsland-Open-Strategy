@@ -2,7 +2,7 @@
 ## Compelling Opportunities for Global Partners
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Purpose:** Clear value propositions for partnership attraction  
 > **Target Audience:** C-Suite executives, Investment committees, Board members  
 

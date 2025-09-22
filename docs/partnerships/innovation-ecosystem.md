@@ -2,7 +2,7 @@
 ## Building Regional Competitive Advantage Through Innovation
 
 > **Version:** 1.0  
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Operational Framework  
 > **Total Investment Target:** AU$3.5 billion  
 > **Job Creation Target:** 5,000 innovation sector jobs by 2035  

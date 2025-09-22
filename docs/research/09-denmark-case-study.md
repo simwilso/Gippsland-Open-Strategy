@@ -499,4 +499,4 @@ The time for action is now. Denmark showed the way; Gippsland can follow and pot
 ---
 
 *Document prepared for GNEC Conference - Gippsland's Renewable Energy Transformation*  
-*Last updated: January 2025*
+*Last updated: September 10th, 2025*

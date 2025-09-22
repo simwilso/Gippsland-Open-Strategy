@@ -8,7 +8,7 @@ title: Investment Attraction Package
 > **Document Status**: Day 2 Implementation - Investment Attraction Blitz
 > **Target**: $10B+ committed investment within 90 days
 > **Total Opportunity**: $150B renewable energy transformation pipeline
-> **Version**: 1.0 | Date: January 2025
+> **Version**: 1.0 | Date: September 10th, 2025
 
 ---
 
@@ -2213,6 +2213,6 @@ Join us in creating the world's next great renewable energy hub. Together, we wi
 
 **END OF INVESTMENT ATTRACTION PACKAGE**
 
-*Version 1.0 - January 2025*
+*Version 1.0 - September 10th, 2025*
 *Prepared by: Gippsland Renewable Energy Investment Team*
 *Classification: Investment Grade*

@@ -1,7 +1,7 @@
 # Gippsland Energy Partnership Opportunities - Executive Summary
 ## Comprehensive Overview of Investment and Collaboration Opportunities
 
-> **Date:** January 2025  
+> **Date:** September 10th, 2025  
 > **Status:** Ready for Immediate Execution  
 > **Total Opportunity Value:** AU$250+ Billion  
 > **Target Timeline:** 2025-2035  
