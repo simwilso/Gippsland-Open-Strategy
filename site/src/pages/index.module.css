@@ -7,7 +7,8 @@
   padding: 4rem 0;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  min-height: auto;
 }
 
 @media screen and (max-width: 996px) {
@@ -26,14 +27,19 @@
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
+  display: block;
+  position: relative;
 }
 
 .heroVideo {
   width: 100%;
   max-width: 100%;
   height: auto;
+  min-height: 450px;
+  object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: block;
 }
 
 .videoCaption {
